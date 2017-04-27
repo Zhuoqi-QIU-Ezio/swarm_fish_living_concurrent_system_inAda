@@ -1,0 +1,134 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPE_ALLOCATORS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U generic_protected%b	generic_protected.adb	118d926e DE NE OO PK GE
+
+U generic_protected%s	generic_protected.ads	c46c288c BN DE EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D generic_protected.ads	20130915151338 3536765d generic_protected%s
+D generic_protected.adb	20130915052742 24bbe433 generic_protected%b
+D system.ads		20150518132150 f4ce8c3a system%s
+X 1 ada.ads
+16K9*Ada 19e8 3|5r6 33r10
+X 2 a-uncdea.ads
+17+9 Object 3|33r38
+18P9 Name(17+9) 3|33r57
+20u15*Unchecked_Deallocation 3|5w10 33r14
+X 3 generic_protected.ads
+9+9 Element 10r20 16r28 18r28 20r38 23r17 30r31 4|9r28 11r28 18r38 27r31
+10*4 Default_Value{9+9} 23r28 30r42 4|27r42
+12k9*Generic_Protected 9z9 10z4 35l5 35e22 4|5b14 36l5 36t22
+14W19*Monitor 23E7 26l8 26e15 28r31 33r48 4|7b19 25l8 25t15 29r49
+16V16 Read{9+9} 4|9b16
+18U17 Write 18>24 4|11b17 16l11 16t16 32s23
+18*24 E{9+9} 4|11b24 14r21
+20Y13 Wait_for_Update 20<30 4|18b13 22r21 23l11 23t26
+20*30 E{9+9} 4|21m10
+23*7 Value{9+9} 4|9r40 14m10 21r21
+24b7 Touched{boolean} 4|15m10 18r52 22m10
+28P9*Monitor_Ptr(14W19) 30r64 33r65 4|27r64 29r30
+30V13*Allocate{28P9} 30>23 4|27b13 34l8 34t16
+30*23 Value{9+9} 4|27b23 32r30
+32U14*Free[2|20]
+X 4 generic_protected.adb
+18*30 E{3|9+9}
+29p7 New_Monitor{3|28P9} 32r7 33r14
+

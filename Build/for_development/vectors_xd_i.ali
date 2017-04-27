@@ -1,0 +1,194 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U vectors_xd_i%b	vectors_xd_i.adb	430aa30a DE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+
+U vectors_xd_i%s	vectors_xd_i.ads	32b570f3 BN DE EB NE OO PK GE
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-numaux.ads		20150518132148 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20150518132148 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strbou.ads		20150518132148 53ab54ae ada.strings.bounded%s
+D a-strbou.adb		20150518132148 adb4aa70 ada.strings.bounded%b
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20150518132148 a27dcb33 ada.strings.superbounded%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D vectors_xd_i.ads	20130913065932 32b570f3 vectors_xd_i%s
+D vectors_xd_i.adb	20130917213022 9ae94c11 vectors_xd_i%b
+X 1 ada.ads
+16K9*Ada 19e8 19|5r6 6r6 6r53 11r10 14r31
+X 4 a-numeri.ads
+16K13*Numerics 32e17 19|5r10 11r14
+X 6 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 171e46 19|5w19 11r23
+42V13 Sqrt{float} 19|134s14[10]
+113V13 Arccos{float} 19|94s17[10]
+X 8 a-string.ads
+16K13*Strings 35e16 19|6r10 6r57 14r35
+X 9 a-strbou.ads
+39K21*Bounded 914e24 19|6w18 6r65 14r43
+43i7 Max{positive} 19|14r75
+46k12*Generic_Bounded_Length 912e30 19|14r51
+50R12 Bounded_String<12|47R9> 19|21r34[14]
+53r7 Null_Bounded_String{50R12[19|14]} 19|21r64[14]
+67V16 To_String{string} 19|32s14[14]
+119V17 "&"{50R12[19|14]} 19|26s39[14] 28s42[14]
+127V17 "&"{50R12[19|14]} 19|24s36[14] 30s39[14]
+X 18 vectors_xd_i.ads
+3I9 Integer_Type 10r47 12r56 19|26r41 57r29
+4E9 Coordinates 10r31
+6k9*Vectors_xD_I 3z9 4z9 31l5 31e17 19|8b14 139l5 139t17
+10A9*Vector_xD_I(3I9)<4E9> 12r30 14r24 16r23 16r43 18r38 18r58 19r22 19r58
+. 20r22 20r58 22r36 24r46 26r36 26r56 27r36 27r56 29r24 19|19r24 25r19 27r21
+. 37r23 37r43 51r38 51r58 53r18 56r19 64r22 64r58 68r22 68r58 72r36 77r19
+. 85r46 100r36 100r56 102r18 105r19 113r36 113r56 115r18 118r19 126r24 131r19
+12a4*Zero_Vector_xD{10A9} 19|43r17
+14V13*Image{string} 14>20 19|19b13 33l8 33t13
+14a20 V{10A9} 19|19b20 26r61
+16V13*Norm{10A9} 16>19 19|37b13 47l8 47t12
+16a19 V{10A9} 19|37b19 39r38 45r18
+18V14*"*"{10A9} 18>18 18>34 19|51b14 60l9 60t11 64s81 68s89
+18f18 Scalar{float} 19|51b18 57r43
+18a34 V{10A9} 19|51b34 57r59
+19V14*"*"{10A9} 19>18 19>35 19|45s20 64b14
+19a18 V{10A9} 19|64r83
+19f35 Scalar{float} 19|64r74
+20V14*"/"{10A9} 20>18 20>35 19|68b14
+20a18 V{10A9} 19|68r91
+20f35 Scalar{float} 19|68r81
+22V14*"*"{float} 22>18 22>26 19|72b14 81l9 81t11 94s33
+22a18 V_Left{10A9} 19|72b18 78r30
+22a26 V_Right{10A9} 19|72b26 78r54
+24V13*Angle_Between{float} 24>28 24>36 19|85b13 96l8 96t21
+24a28 V_Left{10A9} 19|85b28 87r42 94r26
+24a36 V_Right{10A9} 19|85b36 88r42 94r35
+26V14*"+"{10A9} 26>18 26>26 19|100b14 109l9 109t11
+26a18 V_Left{10A9} 19|100b18 106r29
+26a26 V_Right{10A9} 19|100b26 106r45
+27V14*"-"{10A9} 27>18 27>26 19|113b14 122l9 122t11
+27a18 V_Left{10A9} 19|113b18 119r29
+27a26 V_Right{10A9} 19|113b26 119r45
+29V14*"abs"{float} 29>20 19|39s33 87s37 88s37 126b14 135l9 135t13
+29a20 V{10A9} 19|126b20 132r38
+X 19 vectors_xd_i.adb
+10K12 Real_Elementary_Functions[6|39] 12r8
+14K12 Strings_255[9|46] 15r8 21r22 21r52
+21r7 Image_String{9|50R12[14]} 24m7 24r23 26m10 26r26 28m13 28r29 30m10 30r26
+. 32r25
+25e11 Axes 26r64 27r13
+39f7 Abs_V{float} 42r10 45r29
+53a7 Scaled_V{18|10A9} 57m10 59r14
+56e11 Axis 57r20 57r62
+74f7 Dot{float} 78m10 78r17 80r14
+77e11 Axis 78r38 78r63
+87f7 Abs_Left{float} 91r10 94r47
+88f7 Abs_Right{float} 91r34 94r58
+102a7 V_Result{18|10A9} 106m10 108r14
+105e11 Axis 106r20 106r37 106r54
+115a7 V_Result{18|10A9} 119m10 121r14
+118e11 Axis 119r20 119r37 119r54
+128f7 Sum_Sqr{float} 132m10 132r21 134r20
+131e11 Axis 132r41
+

@@ -1,0 +1,178 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gl.buffer%b		gl-buffer.adb		837026c9 DE NE OO PK IU
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+
+U gl.buffer%s		gl-buffer.ads		fcf76790 DE EE OO PF PK IU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer.adb		20150820124638 5762f56b gl.buffer%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20150518132150 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 6 gl.ads
+66K9*GL 4501e7 7|14r9 16r24 25r55 54r80 55r80 66r5 8|18r14 28r7 37r7 58r7
+. 64r7 65r7 71r72 71r90 76r80 76r98 93r5
+124M9*Uint<10|43M9> 7|16r27
+3777U14*Gen_Buffers 8|28s10
+3780U14*Delete_Buffers 8|37s10 65s10
+3783E9*VBO_Target 3789e7 7|25r58 54r83 55r83 8|71r75 76r83
+3785n7*ARRAY_BUFFER{3783E9} 8|71r93
+3786n7*ELEMENT_ARRAY_BUFFER{3783E9} 8|76r101
+3798U14*BindBuffer 8|58s10 64s10
+X 7 gl-buffer.ads
+14K12*Buffer 6|66k9 7|48E9 66l8 66e14 8|18b17 93l8 93t14
+16M12*vbo_Name{6|124M9} 50r28 8|23r33 25r26 32r35 34r27
+20H9*Object 22r38 23r38 25p13 25r40 30r37 31r37 48c9 52e17 57r37 58r37 64r42
+. 8|45r41 53r29 61r37
+22U14*Enable 22>23 8|53b14 59l8 59t14
+22c23 Self<20R9> 8|53b22 56r22 58r42 58r50
+23U14*Destroy 23=23 8|61b14 66l8 66t15
+23c23 Self<20R9> 8|61b23 64r45 65m29 65r29
+25y13*Extract_VBO_Target{6|3783E9} 25>33 8|58R22 64R25
+25r33 Self{20R9}
+30R9*array_Object<20R9> 54P24 54r51 57c9 57e60 60r37 8|71r51
+31R9*element_array_Object<20R9> 55P24 55r51 58c9 58e60 8|76r51
+42X4*no_platform_Support
+50m10*Name{16M12} 8|48r15 49m15 56r27 58r55 65m34
+51i10*Length{positive}
+54V24 Extract_VBO_Target{6|3783E9}<25p13> 54>44 8|71b24
+54r44 Self{30R9}
+55V24 Extract_VBO_Target{6|3783E9}<25p13> 55>44 8|76b24
+55r44 Self{31R9}
+60R9 vertex_buffer_Object<30R9> 54P24 60e66
+64U14 Verify_Name 64=27 8|45b14 51l8 51t19
+64c27 Self<20R9> 8|45b27 48r10 49m10
+X 8 gl-buffer.adb
+23V13 new_vbo_Name{7|16M12} 23b13 30l8 30t20 49s23
+25m7 the_Name{7|16M12} 28m27 28r27 29r14
+32U14 Free 32b14 32>20 38l8 38t12 40r25
+32m20 the_vbo_Name{7|16M12} 34r39
+34m7 the_Name{7|16M12} 37m29 37r29
+X 10 i-c.ads
+43M9*unsigned
+

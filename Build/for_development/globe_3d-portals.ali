@@ -1,0 +1,299 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U globe_3d.portals%b	globe_3d-portals.adb	bd43c68c DE NE OO PK IU
+W ada.tags%s		a-tags.adb		a-tags.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+W glu%s			glu.adb			glu.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+U globe_3d.portals%s	globe_3d-portals.ads	345614ab DE EE NE OO PK IU
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d-math.ads	20130913114952 a86860bb globe_3d.math%s
+D globe_3d-portals.ads	20130913114112 7fd7fc70 globe_3d.portals%s
+D globe_3d-portals.adb	20130915171654 ba0df020 globe_3d.portals%b
+D glu.ads		20130915152632 d0f1aa67 glu%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 7 a-cohama.ads
+52R9*Map<9|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+X 25 gl.ads
+66K9*GL 4501e7 38|25r21 34r16 35r16 86r18 86r34 87r18 87r34 102r7 102r19
+. 103r7 103r19 108r7 108r22 108r41 109r7 109r22 110r7 111r7 112r7 113r33
+. 115r33 119r7 119r22 120r7 121r7 124r7 125r17 129r7 130r17 135r7 136r7 136r22
+. 137r7 138r7 139r7 139r18
+100N4*VIEWPORT_BIT 38|108r44
+101N4*TRANSFORM_BIT 38|108r25
+128F9*Double<41|65F9> 38|25r24 86r21 86r37 87r21 87r37 113r36 115r36
+155A9*Double_Vector_3D(128F9)<integer>
+562n7*LIGHTING{554E9} 38|102r22 139r21
+598n7*TEXTURE_2D{554E9} 38|103r22
+704U14*Enable 38|139s10
+706U14*Disable 38|102s10 103s10
+807n7*MODELVIEW_MATRIX{737E9} 38|34r19
+808n7*PROJECTION_MATRIX{737E9} 38|35r19
+1326n7*MODELVIEW{1324E9} 38|119r25
+1327n7*PROJECTION{1324E9} 38|109r25 136r25
+1338U14*MatrixMode 38|109s10 119s10 136s10
+1405n7*LINES{1402E9} 38|125r20 130r20
+1432U14*GL_Begin 38|125s7 130s7
+1434U14*GL_End 38|127s7 133s7
+3239U14*PushAttrib 38|108s10
+3241U14*PopAttrib 38|138s10
+3258U14*Ortho 38|112s10
+3258f21 ortho_left{128F9} 38|112r17
+3259f21 ortho_right{128F9} 38|113r17
+3260f21 bottom{128F9} 38|114r17
+3261f21 top{128F9} 38|115r17
+3262f21 near_val{128F9} 38|116r17
+3263f21 far_val{128F9} 38|117r17
+3278U14*PushMatrix 38|110s10 120s10
+3280U14*PopMatrix 38|135s10 137s10
+3282U14*LoadIdentity 38|111s10 121s10
+3318U14*Vertex 38|86s10 87s10
+3426U14*Color 38|124s10 129s10
+X 27 gl-buffer-general.ads
+14R9 base_Object<26|20R9>
+X 35 globe_3d.ads
+77K9*GLOBE_3D 606e13 37|1r9 16r5 38|3r6 5r14 56r11 144r5
+106A12*Vector_3D{25|155A9}<integer>
+111A12*Point_3D{106A12}<integer> 38|19r40
+121A9*Point_3D_array(111A12)<integer>
+125A9*Natural_Index_array(natural)<integer>
+131R9*Rectangle 133e14 37|5r31 5r50 10r19 14r41 38|9r32 9r51 51r47 79r42
+. 99r14
+132i7*X1{integer} 38|12m13 12r34 12r40 16r22 59m13 67m19 67r40 106r21 126r24
+. 131r18 132r36
+132i11*Y1{integer} 38|14m13 14r34 14r40 16r44 59m18 69m19 69r40 106r34 126r34
+. 131r27 132r27
+132i15*X2{integer} 38|13m13 13r34 13r40 16r30 59m38 68m19 68r40 106r47 113r49
+. 126r44 131r36 132r18
+132i19*Y2{integer} 38|15m13 15r34 15r40 16r52 59m43 70m19 70r40 106r60 115r49
+. 126r54 131r45 132r45
+202a10*Centre{111A12} 38|62r75
+263R9*Object_3D 37|8r19 38|49r47
+287A12*Idx_4_array{125A9}<integer>
+336I12*Edge_count{positive}
+342A9*Face_invariant_array(340R9)<integer>
+372a7*Point{121A9} 38|62r24
+382a7*Face_Invariant{342A9} 38|61r32 62r33
+545a7*P_compact{287A12} 38|62r55
+548i7*last_edge{336I12} 38|61r54
+X 36 globe_3d-math.ads
+1K18*Math 92e18 38|3w15 56r20
+13V13*"+"{35|106A12} 38|62s71
+X 37 globe_3d-portals.ads
+1K18*Portals 35|77k9 37|16l14 16e21 38|5b23 144l14 144t21
+5U13*Intersect 5>24 5>27 5<42 5<61 38|9b14 17l8 17t17
+5r24 A{35|131R9} 38|9b25 12r32 13r32 14r32 15r32
+5r27 B{35|131R9} 38|9b28 12r38 13r38 14r38 15r38
+5r42 C{35|131R9} 38|9b43 12m7 16r20 16r28 16r42 16r50
+5b61 non_empty{boolean} 38|9b62 16m7
+7U13*Find_bounding_box 8>5 9>5 10<5 11<5 38|49b14 77l8 77t25
+8c5 o<35|371R9> 38|49b33 61r30 62r22 62r31 62r73
+9i5 face{positive} 38|50b33 61r48 62r49
+10r5 b{35|131R9} 38|51b33 59m7 67m13 67r38 68r38 69r38 70r38
+11b5 success{boolean} 38|52b33 72m13 76m7
+14U13*Draw_boundary 14>28 14>34 38|79b14 142l8 142t21
+14r28 main{35|131R9} 38|79b29 113r44 115r44
+14r34 clip{35|131R9} 38|79b35 106r16 106r29 106r42 106r55 131r13 131r22 131r31
+. 131r40 132r13 132r22 132r31 132r40
+X 38 globe_3d-portals.adb
+19U14 Projection 19b14 19>26 20<26 20<29 21<26 47l8 47t18 62s10
+19a26 P{35|111A12} 37r20 37r27 37r34
+20i26 x{integer} 40m10 44m10
+20i29 y{integer} 41m10 45m10
+21b26 success{boolean} 37m72 38m7 38r18 39r10
+23a7 model{39|64A9} 34m37 37r41
+23a14 proj{39|64A9} 35m38 37r48
+24r7 view{39|58R9} 36m16 37r54
+25f7 uu{25|128F9} 37m60 40r24
+25f11 vv{25|128F9} 37m64 41r24
+25f15 ww{25|128F9} 37m68 38r35 38r53
+27N7 z_a 28r31 38r40
+28N7 z_z 38r58
+54i7 x{integer} 63m22 67r44 68r44
+54i10 y{integer} 63m25 69r44 70r44
+55b7 proj_success{boolean} 64m22 65r13
+61i11 sf{integer} 62r66
+81N7 z 86r50 87r50
+83U17 Line 83b17 83>23 83>27 83>31 83>35 88l11 88t15 93s10 94s10 95s10 96s10
+. 131s7 132s7
+83i23 x1{integer} 86r29
+83i27 y1{integer} 86r45
+83i31 x2{integer} 87r29
+83i35 y2{integer} 87r45
+90U17 Frame_Rect 90b17 90>29 90>33 90>37 90>41 97l11 97t21 126s7
+90i29 x1{integer} 93r16 95r24 96r16 96r24
+90i33 y1{integer} 93r20 93r28 94r20 96r28
+90i37 x2{integer} 93r24 94r16 94r24 95r16
+90i41 y2{integer} 94r28 95r20 95r28 96r20
+99r7 rect{35|131R9} 106m7 126r19 126r29 126r39 126r49
+X 39 glu.ads
+48K9*GLU 38|1w6 23r21 24r21 34r7 35r7 36r7 37r7 39|738e8
+58R9*Viewport_Rec 38|24r25 39|61e14
+64A9*Matrix_Double(25|128F9)<integer><integer> 38|23r25
+625U14*Project 38|37s11
+652U14*Get 38|34s11 35s11
+658U14*Get 38|36s11
+X 41 i-c.ads
+65F9*double<long_float>
+

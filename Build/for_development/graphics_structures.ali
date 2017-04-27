@@ -1,0 +1,249 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U graphics_structures%s	graphics_structures.ads	9bd4ba92 DE EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W real_type%s		real_type.ads		real_type.ali
+W rotations%s		rotations.adb		rotations.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W vectors_2d_n%s	vectors_2d_n.ads	vectors_2d_n.ali
+W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D graphics_structures.ads  20130922091012 168856d0 graphics_structures%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D quaternions.ads	20130922091012 9d9d58c2 quaternions%s
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D rotations.ads		20130922091012 3eeded66 rotations%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20150518132150 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D vectors_2d_n.ads	20130915032044 27f53fc0 vectors_2d_n%s
+D vectors_3d.ads	20130922091012 121733f3 vectors_3d%s
+D vectors_xd.ads	20130912094030 4c943a4c vectors_xd%s
+D vectors_xd_i.ads	20130913065932 32b570f3 vectors_xd_i%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 7 a-cohama.ads
+52R9*Map<9|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+X 27 gl-buffer-general.ads
+14R9 base_Object<26|20R9>
+X 35 globe_3d.ads
+77K9*GLOBE_3D 606e13 36|5w6 53r50
+488R9*Light_definition 490e14 36|53r59
+X 36 graphics_structures.ads
+12K9*Graphics_Structures 72l5 72e24
+14E9*RGB 14e35 19r31
+14n18*Red{14E9}
+14n23*Green{14E9}
+14n30*Blue{14E9}
+15E9*RGBA 15e42 20r31
+15n18*Red{15E9}
+15n23*Green{15E9}
+15n30*Blue{15E9}
+15n36*Alpha{15E9}
+17F12*Colour_Component_Range{43|5F12} 19r40 20r40
+19A9*RGB_Colour(17F12)<14E9>
+20A9*RGBA_Colour(17F12)<15E9> 28r19
+22F12*Shininess_Range{43|5F12} 29r19
+24R9*Materials 30e14
+25a7*Ambient{20A9}
+26a7*Diffuse{20A9}
+27a7*Specular{20A9}
+28a7*Emission{20A9}
+29f7*Shininess{22F12}
+32A12*Point_3D{72|14A12}<72|10E9> 34r55 35r55
+34A9*Points_3D(32A12)<integer>
+35A9*Line_3D(32A12)<integer>
+37R9*Camera 43e17
+39a10*Position{72|14A12}
+40a10*Scene_Offset{72|14A12}
+41a10*Object_Offset{72|14A12}
+42r10*Rotation{44|20R12}
+45A12*Point_2D{71|13A12}<71|9E9> 48r55 49r55
+46A12*Size_2D{71|13A12}<71|9E9>
+48A9*Points_2D(45A12)<integer>
+49A9*Line_2D(45A12)<integer>
+51E9*Camera_Mode_T 51e40
+51n27*Scene{51E9}
+51n34*Chase{51E9}
+53A9*Lights_T(35|488R9)<integer>
+X 43 real_type.ads
+3K9*Real_Type 36|7w6 7r32 43|10e14
+5F12*Real{long_float} 36|17r38 22r32
+X 44 rotations.ads
+12K9*Rotations 36|8w6 8r33 44|68e14
+20R12*Quaternion_Rotation{42|9R9} 36|42r26
+X 71 vectors_2d_n.ads
+7K9*Vectors_2D_N 36|9w6 9r33 71|34e17
+13A12*Vector_2D_N{74|10A9[11]}<9E9> 36|45r24 46r24
+X 72 vectors_3d.ads
+8K9*Vectors_3D 36|10w6 10r33 72|36e15
+14A12*Vector_3D{73|10A9[12]}<10E9> 36|32r24 41r26
+X 73 vectors_xd.ads
+10A9*Vector_xD(long_float)<72|10E9>
+X 74 vectors_xd_i.ads
+10A9*Vector_xD_I(integer)<71|9E9>
+

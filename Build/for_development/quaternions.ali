@@ -1,0 +1,204 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U quaternions%b		quaternions.adb		301ca017 DE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_8%s	s-conca8.adb		s-conca8.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U quaternions%s		quaternions.ads		504fbd0e DE EE NE OO PK
+W real_type%s		real_type.ads		real_type.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-numaux.ads		20150518132148 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20150518132148 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D quaternions.ads	20130922091012 9d9d58c2 quaternions%s
+D quaternions.adb	20130915151338 157c3393 quaternions%b
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-conca8.ads		20150518132148 e3074dd7 system.concat_8%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-exnllf.ads		20150518132148 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-imgrea.ads		20150518132150 c7a851e2 system.img_real%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+X 1 ada.ads
+16K9*Ada 19e8 9|5r6 9r40
+X 3 a-numeri.ads
+16K13*Numerics 32e17 9|5r10 9r44
+X 5 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 171e46 9|5w19 9r53
+42V13*Sqrt{long_float} 9|15s7[9]
+X 8 quaternions.ads
+7K9*Quaternions 30l5 30e16 9|7b14 66l5 66t16
+9R9*Quaternion_Real 11e14 13r27 14r27 14r51 15r27 15r51 16r27 16r51 18r34
+. 18r58 19r34 19r58 20r34 20r58 21r34 21r58 23r27 23r76 24r27 24r76 25r52
+. 25r76 26r52 26r76 28r27 9|14r27 17r26 17r50 20r26 20r50 23r25 23r49 26r32
+. 26r56 30r32 30r56 34r25 34r63 38r39 38r63 40r25 40r63 44r39 44r63 46r32
+. 46r56 52r32 52r56 58r27
+10f7*w{10|5F12} 9|15r18 21m7 21r17 24m7 24r18 27m7 27r17 27r27 31m7 31r17
+. 31r27 35m7 35r17 41m7 41r17 47m7 47r17 47r27 48r17 48r46 49r17 49r65 50r17
+. 50r84 53m7 53r17 53r27 54r17 54r46 55r17 55r65 56r17 56r84 59r26
+10f10*x{10|5F12} 9|15r30 21m20 21r31 24m21 24r32 27m30 27r40 27r50 31m30
+. 31r40 31r50 35m28 35r38 41m28 41r38 47r36 47r46 48m7 48r27 48r36 49r36
+. 49r84 50r36 50r65 53r36 53r46 54m7 54r27 54r36 55r36 55r84 56r36 56r65
+. 60r26
+10f13*y{10|5F12} 9|15r42 21m34 21r45 24m35 24r46 28m7 28r17 28r27 32m7 32r17
+. 32r27 36m7 36r17 42m7 42r17 47r55 47r65 48r55 48r84 49m7 49r27 49r55 50r46
+. 50r55 53r55 53r65 54r55 54r84 55m7 55r27 55r55 56r46 56r55 61r26
+10f16*z{10|5F12} 9|15r54 21m48 21r59 24m49 24r60 28m30 28r40 28r50 32m30
+. 32r40 32r50 36m28 36r38 42m28 42r38 47r74 47r84 48r65 48r74 49r46 49r74
+. 50m7 50r27 50r74 53r74 53r84 54r65 54r74 55r46 55r74 56m7 56r27 56r74 62r26
+13V14*"abs"{10|5F12} 13>20 9|14b14 18s14
+13r20 Quad{9R9} 9|15r13 15r25 15r37 15r49
+14V13*Unit{9R9} 14>20 9|17b13
+14r20 Quad{9R9} 9|18r7 18r19
+15V13*Conj{9R9} 15>20 9|20b13
+15r20 Quad{9R9} 9|21r12 21r26 21r40 21r54
+16V14*"-"{9R9} 16>20 9|23b14
+16r20 Quad{9R9} 9|24r13 24r27 24r41 24r55
+18V14*"+"{9R9} 18>20 18>26 9|26b14
+18r20 Left{9R9} 9|27r12 27r35 28r12 28r35
+18r26 Right{9R9} 9|27r21 27r44 28r21 28r44
+19V14*"-"{9R9} 19>20 19>26 9|30b14
+19r20 Left{9R9} 9|31r12 31r35 32r12 32r35
+19r26 Right{9R9} 9|31r21 31r44 32r21 32r44
+20V14*"*"{9R9} 20>20 20>26 9|46b14
+20r20 Left{9R9} 9|47r12 47r31 47r50 47r69 48r12 48r31 48r50 48r69 49r12 49r31
+. 49r50 49r69 50r12 50r31 50r50 50r69
+20r26 Right{9R9} 9|47r21 47r40 47r59 47r78 48r21 48r40 48r59 48r78 49r21
+. 49r40 49r59 49r78 50r21 50r40 50r59 50r78
+21V14*"/"{9R9} 21>20 21>26 9|52b14
+21r20 Left{9R9} 9|53r12 53r31 53r50 53r69 54r12 54r31 54r50 54r69 55r12 55r31
+. 55r50 55r69 56r12 56r31 56r50 56r69
+21r26 Right{9R9} 9|53r21 53r40 53r59 53r78 54r21 54r40 54r59 54r78 55r21
+. 55r40 55r59 55r78 56r21 56r40 56r59 56r78
+23V14*"*"{9R9} 23>20 23>44 9|34b14 38s89
+23r20 Left{9R9} 9|35r12 35r33 36r12 36r33
+23f44 Right{10|5F12} 9|35r21 35r42 36r21 36r42
+24V14*"/"{9R9} 24>20 24>44 9|18s12 40b14 44s89
+24r20 Left{9R9} 9|41r12 41r33 42r12 42r33
+24f44 Right{10|5F12} 9|41r21 41r42 42r21 42r42
+25V14*"*"{9R9} 25>20 25>44 9|38b14
+25f20 Left{10|5F12} 9|38r91
+25r44 Right{9R9} 9|38r83
+26V14*"/"{9R9} 26>20 26>44 9|44b14
+26f20 Left{10|5F12} 9|44r91
+26r44 Right{9R9} 9|44r83
+28V13*Image{string} 28>20 9|58b13
+28r20 Quad{9R9} 9|59r21 60r21 61r21 62r21
+X 9 quaternions.adb
+9K12 Elementary_Functions[5|39] 10r8
+X 10 real_type.ads
+3K9*Real_Type 8|5w6 5r21 10|10e14
+5F12*Real{long_float} 8|10r20 13r51 23r52 24r52 25r27 26r27 9|9r83 14r51
+. 34r50 38r25 40r50 44r25 59r9 60r9 61r9 62r9
+

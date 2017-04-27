@@ -1,0 +1,398 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gl.skins%b		gl-skins.adb		1a340bce DE NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W gl%s			gl.adb			gl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gl.skins%s		gl-skins.ads		2584189e DE EE OO PF PK IU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.buffer%s		gl-buffer.adb		gl-buffer.ali
+W gl.buffer.texture_coords%s  gl-buffer-texture_coords.ads  gl-buffer-texture_coords.ali
+W gl.geometry%s		gl-geometry.adb		gl-geometry.ali
+W gl.materials%s	gl-materials.adb	gl-materials.ali
+W gl.textures%s		gl-textures.adb		gl-textures.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-skins.adb		20150820124638 1b7d189b gl.skins%b
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatflt.ads		20150518132148 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-memory.ads		20150518132150 597d6634 system.memory%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stalib.adb		20150518132150 f2fe2716 system.standard_library%b
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20150518132150 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 19e8 15|12r6 35r35 50r35
+X 7 a-uncdea.ads
+20u15*Unchecked_Deallocation 15|12w10 35r39 50r39
+X 8 gl.ads
+66K9*GL 4501e7 14|11r6 11r19 11r32 12r6 15r9 40r41 55r100 62r54 64r21 71r22
+. 74r94 82r63 84r33 93r34 94r34 101r104 111r33 122r21 129r91 140r35 144r35
+. 148r5 15|14r14 16r8 17r8 18r8 59r11 73r52 78r7 79r7 80r7 81r7 82r7 88r7
+. 99r7 99r31 100r7 100r31 101r7 105r51 112r7 113r7 114r7 115r7 117r7 129r7
+. 129r31 130r7 130r31 131r7 141r51 157r7 158r7 159r7 159r22 161r7 163r7 164r7
+. 176r11 180r7 181r7 181r31 191r52 197r7 198r7 205r5
+122M9*Ubyte<18|47M9>
+124M9*Uint<18|43M9>
+126F9*C_Float<18|64F9>
+128F9*Double<18|65F9>
+150P9*pointer(122M9)
+154A9*Material_Float_vector(126F9)<integer>
+155A9*Double_Vector_3D(128F9)<integer>
+157R9*RGB_Color 157e77 14|52r19
+157f30*Red{128F9} 14|140m84 15|88r30
+157f35*Green{128F9} 14|141m84 15|88r47
+157f42*Blue{128F9} 14|142m84 15|88r66
+166V13*to_Pointer[6|20]{150P9} 15|101s47 131s49
+218n7*GREATER{212E9} 15|164r22
+236U14*Alpha_Func 15|164s10
+275n7*SRC_ALPHA{271E9} 15|85r29
+312n7*ONE_MINUS_SRC_ALPHA{305E9} 15|86r29
+349U14*BlendFunc 15|85s7
+349e25 sfactor{271E9} 15|85r18
+350e25 dfactor{305E9} 15|86r18
+407n7*FRONT_AND_BACK{403E9} 15|62r17 63r17 64r17 65r17 66r17
+562n7*LIGHTING{554E9} 15|78r32 117r21 157r22 197r19
+563n7*COLOR_MATERIAL{554E9} 15|81r32 113r30 158r22
+568n7*ALPHA_TEST{554E9} 15|79r32 115r30 163r22 198r19
+570n7*BLEND{554E9} 15|84r15
+598n7*TEXTURE_2D{554E9} 15|80r32 112r30
+704U14*Enable 15|84s7 117s10 163s10
+706U14*Disable 15|78s10 79s10 80s10 81s10 112s10 113s10 115s10 157s10 158s10
+. 197s10 198s10
+715n7*NORMAL_ARRAY{712E9} 15|100r34
+718n7*TEXTURE_COORD_ARRAY{712E9} 15|82r32 114r32 130r34 181r34
+732U14*Enable_Client_State 15|100s10 130s10 181s10
+734U14*Disable_Client_State 15|82s10 114s10
+1459n7*GL_DOUBLE{1453E9} 15|101r31
+1518n7*GL_DOUBLE{1513E9} 15|131r35 180r34
+1584U14*Normal_Pointer 15|101s10
+1597U14*Tex_Coord_Pointer 15|131s10 180s10
+1771n7*SHININESS{1769E9} 15|66r33
+1781n7*AMBIENT{1779E9} 15|62r33
+1782n7*DIFFUSE{1779E9} 15|63r33
+1783n7*SPECULAR{1779E9} 15|64r33
+1784n7*EMISSION{1779E9} 15|65r33
+1839U14*Material 15|66s7
+1847U14*Material 15|62s7 63s7 64s7 65s7
+3426U14*Color 15|88s10 161s10
+3785n7*ARRAY_BUFFER{3783E9} 15|99r34 129r34 159r25
+3798U14*BindBuffer 15|99s10 129s10 159s10
+X 9 gl-buffer.ads
+14K12*Buffer 66e14 14|12r9 111r36 15|176r14
+22U14*Enable 15|179s7
+X 10 gl-buffer-general.ads
+14R9 base_Object<9|20R9>
+24R9*General_Object<9|30R9> 14|111r58[11|6]
+X 11 gl-buffer-texture_coords.ads
+6K19*texture_coords[10|20] 14|12w16 111r43
+X 12 gl-geometry.ads
+15K12*Geometry 142e16 14|11w9 40r44 55r103 62r57 64r24 74r97 82r66 101r107
+. 129r94 15|16r11 73r55 105r54 141r54 191r55
+65M11*vertex_Id<8|124M9> 14|62r66 82r75
+84A12*GL_Vertex{8|155A9}<integer>
+85A12*GL_Vertex_array(84A12)<65M11>
+106A12*GL_Normal{8|155A9}<integer>
+108A12*GL_Normals_Vertex_Id(106A12)<65M11> 14|64r33
+113H9*Geometry_t 116e17 14|40r53 55r112 74r106 101r116 129r103 15|73r64 105r63
+. 141r63 191r64
+122y14*vertex_Count{65M11} 15|106R56 144R71
+123y14*Vertices{85A12} 15|148R95
+137V14*Vertex_Normals{108A12} 15|107s56
+X 13 gl-materials.ads
+1K12*Materials 265e17 14|11w35 71r25 71r52 15|18r11 57r32
+25R8*Material_type 31e13 14|71r35 15|57r42
+26a5*ambient{8|154A9} 15|62r46
+27a5*diffuse{8|154A9} 15|63r46
+28a5*specular{8|154A9} 15|64r46
+29a5*emission{8|154A9} 15|65r46
+30f5*shininess{8|126F9} 15|66r46
+33V12*is_Transparent{boolean} 15|121s94
+35r3*neutral_material{25R8} 14|71r62
+X 14 gl-skins.ads
+15K12*Skins 8|66k9 14|140r38 144r38 148l8 148e13 15|14b17 205l8 205t13
+17H9*Veneer 17e46 19r32 21p14 21r38 24p14 24r37 62r84 82r93 108r42 15|27r37
+. 35r63
+19P9*p_Veneer(17R9) 22r38 40r78 55r137 74r131 101r141 129r128 15|33r35 35r77
+. 73r89 105r88 141r88 191r89
+21U14*Destroy 21=23 15|27b14 31l8 31t15 38R7
+21r23 Self{17R9} 15|27b23
+22U14*Free 22=23 15|33b14 40l8 40t12
+22p23 Self{19P9} 15|33b20 38r19 39m19
+24x14*Enable 24=22
+24r22 Self{17R9}
+28H9*Skin 31e17 33r30 36p14 36r38 39p14 39r41 42p14 42r45 43p14 43r45 50r45
+. 69r43 91r48 120r40 15|42r38 50r63
+33P9*p_Skin(28R9) 34r52 37r38 140r21 144r21 15|48r35 50r75
+34A9*Skin_Array(33P9)<integer> 45r26
+36U14*Destroy 36=23 15|42b14 46l8 46t15 53R7
+36r23 Self{28R9} 15|42b23
+37U14*Free 37=23 15|48b14 55l8 55t12
+37p23 Self{33P9} 15|48b20 53r19 54m19
+39y14*New_Veneer{19P9} 39>26 40>26
+39r26 Self{28R9}
+40c26 for_Geometry<12|113R9>
+42x14*Enable 42=30
+42r30 Self{28R9}
+43y14*is_Transparent{boolean} 43>30
+43r30 Self{28R9}
+45a4*null_Skins{34A9}
+50R9*Skin_opaque_unlit_mono_color<28R9> 36p14 53e17 55P25 55r55 56P25 56r55
+. 57P25 57r55 140r44 15|72r52 75r47 91r47
+52r10*Color{8|157R9} 140m74 15|88r24 88m41 88r41 88m60 88r60
+55V25*New_Veneer{19P9}<39p14> 55>41 55>85 15|72b24
+55r41 Self{50R9}
+55c85 for_Geometry<12|113R9>
+56U25*Enable<42p14> 56=41 15|75b25 89l8 89t14
+56r41 Self{50R9} 15|75b33 88r19 88r36 88r55
+57V25*is_Transparent{boolean}<43p14> 57>41 15|91b24
+57r41 Self{50R9}
+62R9*Veneer_opaque_lit_mono_color<17R9> 21p14 62d39 65e17 67P25 67r48 15|96r47
+. 106r11
+62m39*Max_Normals{12|65M11} 64r60 15|106m41
+64a10*Normals{12|108A12} 15|101m64 107m41
+67U25*Enable<24p14> 67=33 15|96b25 102l8 102t14
+67r33 Self{62R9} 15|96b33 101m59 101r59
+69R9*Skin_opaque_lit_mono_color<28R9> 36p14 72e17 74P25 74r51 75P25 75r51
+. 77P25 77r48 144r44 15|104r51 109r47 121r47
+71r10*Material{13|25R8} 15|118r26 121r115
+74V25*new_Veneer{19P9}<39p14> 74>37 74>79 15|104b24
+74r37 Self{69R9}
+74c79 for_Geometry<12|113R9> 15|106r72 107r72
+75U25*Enable<42p14> 75=37 15|109b25 119l8 119t14
+75r37 Self{69R9} 15|109b33 118r21
+77V25*is_Transparent{boolean}<43p14> 77>41 15|121b24
+77r41 Self{69R9} 15|121r110
+82R9*Veneer_transparent_unlit_textured<17R9> 21p14 82d44 85e17 87r59 89P25
+. 89r48 15|126r47 144r13
+82m44*Num_Coordinates{12|65M11} 84r71 15|144m48
+84a10*Texture_Coordinates{16|43A11} 15|131m66 145m48 148m25
+87P9*p_Veneer_transparent_unlit_textured(82R9) 15|143r29
+89U25*Enable<24p14> 89=33 15|126b25 132l8 132t14
+89r33 Self{82R9} 15|126b33 131m61 131r61
+91R9*Skin_transparent_unlit_textured<28R9> 95e17 97r57 99P25 99r49 101P25
+. 101r55 102P25 102r55 103P25 103r55 15|134r49 140r51 154r48 169r47
+93r10*Texture{16|89R9} 15|137m21 166m20 169r120
+94p10*Coordinate_Generator{16|54P9} 15|147r15 148r69
+97P9*p_Skin_transparent_unlit_textured(91R9)
+99U25*Destroy<36p14> 99=34 15|134b25 138l8 138t15
+99r34 Self{91R9} 15|134b34 137m16 137r16
+101V25*New_Veneer{19P9}<39p14> 101>41 101>88 15|140b24 152l8 152t18
+101r41 Self{91R9} 15|140b36 147r10 148r64
+101c88 for_Geometry<12|113R9> 15|141b36 144r85 148r105
+102U25*Enable<42p14> 102=41 15|154b25 167l8 167t14
+102r41 Self{91R9} 15|154b33 166m15 166r15
+103V25*is_Transparent{boolean}<43p14> 103>41 15|169b24
+103r41 Self{91R9} 15|169r115
+108R9*Veneer_unlit_textured_vbo<17R9> 21p14 112e17 114r51 116P25 116r47 15|174r48
+. 192r11
+111r10*texture_Coordinates{10|24R9[11|6]} 15|179r20
+114P9*p_Veneer_unlit_textured_vbo(108R9)
+116U25*Enable<24p14> 116=33 15|174b25 182l8 182t14
+116r33 Self{108R9} 15|174b33 179r15
+120R9*Skin_unlit_textured_vbo<28R9> 123e17 125r49 127P25 127r49 129P25 129r51
+. 130P25 130r51 132P25 132r48 15|184r48 190r52 194r48 203r47
+122r10*Texture{16|89R9} 15|200m20 203r112
+125P9*p_Skin_unlit_textured_vbo(120R9)
+127U25*Destroy<36p14> 127=34 15|184b25 188l8 188t15
+127r34 Self{120R9} 15|184b34
+129V25*new_Veneer{19P9}<39p14> 129>37 129>76 15|190b25
+129r37 Self{120R9}
+129c76 for_Geometry<12|113R9>
+130U25*Enable<42p14> 130=37 15|194b25 201l8 201t14
+130r37 Self{120R9} 15|194b33 200m15 200r15
+132V25*is_Transparent{boolean}<43p14> 132>41 15|203b24
+132r41 Self{120R9} 15|203r107
+140p4*green_Skin{33P9}
+144p4*lit_green_Skin{33P9}
+X 15 gl-skins.adb
+35U17 Deallocate[7|20] 39s7
+50U17 Deallocate[7|20] 54s7
+57U14 Set_Material 57b14 57>28 67l8 67t20 118s7
+57r28 m{13|25R8} 62r44 63r44 64r44 65r44 66r44
+143p7 the_Veneer{14|87P9} 148r10 151r14
+X 16 gl-textures.ads
+15K12*Textures 14|11w22 84r36 93r37 94r37 122r24 15|17r11 16|166e16
+40f10*S{8|128F9} 15|131m90 145m83
+40f13*T{8|128F9} 15|145m93
+43A11*Coordinate_2D_array(38R9)<12|65M11> 14|84r45
+54P9*p_coordinate_Generator(53R9) 14|94r46
+57y13*To_Coordinates{43A11} 15|148R48
+89R9*Object 14|93r46 122r33 16|145e17
+96U14*Destroy 15|137s7
+101U14*Enable 15|166s7 200s7
+106V14*Is_Transparent{boolean} 15|169s99 203s91
+X 18 i-c.ads
+43M9*unsigned
+47M9*unsigned_char
+64F9*C_float<float>
+65F9*double<long_float>
+X 20 system.ads
+67M9*Address
+X 28 s-memory.ads
+53V13*Alloc{20|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{20|67M9} 105i<c,__gnat_realloc>22
+X 35 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

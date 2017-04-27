@@ -1,0 +1,433 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gl.geometry%b		gl-geometry.adb		5a1fe4b8 DE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.math%s		gl-math.adb		gl-math.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.img_uns%s	s-imguns.adb		s-imguns.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U gl.geometry%s		gl-geometry.ads		f754a339 DE EE OO PF PK IU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W gl%s			gl.adb			gl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+Z interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-numaux.ads		20150518132148 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20150518132148 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-geometry.adb	20130915152004 dfe8b628 gl.geometry%b
+D gl-math.ads		20130915152004 5d546512 gl.math%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20150518132148 d5172521 interfaces.c.pointers%b
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-conca2.ads		20150518132148 02a0d7d0 system.concat_2%s
+D s-conca5.ads		20150518132148 875e432e system.concat_5%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-exnllf.ads		20150518132148 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-imgrea.ads		20150518132150 c7a851e2 system.img_real%s
+D s-imguns.ads		20150518132150 9ff43cf7 system.img_uns%s
+D s-memory.ads		20150518132150 597d6634 system.memory%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stalib.adb		20150518132150 f2fe2716 system.standard_library%b
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20150518132150 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 21|11r6 13r6 71r34 76r37 77r37 91r32 96r26 22|13r6 14r6 14r33
+. 16r6 20r32 178r45 195r35
+X 2 a-charac.ads
+16K13*Characters 18e19 22|16r10 178r49
+X 3 a-chlat1.ads
+18K24*Latin_1 296e27 22|16w21 178r60
+35e4*LF{character} 22|178r68
+X 7 a-numeri.ads
+16K13*Numerics 32e17 22|13r10 20r36
+X 9 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 171e46 22|13w19 20r45
+42V13*Sqrt<25|65F9> 22|28s52[20] 100s35[20] 130s35[20]
+X 12 a-string.ads
+16K13*Strings 35e16 22|14r10 14r37
+X 14 a-strunb.ads
+76K21*Unbounded 489e26 22|14w18 14r45
+79R9*Unbounded_String<5|43R9> 473e14 22|177r20
+100V13*To_String{string} 22|187s14
+111U14*Append 22|181s7 183s10 185s7
+X 18 a-unccon.ads
+20v14*Unchecked_Conversion 21|13w10 71r38 76r41 91r36
+X 19 a-uncdea.ads
+20u15*Unchecked_Deallocation 21|11w10 77r41 96r30 22|195r39
+X 20 gl.ads
+66K9*GL 4501e7 21|15r9 20r44 29r22 45r27 50r84 51r84 52r84 53r84 54r84 55r84
+. 65r34 68r37 71r73 76r82 84r31 88r117 91r58 94r42 94r58 94r74 98r52 101r95
+. 106r36 120r56 122r56 123r56 125r56 126r56 128r56 142r5 22|11r6 11r19 18r14
+. 20r75 28r33 42r14 43r14 51r24 79r52 83r25 87r28 92r49 93r49 94r49 95r49
+. 96r49 97r49 105r95 109r25 116r31 121r52 122r52 123r52 124r52 125r52 126r52
+. 215r47 216r47 279r5
+122M9*Ubyte<25|47M9>
+124M9*Uint<25|43M9> 21|65r37
+128F9*Double<25|65F9> 21|20r47 29r25 45r30 50r87 51r87 52r87 53r87 54r87
+. 55r87 88r120 94r45 94r61 94r77 22|20r78 28r36 42r17 43r17 51r27 77r14 77r40
+. 77r66 83r28 87r31 92r52 93r52 94r52 95r52 96r52 97r52 109r28 116r34 121r55
+. 122r55 123r55 124r55 125r55 126r55 216r50 240r50
+131M9*positive_uInt<124M9> 21|68r40 125r59 22|219r32
+150P9*pointer(122M9) 21|71r76 76r85 91r61
+155A9*Double_Vector_3D(128F9)<integer> 21|84r34 106r39 22|215r50
+1402E9*ObjectTypeEnm 1414e7 21|120r59
+1404n7*POINTS{1402E9} 22|141r15
+1405n7*LINES{1402E9} 22|144r15
+1406n7*LINE_LOOP{1402E9} 22|147r15
+1407n7*LINE_STRIP{1402E9} 22|150r15
+1408n7*TRIANGLES{1402E9} 22|153r15 206r15
+1409n7*TRIANGLE_STRIP{1402E9} 22|156r15
+1410n7*TRIANGLE_FAN{1402E9} 22|159r15
+1411n7*QUADS{1402E9} 22|162r15
+1412n7*QUAD_STRIP{1402E9} 22|165r15
+1413n7*POLYGON{1402E9} 22|168r15
+X 21 gl-geometry.ads
+15K12*Geometry 20|66k9 21|98r55 101r98 122r59 123r59 126r59 128r59 142l8
+. 142e16 22|18b17 79r55 105r98 279l8 279t16
+20A9*Plane(20|128F9)<integer> 22r45 22|25r44
+22U14*Normalise 22=25 22|25b14 36l8 36t17
+22a25 the_Plane{20A9} 22|25b25 28r58 28r74 29r58 29r74 30r58 30r74 32m7 32r26
+. 33r26 34r26 35r26
+27R9*Extent 30e17 32r25 32r40 36r22 37r22 38r22 22|41r25 41r40
+29f10*Min{20|128F9} 50m77 52m77 54m77 22|42m7 42r31 42r39 92m42 92r88 94m42
+. 94r88 96m42 96r88 121m45 121r91 123m45 123r91 125m45 125r91
+29f15*Max{20|128F9} 51m77 53m77 55m77 22|43m7 43r31 43r39 93m42 93r88 95m42
+. 95r88 97m42 97r88 122m45 122r91 124m45 124r91 126m45 126r91
+32V13*Max{27R9} 32>18 32>21 22|41b13 46s19 47s19 48s19
+32r18 L{27R9} 22|42r29 43r29
+32r21 R{27R9} 22|42r37 43r37
+34R9*Axis_Aligned_Bounding_Box 39e17 41r25 41r59 46r27 22|45r25 45r59
+36r10*X_Extent{27R9} 50m64 22|46m7 46r26 46r39 92m29 92r79 93r79 121m32 121r82
+. 122r82
+37r10*Y_Extent{27R9} 52m64 22|47m7 47r26 47r39 94m29 94r79 95r79 123m32 123r82
+. 124r82
+38r10*Z_Extent{27R9} 54m64 22|48m7 48r26 48r39 96m29 96r79 97r79 125m32 125r82
+. 126r82
+41V13*Max{34R9} 41>18 41>21 22|45b13 52s24
+41r18 L{34R9} 22|46r24 47r24 48r24
+41r21 R{34R9} 22|46r37 47r37 48r37
+43R9*Bounds_record 47e17 49r28 57r25 57r47 98r64 101r107 115r20 128r68 22|50r25
+. 50r47 79r64 82r25 105r107 108r25
+45f10*Sphere_Radius{20|128F9} 49m46 22|51m7 51r41 51r58 100m18 130m18
+46r10*Box{34R9} 50m46 22|52m7 52r31 52r38 92m21 92r75 93r75 94r75 95r75 96r75
+. 97r75 121m24 121r78 122r78 123r78 124r78 125r78 126r78
+49r4*null_Bounds{43R9} 22|82r42 108r42
+57V13*Max{43R9} 57>18 57>21 22|50b13
+57r18 L{43R9} 22|51r39 52r29
+57r21 R{43R9} 22|51r56 52r36
+65M11*vertex_Id<20|124M9> 66r41 68r75 79r34 79r55 122r68 22|183r35 218r85
+. 239r50
+66P9*p_vertex_Id(65M11) 71r60 76r65
+68A11*vertex_Id_array(65M11)<20|131M9> 69r41 73r40 74r40 77r65 101r71 126r68
+. 22|57r40 65r40 105r71 209r47
+69P9*p_vertex_Id_array(68A11) 77r82
+71V13*to_gl_Pointer[18|20]{20|150P9}
+73U14*Increment 73=25 22|57b14 63l8 63t17
+73a25 Self{68A11} 22|57b25 60r19 61m10 61r25
+74U14*Decrement 74=25 22|65b14 71l8 71t17
+74a25 Self{68A11} 22|65b25 68r19 69m10 69r25
+76V14*to_void_Pointer[18|20]{20|150P9}
+77U14*free[19|20]
+79M12*Positive_Vertex_Id{65M11} 85r38 88r58 108r43
+84A12*GL_Vertex{20|155A9}<integer> 85r78 88r78 92r27 94r28 22|76r27 114r26
+85A12*GL_Vertex_array(84A12)<65M11> 86r39 88r89 96r54 98r28 99r28 101r38
+. 123r68 22|79r28 105r38 175r27 208r47
+86P10*p_Vertex_array(85A12) 96r71
+88K12*vertex_pointers[26|44] 89r24
+89P12*p_Vertex{26|47P9[88]} 91r70
+91V13*to_p_Vertex[18|20]{26|47P9[88]}
+92V13*Image{string} 92>20 22|76b13 183s69
+92a20 Self{84A12} 22|77r28 77r54 77r80
+94a4*null_Vertex{84A12}
+96U14*free[19|20]
+98V13*Bounds{43R9} 98>21 22|79b13 103l8 103t14
+98a21 Self{85A12} 22|79b21 86r16 87r43 87r58 88r43 88r58 89r43 89r58 92r94
+. 93r94 94r94 95r94 96r94 97r94
+99V13*Image{string} 99>21 22|175b13 188l8 188t13
+99a21 Self{85A12} 22|175b20 182r19 183r76
+101V13*Bounds{43R9} 101>21 101>55 22|105b13 133l8 133t14
+101a21 Given_Vertices{85A12} 22|105b21 114r44
+101a55 Given_Indices{68A11} 22|105b55 112r19 114r60
+106A12*GL_Normal{20|155A9}<integer> 107r83 108r83
+107A12*GL_Normals(106A12)<integer> 22|213r47
+108A12*GL_Normals_Vertex_Id(106A12)<65M11> 137r62 22|202r61 210r47
+113H9*Geometry_t 116e17 118r34 120p14 120r37 122p14 122r37 123p14 123r37
+. 125p14 125r37 126p14 126r37 128p14 128r37 130r37 135p14 135r37 137r37 139p14
+. 139r37 22|135r32 195r63 202r36
+115r10*Bounds{43R9}
+118P9*p_Geometry(113R9) 140r37 22|193r35 195r81
+120y14*primitive_Id{20|1402E9} 120>30 22|140R12 205R12
+120r30 Self{113R9}
+122y14*vertex_Count{65M11} 122>30
+122r30 Self{113R9}
+123y14*Vertices{85A12} 123>30 22|208R74
+123r30 Self{113R9}
+125y14*indices_Count{20|131M9} 125>30 22|142R35 145R35 148R35 151R48 154R35
+. 157R48 160R48 163R35 166R35
+125r30 Self{113R9}
+126y14*Indices{68A11} 126>30 22|209R71
+126r30 Self{113R9}
+128y14*Bounds{43R9} 128>30
+128r30 Self{113R9}
+130V14*Face_Count{natural} 130>30 22|135b13 173l8 173t18
+130c30 Self<113R9> 22|135b25 140r26 142r50 145r50 148r50 151r63 154r50 157r63
+. 160r63 163r50 166r50
+135x14*Draw 135>30
+135r30 Self{113R9}
+137V14*Vertex_Normals{108A12} 137>30 22|202b13 277l8 277t22
+137c30 Self<113R9> 22|202b29 205r26 208r84 209r80
+139x14*destroy 139=23 22|198R7
+139r23 Self{113R9}
+140U14*Free 140=23 22|193b14 200l8 200t12
+140p23 Self{118P9} 22|193b20 198r19 199m19
+X 22 gl-geometry.adb
+20K12 GL_Double_EF[9|39] 27r11 81r11 107r11
+28f7 inv_Magnitude{20|128F9} 32r42 33r42 34r42 35r42
+60m11 Each<20|124M9> 61r16 61r31
+68m11 Each<20|124M9> 69r16 69r31
+82r7 the_Bounds{21|43R9} 92m10 92r64 93r64 94r64 95r64 96r64 97r64 100m7
+. 102r14
+83f7 max_Distance_2{20|128F9} 87m10 90r43 100r41
+86m11 p<20|124M9> 87r49 87r64 88r49 88r64 89r49 89r64 92r100 93r100 94r100
+. 95r100 96r100 97r100
+108r7 the_Bounds{21|43R9} 121m13 121r67 122r67 123r67 124r67 125r67 126r67
+. 130m7 132r14
+109f7 max_Distance_2{20|128F9} 116m13 119r46 130r41
+112m11 Each<20|124M9> 114r75
+114a13 the_Point=114:44{21|84A12} 116r46 116r62 117r46 117r62 118r46 118r62
+. 121r97 122r97 123r97 124r97 125r97 126r97
+137i7 the_Count{natural} 142m13 145m13 148m13 151m13 154m13 157m13 160m13
+. 163m13 166m13 169m13 172r14
+177r7 the_Image{14|79R9} 181m15 181r15 183m18 183r18 185m15 185r15 187r25
+178a7 NL{string} 181r33 183r91 185r32
+182m11 Each<20|124M9> 183r52 183r82
+195U17 deallocate[19|20] 199s7
+208a16 the_Vertices{21|85A12} 210r69 225r25 225r71 226r25 226r71 238r57 243r28
+. 256r28
+209a16 the_Indices{21|68A11} 212r59 219r19
+210a16 the_Normals{21|108A12} 244m22 252m25 252r69 258r45 261m25 261r68 269r23
+212i16 Triangle_Face_Count{positive} 213r65 224r38 247r33
+213a16 face_Normals{21|107A12} 230m36 231m36 252r96
+215a16 N{20|155A9} 225m19 227r37 230r64 231r83
+216f16 length_N{20|128F9} 227m19 229r37 231r71
+218V25 vertex_Id_for{21|65M11} 218>40 218>57 225s39 225s85 226s39 226s85
+. 249s39
+218i40 Face{positive} 219r52
+218i57 point_Id{positive} 219r64
+224i20 each_Face{integer} 225r54 225r100 226r54 226r100 230r50 231r50
+238a19 vertex_adjacent_faces_Count(natural) 251m25 251r69
+239m19 the_Vertex{21|65M11} 249m25 251r54 251r98 252r38 252r82
+240f19 Vertex_Length{20|128F9} 258m22 260r42 261r51
+243m23 p<20|124M9> 244r35
+247i23 f{integer} 249r54 252r110
+248i26 p{integer} 249r57
+256m23 p<20|124M9> 258r58 261r38 261r81
+X 23 gl-math.ads
+5K12*Math 22|11w9 11r22 23|111e12
+14V13*"*"{20|155A9} 22|231s81 261s66
+20V13*"+"{20|155A9} 22|252s94
+26V13*"-"{20|155A9} 22|225s69 226s69
+32V13*"*"{20|155A9} 22|226s22
+35V12*Norm{20|128F9} 22|227s31 258s39
+102V12*Almost_zero{boolean} 22|229s24 260s29
+X 24 interfac.ads
+38K9*Interfaces 21|12r6 88r35 24|178e15
+X 25 i-c.ads
+18K20*C 21|12r17 88r46 25|230e17
+43M9*unsigned
+47M9*unsigned_char
+65F9*double<long_float>
+X 26 i-cpoint.ads
+44k22*Pointers 21|12w19 88r48 26|102e26
+47P9*Pointer(20|155A9) 21|89r40[88]
+X 30 system.ads
+67M9*Address
+X 46 s-memory.ads
+53V13*Alloc{30|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{30|67M9} 105i<c,__gnat_realloc>22
+X 53 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

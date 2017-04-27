@@ -1,0 +1,186 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U gl.frustums%b		gl-frustums.adb		de0a8573 DE NE OO PK IU
+W gl%s			gl.adb			gl.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+
+U gl.frustums%s		gl-frustums.ads		2c4c19e2 DE EE NE OO PK IU
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.geometry%s		gl-geometry.adb		gl-geometry.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-frustums.adb	20130915152004 e3297d93 gl.frustums%b
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatflt.ads		20150518132148 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 8 gl.ads
+66K9*GL 4501e7 9|17r6 19r9 23r44 31r5 10|1r14 5r11 17r41 18r41 19r33 23r7
+. 23r21 24r7 24r21 49r33 50r33 51r33 52r33 55r32 56r32 57r32 58r32 61r31
+. 62r31 63r31 64r31 67r32 68r32 69r32 70r32 73r31 74r31 75r31 76r31 79r32
+. 80r32 81r32 82r32 88r5
+126F9*C_Float<13|64F9> 10|17r44 18r44 19r36
+128F9*Double<13|65F9> 10|49r36 50r36 51r36 52r36 55r35 56r35 57r35 58r35
+. 61r34 62r34 63r34 64r34 67r35 68r35 69r35 70r35 73r34 74r34 75r34 76r34
+. 79r35 80r35 81r35 82r35
+807n7*MODELVIEW_MATRIX{737E9} 10|24r24
+808n7*PROJECTION_MATRIX{737E9} 10|23r24
+1195U14*GetFloatv 10|23s10 24s10
+X 9 gl-frustums.ads
+19K12*Frustums 8|66k9 9|31l8 31e16 10|1b17 88l8 88t16
+21E9*plane_Id 21e56 23r31
+21n22*Left{21E9} 10|55r19 56r19 57r19 58r19
+21n28*Right{21E9} 10|49r19 50r19 51r19 52r19
+21n35*High{21E9} 10|67r19 68r19 69r19 70r19
+21n41*Low{21E9} 10|61r19 62r19 63r19 64r19
+21n46*Near{21E9} 10|79r19 80r19 81r19 82r19
+21n52*Far{21E9} 10|73r19 74r19 75r19 76r19
+23A9*plane_Array(11|20A9)<21E9> 25r46 27r35 10|3r46 13r35 15r21
+25U14*Normalise 25=25 10|3b14 11l8 11t17 84s7
+25a25 the_Planes{23A9} 10|3b25 8r19 9m21 9r21
+27V13*Current_Planes{23A9} 10|13b13 86l8 86t22
+X 10 gl-frustums.adb
+8e11 Each{9|21E9} 9r33
+15a7 the_Planes{9|23A9} 49m7 50m7 51m7 52m7 55m7 56m7 57m7 58m7 61m7 62m7
+. 63m7 64m7 67m7 68m7 69m7 70m7 73m7 74m7 75m7 76m7 79m7 80m7 81m7 82m7 84m18
+. 84r18 85r14
+17a7 Proj(8|126F9) 23m43 23r43 28r30 28r52 28r74 28r96 29r30 29r52 29r74
+. 29r96 30r30 30r52 30r74 30r97 31r30 31r52 31r74 31r97 33r30 33r52 33r74
+. 33r96 34r30 34r52 34r74 34r96 35r30 35r52 35r74 35r97 36r30 36r52 36r74
+. 36r97 38r30 38r52 38r75 38r98 39r30 39r52 39r75 39r98 40r31 40r53 40r76
+. 40r100 41r31 41r53 41r76 41r100 43r32 43r55 43r78 43r101 44r32 44r55 44r78
+. 44r101 45r32 45r55 45r78 45r102 46r32 46r55 46r78 46r102
+18a7 Modl(8|126F9) 24m43 24r43 28r19 28r41 28r63 28r85 29r19 29r41 29r63
+. 29r85 30r19 30r41 30r63 30r86 31r19 31r41 31r63 31r86 33r19 33r41 33r63
+. 33r85 34r19 34r41 34r63 34r85 35r19 35r41 35r63 35r86 36r19 36r41 36r63
+. 36r86 38r19 38r41 38r63 38r86 39r19 39r41 39r63 39r86 40r20 40r42 40r64
+. 40r88 41r20 41r42 41r64 41r88 43r20 43r43 43r66 43r89 44r20 44r43 44r66
+. 44r89 45r20 45r43 45r66 45r90 46r20 46r43 46r66 46r90
+19a7 Clip(8|126F9) 28m7 29m7 30m7 31m7 33m7 34m7 35m7 36m7 38m7 39m7 40m7
+. 41m7 43m7 44m7 45m7 46m7 49r44 49r55 50r44 50r55 51r44 51r56 52r44 52r56
+. 55r43 55r54 56r43 56r54 57r43 57r55 58r43 58r55 61r42 61r53 62r42 62r53
+. 63r42 63r54 64r42 64r54 67r43 67r54 68r43 68r54 69r43 69r55 70r43 70r55
+. 73r42 73r53 74r42 74r53 75r42 75r54 76r42 76r54 79r43 79r54 80r43 80r54
+. 81r43 81r55 82r43 82r55
+X 11 gl-geometry.ads
+15K12*Geometry 9|17w9 23r47 10|5r14 11|142e16
+20A9*Plane(8|128F9)<integer> 9|23r56
+22U14*Normalise 10|9s10
+X 13 i-c.ads
+64F9*C_float<float>
+65F9*double<long_float>
+

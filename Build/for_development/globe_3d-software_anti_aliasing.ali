@@ -1,0 +1,242 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U globe_3d.software_anti_aliasing%b  globe_3d-software_anti_aliasing.adb  c48063ce DE NE OO PK GE IU
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W glu%s			glu.adb			glu.ali
+
+U globe_3d.software_anti_aliasing%s  globe_3d-software_anti_aliasing.ads  41a04269 BN DE EE NE OO PK GE
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d-software_anti_aliasing.ads  20130913115928 0a21aab2 globe_3d.software_anti_aliasing%s
+D globe_3d-software_anti_aliasing.adb  20130915152004 1e50631b globe_3d.software_anti_aliasing%b
+D glu.ads		20130915152632 d0f1aa67 glu%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 7 a-cohama.ads
+52R9*Map<9|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+X 25 gl.ads
+66K9*GL 4501e7 37|13r54 124r37 125r25 125r45 129r33 133r27 134r27
+98N4*ACCUM_BUFFER_BIT 37|142r38
+103N4*COLOR_BUFFER_BIT 37|142r18 144r18 164r14
+121I9*Int<40|35I9>
+126F9*C_Float<40|64F9> 37|125r28 125r48
+128F9*Double<40|65F9> 37|13r57 124r40 129r36 133r30 134r30
+1304n7*ACCUM{1302E9} 37|152r18
+1306n7*GL_RETURN{1302E9} 37|154r18
+1320U14*Accum 37|152s11 154s11
+1326n7*MODELVIEW{1324E9} 37|146r23 150r23
+1338U14*MatrixMode 37|146s11 150s11
+3197U14*Clear 37|142s11 144s11 164s7
+3250U14*Flush 37|157s11 166s7
+3278U14*PushMatrix 37|147s11
+3280U14*PopMatrix 37|151s11
+3306U14*Translate 37|148s11
+X 27 gl-buffer-general.ads
+14R9 base_Object<26|20R9>
+X 35 globe_3d.ads
+77K9*GLOBE_3D 606e13 36|9r9 24r5 37|8r14 187r5
+103K12*REF[13|39] 37|10r7
+X 36 globe_3d-software_anti_aliasing.ads
+7U18 Display 37|149s11 165s7
+9k18*Software_Anti_Aliasing 35|77k9 36|7z18 24l14 24e36 37|8b23 187l14 187t36
+13V12*Anti_Alias_phases{positive} 37|112b12 119l7 119t24 143s27 153s21
+17U13*Display_with_Anti_Aliasing 17>41 37|121b13 170l7 170t33
+17i41 phase{positive} 37|121b41 141r10 143r13 145r21 153r13
+19E8*Quality 19e51 22r30 37|172r30
+19n20*Q1{19E8} 37|175r12
+19n24*Q3{19E8} 37|176r12 186r16
+19n28*Q4{19E8} 37|177r12
+19n32*Q11{19E8} 37|178r12
+19n37*Q16{19E8} 37|179r12
+19n42*Q29{19E8} 37|180r12
+19n47*Q90{19E8} 37|181r12
+22U13*Set_Quality 22>26 37|172b13 183l7 183t18 186s3
+22e26 q{19E8} 37|172b26 174r10
+X 37 globe_3d-software_anti_aliasing.adb
+12A8 Jitter_matrix(25|128F9)<integer><integer> 15r38 19r17 24r16 28r18 36r18
+. 46r18 63r18
+15P8 p_Jitter_matrix(12A8) 110r7
+19a3 J3{12A8} 176m24 176r24
+24a3 J4{12A8} 177m24 177r24
+28a3 J11{12A8} 178m24 178r24
+36a3 J16{12A8} 179m24 179r24
+46a3 J29{12A8} 180m24 180r24
+63a3 J90{12A8} 181m24 181r24
+110p3 J{15P8} 114r8 117r14 124r21 125r57 136r23 163r8 175m19 176m19 177m19
+. 178m19 179m19 180m19 181m19
+123U15 Jitter 123b15 161l9 161t15 168s7
+124a7 Dxy(25|128F9) 135r18 136m11 148r22 148r31
+125f7 weight{25|126F9} 152r25
+127U17 LoadDxDy 127b17 127>27 138l11 138t19 145s11
+127i27 jt{positive} 136r30
+128r9 view{38|58R9} 132m18 133r38 134r38
+129a9 inv(25|128F9) 133m9 134m9 136r47
+135i13 d{integer} 136r16 136r34 136r52
+X 38 glu.ads
+48K9*GLU 37|6w6 128r24 132r9 38|738e8
+58R9*Viewport_Rec 37|128r28 38|61e14
+60i7*Width{25|121I9} 37|133r43
+60i14*Height{25|121I9} 37|134r43
+658U14*Get 37|132s13
+X 40 i-c.ads
+35I9*int<integer>
+64F9*C_float<float>
+65F9*double<long_float>
+

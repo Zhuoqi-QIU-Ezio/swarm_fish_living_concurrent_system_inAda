@@ -1,0 +1,18 @@
+C:\\Users\\Zhuoqi\ QIU\\Desktop\\COMP2310\\assignment\\Assignment_1_2015\\Build\\for_development\\GNAT-TEMP-000005.TMP
+-g
+C:\\Users\\Zhuoqi\ QIU\\Desktop\\COMP2310\\assignment\\Assignment_1_2015\\\\./obj/libwin32/glee.o
+-lopengl32
+-lglu32
+-lfreeglut
+-LC:\\Users\\Zhuoqi\ QIU\\Desktop\\COMP2310\\assignment\\Assignment_1_2015\\\\./obj/libwin32
+-LC:\\Users\\Zhuoqi\ QIU\\Desktop\\COMP2310\\assignment\\Assignment_1_2015\\Build\\for_development\\
+-LC:\\Users\\Zhuoqi\ QIU\\Desktop\\COMP2310\\assignment\\Assignment_1_2015\\Build\\for_development\\
+-LC:/gnat/2015/lib/gcc/i686-pc-mingw32/4.9.3/adalib/
+-static-libgcc
+C:/gnat/2015/lib/gcc/i686-pc-mingw32/4.9.3/adalib/libgnarl.a
+C:/gnat/2015/lib/gcc/i686-pc-mingw32/4.9.3/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
+-o
+C:\\Users\\Zhuoqi\ QIU\\Desktop\\COMP2310\\assignment\\Assignment_1_2015\\Execute\\\\swarm.exe

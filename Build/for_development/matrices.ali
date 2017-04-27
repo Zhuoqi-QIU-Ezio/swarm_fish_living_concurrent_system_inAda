@@ -1,0 +1,126 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U matrices%b		matrices.adb		621b3e02 DE NE OO PK GE
+
+U matrices%s		matrices.ads		48257de2 BN DE EE NE OO PK GE
+W real_type%s		real_type.ads		real_type.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D matrices.adb		20110722052138 e7eca62c matrices%b
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+X 5 matrices.ads
+8i4 Dimension{positive} 12r31 12r47
+10k9*Matrices 8z4 20l5 20e13 6|5b14 46l5 46t13
+12A9*Matrix(7|5F12)<integer><integer> 16r25 16r40 18r28 18r43 6|7r25 7r40
+. 9r12 12r18 13r21 17r25 31r28 31r43 33r13 36r18 37r21
+16V14*"*"{12A9} 16>18 16>21 6|7b14 25l9 25t11
+16a18 A{12A9} 6|7b18 18r33
+16a21 B{12A9} 6|7b21 18r46
+18V13*Transpose{12A9} 18>24 6|31b13 42l8 42t17
+18a24 M{12A9} 6|31b24 38r31
+X 6 matrices.adb
+9a7 AB{5|12A9} 20m16 24r14
+12i11 Row{integer} 18r36 20r20
+13i14 Col{integer} 18r52 20r25
+15f16 Sum{7|5F12} 18m19 18r26 20r33
+17i20 k{integer} 18r41 18r49
+33a7 M_T{5|12A9} 38m13 41r14
+36i11 Row{integer} 38r18 38r39
+37i14 Col{integer} 38r23 38r34
+X 7 real_type.ads
+3K9*Real_Type 5|5w6 5r21 7|10e14
+5F12*Real{long_float} 5|12r61 6|15r22
+

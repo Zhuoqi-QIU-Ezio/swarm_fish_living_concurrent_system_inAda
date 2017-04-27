@@ -1,0 +1,170 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U vectors_conversions%b	vectors_conversions.adb	1e27852c DE NE OO PK
+W real_type%s		real_type.ads		real_type.ali
+
+U vectors_conversions%s	vectors_conversions.ads	923ddf49 DE EE NE OO PK
+W vectors_2d%s		vectors_2d.ads		vectors_2d.ali
+W vectors_2d_i%s	vectors_2d_i.ads	vectors_2d_i.ali
+W vectors_2d_n%s	vectors_2d_n.ads	vectors_2d_n.ali
+W vectors_2d_p%s	vectors_2d_p.ads	vectors_2d_p.ali
+W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
+W vectors_3d_lf%s	vectors_3d_lf.adb	vectors_3d_lf.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D vectors_2d.ads	20130922091012 4caa2c60 vectors_2d%s
+D vectors_2d_i.ads	20130915032044 09ddac6c vectors_2d_i%s
+D vectors_2d_n.ads	20130915032044 27f53fc0 vectors_2d_n%s
+D vectors_2d_p.ads	20130915032044 db940b8a vectors_2d_p%s
+D vectors_3d.ads	20130922091012 121733f3 vectors_3d%s
+D vectors_3d_lf.ads	20130915032044 e76b7655 vectors_3d_lf%s
+D vectors_conversions.ads  20110720034314 de572ea9 vectors_conversions%s
+D vectors_conversions.adb  20130922091012 0da24e49 vectors_conversions%b
+D vectors_xd.ads	20130912094030 4c943a4c vectors_xd%s
+D vectors_xd_i.ads	20130913065932 32b570f3 vectors_xd_i%s
+X 5 real_type.ads
+3K9*Real_Type 10e14 16|1w6 1r21
+5F12*Real{long_float} 16|10r12 11r12 12r12 28r12 29r12 36r12 37r12 44r12
+. 45r12
+X 9 vectors_2d.ads
+8K9*Vectors_2D 35e15 15|1w6 1r25
+10n28*x{10E9} 16|28r7 36r7 44r7
+10n31*y{10E9} 16|29r7 37r7 45r7
+14A12*Vector_2D{17|10A9[12]}<10E9> 15|13r51 14r51 15r51 16|27r51 35r51 43r51
+X 10 vectors_2d_i.ads
+7K9*Vectors_2D_I 34e17 15|2w6 2r25
+9n28*x{9E9} 16|28r21
+9n31*y{9E9} 16|29r21
+13A12*Vector_2D_I{18|10A9[11]}<9E9> 15|13r31 16|27r31
+X 11 vectors_2d_n.ads
+7K9*Vectors_2D_N 34e17 15|3w6 3r25
+9n28*x{9E9} 16|36r21
+9n31*y{9E9} 16|37r21
+13A12*Vector_2D_N{18|10A9[11]}<9E9> 15|14r31 16|35r31
+X 12 vectors_2d_p.ads
+7K9*Vectors_2D_P 34e17 15|4w6 4r25
+9n28*x{9E9} 16|44r21
+9n31*y{9E9} 16|45r21
+13A12*Vector_2D_P{18|10A9[11]}<9E9> 15|15r31 16|43r31
+X 13 vectors_3d.ads
+8K9*Vectors_3D 36e15 15|5w6 5r25
+10n25*x{10E9} 16|10r7 19r27
+10n28*y{10E9} 16|11r7 20r27
+10n31*z{10E9} 16|12r7 21r27
+14A12*Vector_3D{17|10A9[12]}<10E9> 15|10r55 11r34 16|9r52 18r34
+X 14 vectors_3d_lf.ads
+7K9*Vectors_3D_LF 34e18 15|6w6 6r25
+9n25*x{9E9} 16|10r21 19r7
+9n28*y{9E9} 16|11r21 20r7
+9n31*z{9E9} 16|12r21 21r7
+13A12*Vector_3D_LF{17|10A9[11]}<9E9> 15|10r34 11r55 16|9r31 18r52
+X 15 vectors_conversions.ads
+8K9*Vectors_Conversions 17l5 17e24 16|3b14 47l5 47t24
+10V13*To_Vector_3D{13|14A12} 10>30 16|9b13
+10a30 V{14|13A12} 16|10r18 11r18 12r18
+11V13*To_Vector_3D_LF{14|13A12} 11>30 16|18b13
+11a30 V{13|14A12} 16|19r24 20r24 21r24
+13V13*To_Vector_2D{9|14A12} 13>27 16|27b13
+13a27 V{10|13A12} 16|28r18 29r18
+14V13*To_Vector_2D{9|14A12} 14>27 16|35b13
+14a27 V{11|13A12} 16|36r18 37r18
+15V13*To_Vector_2D{9|14A12} 15>27 16|43b13
+15a27 V{12|13A12} 16|44r18 45r18
+X 17 vectors_xd.ads
+10A9*Vector_xD(long_float)<14|9E9>
+X 18 vectors_xd_i.ads
+10A9*Vector_xD_I(integer)<10|9E9>
+

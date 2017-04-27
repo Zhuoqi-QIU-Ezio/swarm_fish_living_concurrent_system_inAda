@@ -1,0 +1,184 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_LOOPS
+RV NO_RELATIVE_DELAY
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U graphics_framerates%b	graphics_framerates.adb	763b4fd7 DE OO PK
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+U graphics_framerates%s	graphics_framerates.ads	44bab9cc DE EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W real_type%s		real_type.ads		real_type.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-caldel.ads		20150518132148 9f20b83d ada.calendar.delays%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20150518132148 a5838d5a ada.real_time%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D graphics_framerates.ads  20130922091222 2cebd15a graphics_framerates%s
+D graphics_framerates.adb  20130922085220 5ad09e8d graphics_framerates%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-multip.ads		20150518132150 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150518132150 2e5b26a9 system.os_interface%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stausa.ads		20150518132150 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20150518132150 601f6b72 system.task_info%s
+D s-taspri.ads		20150518132150 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20150518132150 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150518132150 339749f0 system.tasking%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-win32.ads		20150518132150 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 19e8 9|5r6 5r25
+X 7 a-reatim.ads
+39K13*Real_Time 146e18 9|5w10 5r29
+45O9*Time<duration> 10|12r36 14r36
+50O9*Time_Span<duration> 9|14r37 16r43 10|9r45 13r36 20r37 22r27 33r43 35r22
+. 58r40 59r40 60r40
+53o4*Time_Span_Zero{50O9} 10|13r49 35r35 45r25
+57V13*Clock{45O9} 10|12s44 14s44 22s40 25s40 59s54 69s31
+62V14*"-"{50O9} 10|22s46 59s60
+69V14*"+"{50O9} 10|42s39
+70V14*"-"{50O9} 10|59s84 60s72
+71V14*"-"{50O9} 10|65s29 66s27
+75V14*"/"{50O9} 10|48s55
+79V14*"<"{boolean} 10|65r27
+81V14*">"{boolean} 10|63r24
+84V13*To_Duration{duration} 10|48s29 71s13
+85V13*To_Time_Span{50O9} 10|58s53
+91V13*Seconds{50O9} 10|9s69
+X 9 graphics_framerates.ads
+8K9*Graphics_FrameRates 20l5 20e24 10|5b14 74l5 74t24
+10i4*Smoothing_Buffer_Size{positive} 10|7r24 48r57
+12F12*Hz{14|5F12} 16r61 18r49 10|33r61 56r49
+14V13*Measure_Interval{7|50O9} 10|20b13 27l8 27t24
+16V13*Average_Framerate{12F12} 16>32 10|33b13 50l8 50t25
+16o32 Interval{7|50O9} 10|33b32 38r49
+18U14*Framerate_Limiter 18>33 10|56b14 72l8 72t25
+18f33 Max_Framerate{12F12} 10|56b33 58r83
+X 10 graphics_framerates.adb
+7M9 Ring_Ix 9r33 10r26 10r37 41r16
+9a4 Smoothing_Buffer(7|50O9) 38m7 42r41
+10m4 Smoothing_Buffer_Ix{7M9} 38r25 39m7 39r30
+12o4 Last_Call_To_Limiter{7|45O9} 59r62 69m7
+13o4 Last_Padding_Delay{7|50O9} 59r86 70m7
+14o4 Last_Call_To_Measure_Interval{7|45O9} 22r48 25m7
+22o7 Interval{7|50O9} 26r14
+35o7 Interval_Sum{7|50O9} 42m10 42r26 45r10 48r42
+41m11 i{7M9} 42r59
+58o7 Intended_Time_Span{7|50O9} 60r53 63r26 64r27 65r30 66r28
+59o7 Actual_Execution_Time{7|50O9} 60r74
+60o7 Padding_Delay{7|50O9} 63r10 64m10 65r13 66m10 70r31 71r26
+X 14 real_type.ads
+3K9*Real_Type 9|6w6 6r24 14|10e14
+5F12*Real{long_float} 9|12r18 12r36 10|48r23
+X 25 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

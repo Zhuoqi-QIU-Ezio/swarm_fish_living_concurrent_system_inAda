@@ -1,0 +1,130 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U real_type%s		real_type.ads		752f2e8a DE EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-numaux.ads		20150518132148 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20150518132148 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-exnllf.ads		20150518132148 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+X 1 ada.ads
+16K9*Ada 19e8 8|1r6 8r10
+X 3 a-numeri.ads
+16K13*Numerics 32e17 8|1r10 8r14
+X 5 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 171e46 8|1w19 8r23
+X 8 real_type.ads
+3K9*Real_Type 10l5 10e14
+5F12*Real{long_float} 8r53
+7K12*Real_Elementary_Functions[5|39]
+

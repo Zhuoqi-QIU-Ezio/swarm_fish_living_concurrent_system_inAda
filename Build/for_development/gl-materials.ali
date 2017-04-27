@@ -1,0 +1,176 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U gl.materials%b	gl-materials.adb	7f8879fc DE NE OO PK IU
+W gl%s			gl.adb			gl.ali
+
+U gl.materials%s	gl-materials.ads	65f2b4a3 DE EE NE OO PK IU
+W gl%s			gl.adb			gl.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-materials.adb	20130914014638 329f796d gl.materials%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 3 gl.ads
+66K9*GL 4501e7 4|1r9 29r18 30r18 265r5 5|1r14 5r5
+126F9*C_Float<7|64F9> 4|30r21
+154A9*Material_Float_vector(126F9)<integer> 4|29r21
+X 4 gl-materials.ads
+1K12*Materials 3|66k9 4|265l8 265e17 5|1b17 5l8 5t17
+25R8*Material_type 31e13 33r35 36r14 45r21 53r24 61r24 69r23 77r24 85r22
+. 93r24 101r23 109r23 117r29 125r28 135r23 143r24 149r25 155r34 161r25 167r25
+. 173r34 179r23 185r32 191r25 197r25 203r34 209r26 215r23 221r27 227r24 233r23
+. 239r28 245r32 251r31 258r31 5|3r36
+26a5*ambient{3|154A9} 36m32 46m5 54m5 62m5 70m5 78m5 86m5 94m5 102m5 110m5
+. 118m5 126m5 136m15 144m13 150m13 156m13 162m13 168m13 174m13 180m13 186m13
+. 192m13 198m13 204m13 210m13 216m13 222m13 228m13 234m13 240m13 246m13 252m13
+. 259m13
+27a5*diffuse{3|154A9} 37m31 47m5 55m5 63m5 71m5 79m5 87m5 95m5 103m5 111m5
+. 119m5 127m5 137m15 145m13 151m13 157m13 163m13 169m13 175m13 181m13 187m13
+. 193m13 199m13 205m13 211m13 217m13 223m13 229m13 235m13 241m13 247m13 253m13
+. 260m13 5|3r75
+28a5*specular{3|154A9} 38m31 48m5 56m5 64m5 72m5 80m5 88m5 96m5 104m5 112m5
+. 120m5 128m5 138m15 146m13 152m13 158m13 164m13 170m13 176m13 182m13 188m13
+. 194m13 200m13 206m13 212m13 218m13 224m13 230m13 236m13 242m13 248m13 254m13
+. 261m13
+29a5*emission{3|154A9} 39m31 49m5 57m5 65m5 73m5 81m5 89m5 97m5 105m5 113m5
+. 121m5 129m5 139m15 147m13 153m13 159m13 165m13 171m13 177m13 183m13 189m13
+. 195m13 201m13 207m13 213m13 219m13 225m13 231m13 237m13 243m13 249m13 255m13
+. 262m13
+30f5*shininess{3|126F9} 40m31 50m5 58m5 66m5 74m5 82m5 90m5 98m5 106m5 114m5
+. 122m5 130m5 140m15 148m13 154m13 160m13 166m13 172m13 178m13 184m13 190m13
+. 196m13 202m13 208m13 214m13 220m13 226m13 232m13 238m13 244m13 250m13 256m13
+. 263m13
+33V12*is_Transparent{boolean} 33>28 5|3b13
+33r28 Self{25R8} 5|3r70
+35r3*neutral_material{25R8}
+45r3*Red{25R8}
+53r3*Orange{25R8}
+61r3*Yellow{25R8}
+69r3*Green{25R8}
+77r3*Indigo{25R8}
+85r3*Blue{25R8}
+93r3*Violet{25R8}
+101r3*White{25R8}
+109r3*Black{25R8}
+117r3*Medium_Gray{25R8}
+125r3*Light_Gray{25R8}
+135r3*Glass{25R8}
+143r3*Brass{25R8}
+149r3*Bronze{25R8}
+155r3*Polished_Bronze{25R8}
+161r3*Chrome{25R8}
+167r3*Copper{25R8}
+173r3*Polished_Copper{25R8}
+179r3*Gold{25R8}
+185r3*Polished_Gold{25R8}
+191r3*Pewter{25R8}
+197r3*Silver{25R8}
+203r3*Polished_Silver{25R8}
+209r3*Emerald{25R8}
+215r3*Jade{25R8}
+221r3*Obsidian{25R8}
+227r3*Pearl{25R8}
+233r3*Ruby{25R8}
+239r3*Turquoise{25R8}
+245r3*Black_Plastic{25R8}
+251r3*Black_Rubber{25R8}
+258r3*VRML_Defaults{25R8}
+X 7 i-c.ads
+64F9*C_float<float>
+

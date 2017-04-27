@@ -1,0 +1,240 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U sphere_p%b		sphere_p.adb		bfd27222 DE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.materials%s	gl-materials.adb	gl-materials.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U sphere_p%s		sphere_p.ads		a2350170 DE EE NE OO PK
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d-math.ads	20130913114952 a86860bb globe_3d.math%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D sphere_p.ads		20130913114114 e9b4e9ab sphere_p%s
+D sphere_p.adb		20130914014638 9bfc4f91 sphere_p%b
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 7 a-cohama.ads
+52R9*Map<9|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+X 25 gl.ads
+66K9*GL 4501e7 42|5w6 5r10 9r8 9r12
+126F9*C_Float<38|64F9>
+128F9*Double<38|65F9>
+154A9*Material_Float_vector(126F9)<integer>
+155A9*Double_Vector_3D(128F9)<integer>
+X 27 gl-buffer-general.ads
+14R9 base_Object<26|20R9>
+X 31 gl-materials.ads
+1K12*Materials 265e17 42|5w13 9r15
+25R8*Material_type 31e13 42|15r23
+26a5*ambient{25|154A9} 42|16m41
+27a5*diffuse{25|154A9} 42|18m41
+28a5*specular{25|154A9} 42|17m41
+29a5*emission{25|154A9} 42|19m41
+30f5*shininess{25|126F9} 42|20m41
+258r3*VRML_Defaults{25R8} 42|147r26
+X 35 globe_3d.ads
+77K9*GLOBE_3D 606e13 41|5w6 9r43 10r43 11r43 42|5r24 9r26 9r36 135r44 136r44
+. 137r44
+102F12*Real{25|128F9} 41|10r52 42|136r53
+106A12*Vector_3D{25|155A9}<integer>
+111A12*Point_3D{106A12}<integer> 41|11r52 42|137r53
+121A9*Point_3D_array(111A12)<integer> 42|22r23
+125A9*Natural_Index_array(natural)<integer>
+202a10*Centre{111A12} 42|144m18
+232U14*Set_name 42|145s7
+263R9*Object_3D 42|143r13
+264P9*p_Object_3D(371R9) 41|9r52 42|135r53
+273n23*material_only{270E9} 42|146r22
+287A12*Idx_4_array{125A9}<integer>
+288A9*Idx_4_array_array(287A12)<integer> 42|75r21
+294R9*Face_type 331e14 42|140r16
+295a7*P{287A12} 42|159m17
+302e7*skin{270E9} 42|146m14
+313r7*material{31|25R8} 42|147m14 156m14
+333A9*Face_array(294R9)<integer>
+372a7*Point{121A9} 42|150m21 153m24
+374a7*face{333A9} 42|160m21
+X 36 globe_3d-math.ads
+1K18*Math 92e18 42|5w33 9r45
+7V13*"*"{35|106A12} 42|153s54
+83V12*Almost_zero{boolean} 42|149s10
+X 38 i-c.ads
+64F9*C_float<float>
+65F9*double<long_float>
+X 41 sphere_p.ads
+7K9*Sphere_P 14l5 14e13 42|7b14 163l5 163t13
+9U13*Create 9=21 10>21 11>21 42|134b14 162l8 162t14
+9p21 object{35|264P9} 42|135b21 142m7 144r7 145r17 150r10 153r13 160r10
+10f21 Object_Scale{35|102F12} 42|136b21 149r23 153r41
+11a21 centre{35|111A12} 42|137b21 144r28
+X 42 sphere_p.adb
+15r4 matos_1{31|25R8} 156r26
+22a4 coord_1{35|121A9} 150r41 153r56
+75a4 idx_2{35|288A9} 159r22
+140r7 face_0{35|294R9} 146m7 147m7 156m7 159m10 160r37
+152i14 p{integer} 153r35 153r65
+158i11 f{integer} 159r29 160r31
+

@@ -1,0 +1,148 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U generic_sliding_statistics%b  generic_sliding_statistics.adb  20095f7e DE NE OO PK GE
+
+U generic_sliding_statistics%s  generic_sliding_statistics.ads  bb10ab49 BN DE EE NE OO PK GE
+W real_type%s		real_type.ads		real_type.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D generic_sliding_statistics.ads  20130922091012 76c24e85 generic_sliding_statistics%s
+D generic_sliding_statistics.adb  20110907233726 56cb11fb generic_sliding_statistics%b
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+X 5 generic_sliding_statistics.ads
+9+9 Element 14r41 17r40 17r63 18r33 18r63 21r39 21r55 22r55 29r40 33r35 33r51
+. 34r35 34r51 35r51 36r51 6|3r45 9r39 9r55 18r31 23r29 42r35 42r51 51r35
+. 51r51 60r27 65r30 82r27 87r30 108r41
+10i4 Buffer_Size{positive} 6|3r29
+12k9*Generic_Sliding_Statistics 9z9 10z4 41l5 41e31 6|1b14 122l5 122t31
+14U14*Add_Reading 14>27 6|12s10 45s10 54s10 108b14 120l8 120t19
+14*27 New_Reading{9+9} 6|108b27 111r29
+17V22 "+"{9+9} 17>26 17>32 6|26s44
+17*26 Left{9+9}
+17*32 Right{9+9}
+18V22 "/"{9+9} 18>26 18>42 6|29s34
+18*26 Left{9+9}
+18f42 Right{7|5F12}
+20k12 Averages 17z22 18z22 23l8 23e16 6|7b17 36l8 36t16
+21V16*Average{9+9} 21>25 6|9b16 14l11 14t18
+21*25 New_Reading{9+9} 6|9b25 12r23
+22V16*Average{9+9} 6|13s17 18b16 34l11 34t18
+29V22 "<"{boolean} 29>26 29>32 6|68s33 90s34
+29*26 Left{9+9}
+29*32 Right{9+9}
+32k12 MinMax 29z22 37l8 37e14 6|40b17 102l8 102t14
+33V16*Min{9+9} 33>21 6|42b16 47l11 47t14
+33*21 New_Reading{9+9} 6|42b21 45r23
+34V16*Max{9+9} 34>21 6|51b16 56l11 56t14
+34*21 New_Reading{9+9} 6|51b21 54r23
+35V16*Min{9+9} 6|46s17 60b16 78l11 78t14
+36V16*Max{9+9} 6|55s17 82b16 100l11 100t14
+39X4*No_Elements_in_Stats_Buffer 6|32r19 76r19 98r19
+X 6 generic_sliding_statistics.adb
+3a4 Buffer(5|9+9) 4r32 4r52 5r37 23r40 23r48 25r25 26r46 65r41 65r49 67r25
+. 68r22 69r37 87r41 87r49 89r25 90r36 91r37 111m7 113r22 114r23 119r50
+4i4 Buffer_Ix{positive} 111r15 113r10 114m10 116m10 116r23
+5i4 Fill_Level{natural} 21r13 25r45 29r42 63r13 67r45 85r13 89r45 119m7 119r34
+23*16 Buffer_Sum{5|9+9} 26m19 26r33 29r23
+25i20 i{integer} 26r54
+65*16 Min_Element{5|9+9} 68r35 69m22 73r23
+67i20 i{integer} 68r30 69r45
+87*16 Max_Element{5|9+9} 90r22 91m22 95r23
+89i20 i{integer} 90r44 91r45
+X 7 real_type.ads
+3K9*Real_Type 5|5w6 5r21 7|10e14
+5F12*Real{long_float} 5|18r50 6|29r36
+

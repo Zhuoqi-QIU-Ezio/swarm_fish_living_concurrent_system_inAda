@@ -1,0 +1,428 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U globe_3d.textures%b	globe_3d-textures.adb	6b97a5f3 DE OO PF PK IU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.hash_tables%s  a-cohata.ads	a-cohata.ali
+Z ada.containers.hash_tables.generic_keys%s
+Z ada.containers.hash_tables.generic_operations%s
+W ada.containers.hashed_maps%s
+Z ada.containers.prime_numbers%s  a-coprnu.adb	a-coprnu.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.adb		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.hash%s  a-stunha.adb	a-stunha.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W gl%s			gl.adb			gl.ali
+W gl.io%s		gl-io.adb		gl-io.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W unzip%s		unzip.adb		unzip.ali
+W unzip.streams%s	unzip-streams.adb	unzip-streams.ali
+
+U globe_3d.textures%s	globe_3d-textures.ads	2a1c4756 BN DE EE OO PK IU
+W ada.tags%s		a-tags.adb		a-tags.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chahan.ads		20150518132148 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-chtgke.ads		20150518132148 a7b0f3a2 ada.containers.hash_tables.generic_keys%s
+D a-chtgke.adb		20150518132148 ee7af212 ada.containers.hash_tables.generic_keys%b
+D a-chtgop.ads		20150518132148 654c6672 ada.containers.hash_tables.generic_operations%s
+D a-chtgop.adb		20150518132148 8c01e2ed ada.containers.hash_tables.generic_operations%b
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-cohama.adb		20150518132148 1b92dc1d ada.containers.hashed_maps%b
+D a-coprnu.ads		20150518132148 0cdf1864 ada.containers.prime_numbers%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strfix.ads		20150518132148 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-io.ads		20130915151342 baba5f4e gl.io%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d-textures.ads	20130913114952 619daf8d globe_3d.textures%s
+D globe_3d-textures.adb	20150820001910 42370f3d globe_3d.textures%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-carun8.ads		20150518132148 a903718d system.compare_array_unsigned_8%s
+D s-conca2.ads		20150518132148 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20150518132148 0b705ca5 system.concat_3%s
+D s-conca5.ads		20150518132148 875e432e system.concat_5%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatflt.ads		20150518132148 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-memory.ads		20150518132150 597d6634 system.memory%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stalib.adb		20150518132150 f2fe2716 system.standard_library%b
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20150518132150 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D unzip.ads		20130915151340 91470b63 unzip%s
+D unzip-streams.ads	20130915151340 6ac0cf20 unzip.streams%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip.adb		20150820005008 801784a5 zip%b
+D zip-headers.ads	20130915010610 2b9b6988 zip.headers%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 19e8 46|3r6 3r45 4r6 4r45 5r6 5r45 5r58 6r6 6r45 7r6 8r6 9r6 25r28
+. 31r39 32r26 34r26 35r26 165r7 220r14 232r13
+X 3 a-charac.ads
+16K13*Characters 18e19 46|3r10 3r49
+X 4 a-chahan.ads
+36K24*Handling 159e28 46|3w21 3r60
+71V13*To_Upper{string} 46|139s34 181s34 228s34
+X 6 a-contai.ads
+16K13*Containers 24e19 46|8r10 31r43
+19M9*Hash_Type
+X 12 a-cohama.ads
+41+9 Key_Type 46|32r7
+42+9 Element_Type 46|33r7
+44V18 Hash{6|19M9} 46|34r7
+45V18 Equivalent_Keys{boolean} 46|35r7
+48k24*Hashed_Maps 467e31 46|8w21 31r54
+52R9*Map<16|43R9> 46|39r46[31]
+61R9*Cursor 46|142r32[31]
+64r4*Empty_Map{52R9[46|31]} 46|45r28[31]
+176U14*Insert 46|163s26[31]
+282V13*Element{44|99I9} 46|230s33[31]
+X 15 a-except.ads
+54K13*Exceptions 361e19 46|4w10 4r49
+58P9*Exception_Id<73|85P9>
+90U14*Raise_Exception 46|70s11 94s7
+94V13*Exception_Message{string} 46|72s13
+102V13*Exception_Identity{58P9} 46|71s13
+X 18 a-iteint.ads
+24h9 Forward_Iterator
+X 22 a-ststio.ads
+42P9*Stream_Access(21|39R9)
+X 23 a-string.ads
+16K13*Strings 35e16 46|5r10 5r49 5r62 6r10 6r49 9r10 32r30 34r30 35r30 165r11
+. 220r18 232r17
+33n30*Right{33E9} 46|56r77 220r42
+33n37*Both{33E9} 46|227r46
+X 24 a-strfix.ads
+18K21*Fixed 251e22 46|5w18 5r70 220r26
+195V13*Trim{string} 46|56s35 220s32 227s34
+X 26 a-strunb.ads
+76K21*Unbounded 489e26 46|6w18 6r57 9r18 32r38 34r38 35r38 165r19 232r25
+79R9*Unbounded_String<16|43R9> 473e14 46|32r48
+94V13*To_Unbounded_String{79R9} 46|165s29 232s35
+100V13*To_String{string} 46|83s23 88s26 199s27 200s27 240s15 242s15
+166V14*"="{boolean} 46|35r49
+174V14*"="{boolean} 46|35r49
+X 27 a-stunha.ads
+18V32*Hash{6|19M9} 46|9w28 34r48
+X 32 a-uncdea.ads
+20u15*Unchecked_Deallocation 46|7w10 25r32
+X 33 gl.ads
+66K9*GL 4501e7 46|1w6 1r10 61r61 64r9 76r38 79r40
+X 35 gl-buffer-general.ads
+14R9 base_Object<34|20R9>
+X 39 gl-io.ads
+45K12*IO 163e10 46|1w13 61r64 64r12 76r41 79r43
+49E8*Supported_format 49e38 46|61r67
+49n29*BMP{49E8} 46|79r46
+49n34*TGA{49E8} 46|76r44
+83U14*Load 46|64s15
+X 44 globe_3d.ads
+77K9*GLOBE_3D 606e13 45|1r9 100r5 46|11r14 247r5
+79A12*Ident{string}<integer> 45|75r69 46|19r21 141r12 212r69 213r10
+83a4*empty{79A12} 46|19r30 141r21
+99I9*Image_ID<integer> 45|34r55 71r46 75r31 80r36 82r36 86r35 46|22r37 33r26
+. 40r25 55r35 64r44 97r35 102r36 116r36 137r55 161r7 180r17 204r13 212r31
+. 226r46
+100i4*null_image{99I9} 46|46r7 99r18 124r14
+256X4*Duplicate_name 46|171r13
+473X4*Missing_texture 46|94r24
+572r4 level_data_name{26|79R9} 46|83r34 199r38 242r26
+574r4 global_data_name{26|79R9} 46|88r37 200r38 240r26
+578r4 zif_level{87|53R8} 46|83m12 83r12 199m15 199r15
+578r15 zif_global{87|53R8} 46|88m14 88r14 200m15 200r15
+580U14 Load_if_needed 46|75s7 190s7
+X 45 globe_3d-textures.ads
+1K18*Textures 44|77k9 45|100l14 100e22 46|11b23 247l14 247t22
+34U13*Add_texture_name 34>31 34<46 46|137b13 173l7 173t23 184s11 208s7
+34a31 name{string} 46|137b31 139r44 171r33
+34i46 id{44|99I9} 46|137b46 155m5 159r31 161r57 166r7
+52U13*Register_textures_from_resources 46|175b13 201l7 201t39
+63E10 Texture_enum 46|207r14 208r25
+64u13*Associate_textures 46|203b13 210l7 210t25
+71V12*Texture_ID{44|99I9} 71>24 46|226b12 245l7 245t17
+71a24 name{string} 46|226b24 227r40
+72X3*Texture_name_not_found
+75V12*Texture_name{44|79A12} 75>26 75>41 46|212b12 224l7 224t19
+75i26 id{44|99I9} 46|212b26 215r30 218r37
+75b41 Trim_Flag{boolean} 46|212b41 219r8
+80U13*Check_2D_texture 80>31 80<46 46|102b13 114l7 114t23 119s5
+80i31 id{44|99I9} 46|102b31 104r30 107r34 108r50 110r24 111r33 112r33
+80b46 blending_hint{boolean} 46|102b46 108m7 110m28 112r54
+82U13*Check_2D_texture 82>31 46|116b13 120l7 120t23 125s7
+82i31 id{44|99I9} 46|116b31 119r23
+84U13*Check_all_textures 46|122b13 127l7 127t25
+86V12*Valid_texture_ID{boolean} 86>30 46|97b12 100l7 100t23 104s12 215s12
+86i30 id{44|99I9} 46|97b30 99r12
+93X3*Undefined_texture_ID 46|105r13 216r13
+94X3*Undefined_texture_name 46|235r13
+98U13*Reset_textures 46|129b13 135l7 135t21 206s5
+X 46 globe_3d-textures.adb
+16R8 Texture_info 20e13 22r59
+17b5*loaded{boolean} 107r38 111m37
+18b5*blending_hint{boolean} 108r54 112m37
+19a5*name{44|79A12} 56r71 159m35 218r41
+22A8 Texture_info_array(16R8)<44|99I9> 23r39 25r56 146r35 150r22
+23P8 p_Texture_info_array(22A8) 25r76 38r25 138r15
+25U13 Dispose[32|20] 132s7 152s7
+31K11 Texture_Name_Mapping[12|48] 39r25 45r7 142r11 163r5 230r12
+37R8 Texture_2d_infos_type 41e13 43r37 49r22
+38p5*tex{23P8} 56r58 107r25 108r41 111r24 112r24 131r25 132m33 132r33 145r25
+. 146m24 148r63 150r64 151r37 151r68 152m33 152r33 153m24 159r22 218r28
+39r5*map{12|52R9[31]} 164m24 231r30
+40i5*last_entry_in_use{44|99I9} 99r53 124r49 148r25 155r28 160m22 161r38
+43r3 empty_texture_2d_infos{37R8} 49r47 134r25
+49r3 Texture_2d_Infos{37R8} 56r41 99r36 107r8 108r24 111r7 112r7 124r32 131r8
+. 132m16 132r16 134m5 145r8 146m7 148r8 148r46 150r47 151r20 151r51 152m16
+. 152r16 153m7 155r11 159r5 160m5 161r21 164m7 164r7 218r11 231r13
+55U13 Load_texture_2D 55b13 55>30 55<45 95l7 95t22 110s7
+55i30 id{44|99I9} 56r67 64r58
+55b45 blending_hint{boolean} 64m67
+56a5 tex_name{string} 76r19 79r21 94r65
+58U15 Try 58b15 58=20 58>47 80l9 80t12 83s7 88s9
+58r20 zif{87|53R8} 63r21 75m23
+58a47 name{string} 75r28
+60p7 ftex{86|21P9} 63m15 63r15 64r29 65m16 65r16
+61U17 Try_a_type 61b17 61>29 61>52 73l11 73t21 76s7 79s9
+61a29 tex_name_ext{string} 63r26 72r56
+61e52 format{39|49E8} 64r36
+69r14 e{15|63R9} 71r33 72r32
+117b5 junk_blending_hint{boolean} 117r56 119m27
+124i9 i<integer> 125r25
+138p5 new_tab{23P8} 150m7 151r7 153r31
+139a5 up_name{string} 156r14 157r30 157r48 165r50 171r65
+141a5 n_id{44|79A12} 157m7 157r13 159r43
+142r5 pos{12|61R9[31]} 167m7
+143b5 success{boolean} 168m7 170r12
+156i9 i{integer} 157r26 157r57
+177U15 Register 177b15 177=25 177>52 196l9 196t17 199s5 200s5
+177r25 zif{87|53R8} 190m23 191r17
+177a52 name{string} 190r28
+179U17 Action 179b17 179>25 186l11 186t17 188r47
+179a25 Name_String{string} 181r44 181r57 181r81 184r29 184r42 184r63
+180i9 dummy{44|99I9} 184m86
+181a9 ext{string} 183r12 183r33
+188U17 Traverse[87|140] 191s7 88|353b14
+204i5 dummy{44|99I9} 208m49
+207*9 t{45|63E10} 208r45
+213a5 tn{44|79A12} 218m5 220r38 222r14
+227a5 trimmed{string} 228r44 236r24
+228a5 up_name{string} 232r56 236r53
+X 51 system.ads
+67M9*Address
+X 67 s-memory.ads
+53V13*Alloc{51|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{51|67M9} 105i<c,__gnat_realloc>22
+X 73 s-stalib.ads
+85P9*Exception_Data_Ptr(84R9)
+X 74 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 85 unzip.ads
+53K9*UnZip 46|1r17 59r11 85|310e10
+X 86 unzip-streams.ads
+17K15*Streams 46|1w23 59r17 86|101e18
+19P12*Stream_Access{22|42P9}
+21P9*Zipped_File_Type 46|60r14
+51U14*Open 46|63s9
+59U14*Close 46|65s9
+64V13*Stream{19P12} 46|64s21
+X 87 zip.ads
+45K9*Zip 46|58r33 67r14 78r12 85r12 86r12 91r10 92r10 177r38 188r33 194r12
+. 87|318e8
+53R8*Zip_info 46|58r37 177r42 87|316e13
+73X3*Zip_file_open_Error 46|86r16 92r14 194r16
+140u13*Traverse 46|188r37
+191X3*File_name_not_found 46|67r18 78r16 85r16 91r14
+

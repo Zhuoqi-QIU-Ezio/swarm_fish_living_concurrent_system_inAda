@@ -1,0 +1,344 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gl.math%b		gl-math.adb		59ec45db DE OO PK IU
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U gl.math%s		gl-math.ads		f521efb2 BN DE EE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.float_io%s
+W gl%s			gl.adb			gl.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-numaux.ads		20150518132148 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20150518132148 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflau.ads		20150518132148 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20150518132148 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-math.ads		20130915152004 5d546512 gl.math%s
+D gl-math.adb		20130915152004 04b820c9 gl.math%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-exnllf.ads		20150518132148 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 16|2r6 3r6 7r22 8r22 17|3r8
+X 4 a-numeri.ads
+16K13*Numerics 32e17 16|2r10 7r26 17|3r12
+21N4*Pi 17|43r31 48r80 50r72
+X 6 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 171e46 16|2w19 7r35
+42V13*Sqrt<19|65F9> 17|26s59[16|7] 237s21[16|7] 252s21[16|7]
+81V13*Sin<19|65F9> 17|157s12[16|7] 163s12[16|7] 169s12[16|7]
+89V13*Cos<19|65F9> 17|156s12[16|7] 162s12[16|7] 168s12[16|7]
+113V13*Arccos<19|65F9> 17|44s31[16|7]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 16|3w10 8r26
+X 12 a-tiflio.ads
+46k21*Float_IO 89e25 16|8r34
+X 15 gl.ads
+66K9*GL 4501e7 16|5r9 104r29 111r5 17|1r14 4r8 96r53 270r18 284r7 290r7 309r30
+. 309r70 317r5
+126F9*C_Float<19|64F9> 16|104r32 17|309r33 309r73
+128F9*Double<19|65F9> 16|7r65 8r65 14r21 17r43 29r49 35r47 38r48 43r39 48r74
+. 52r36 52r51 53r36 53r51 59r77 78r39 80r39 102r29 17|10r22 12r44 20r50 26r48
+. 28r49 35r74 39r29 48r36 48r51 50r36 50r51 64r20 83r17 96r56 104r17 123r17
+. 143r40 150r40 152r38 227r26 307r30 307r66
+145P12*doublePtr{22|47P9[133]} 17|270r21
+155A9*Double_Vector_3D(128F9)<integer> 16|14r33 14r58 17r21 17r58 20r24 20r49
+. 23r21 23r46 26r24 26r49 29r24 32r24 32r49 35r22 38r23 41r28 41r53 48r49
+. 71r36 71r61 72r36 72r61 73r36 82r30 87r33 89r41 17|10r34 10r59 12r22 12r59
+. 14r25 14r50 16r22 16r47 18r25 18r50 20r25 22r25 22r50 26r23 28r24 30r29
+. 30r54 35r49 37r29 38r29 76r37 76r62 78r12 86r65 88r43 94r37 94r62 115r37
+. 178r31 180r34 182r20 212r41 214r27 215r27 216r27
+3282U14*LoadIdentity 17|290s10
+3288U14*MultMatrixd 17|284s10
+X 16 gl-math.ads
+5K12*Math 15|66k9 16|111l8 111e12 17|1b17 317l8 317t12
+7K11*REF[6|39] 17|4r12
+8K11*RIO[12|46]
+14V13*"*"{15|155A9} 14>17 14>29 17|10b14
+14f17 l{15|128F9} 17|10r80 10r91 10r102
+14a29 v{15|155A9} 17|10r84 10r95 10r106
+17V13*"*"{15|155A9} 17>17 17>39 17|12b14 30s77
+17a17 v{15|155A9} 17|12r84 12r95 12r106
+17f39 l{15|128F9} 17|12r80 12r91 12r102
+20V13*"+"{15|155A9} 20>17 20>20 17|14b14
+20a17 a{15|155A9} 17|14r71 14r86 14r101
+20a20 b{15|155A9} 17|14r79 14r94 14r109
+23V13*"-"{15|155A9} 23>17 17|16b14
+23a17 a{15|155A9} 17|16r69 16r77 16r85
+26V13*"-"{15|155A9} 26>17 26>20 17|18b14 37s69 38s69
+26a17 a{15|155A9} 17|18r71 18r86 18r101
+26a20 b{15|155A9} 17|18r79 18r94 18r109
+29V13*"*"{15|128F9} 29>17 29>20 17|20b14 39s53
+29a17 a{15|155A9} 17|20r61 20r77 20r93
+29a20 b{15|155A9} 17|20r69 20r85 20r101
+32V13*"*"{15|155A9} 32>17 32>20 17|22b14 188s16 215s67 216s52
+32a17 a{15|155A9} 17|22r71 22r87 23r71 23r87 24r71 24r87
+32a20 b{15|155A9} 17|22r79 22r95 23r79 23r95 24r79 24r95
+35V12*Norm{15|128F9} 35>18 36r18 17|26b13 30s86
+35a18 a{15|155A9} 17|26r65 26r73 26r81 26r89 26r97 26r105
+38V12*Norm2{15|128F9} 38>19 39r18 17|28b13
+38a19 a{15|155A9} 17|28r60 28r68 28r76 28r84 28r92 28r100
+41V12*Normalized{15|155A9} 41>24 17|30b13 37s49 38s49 186s13 187s13 214s47
+. 215s47
+41a24 a{15|155A9} 17|30r75 30r92
+43A8*Vector_4D(15|128F9)<integer> 73r61 17|115r62 117r24 118r15 126r68 128r43
+48V13*Angle{15|128F9} 48>20 48>29 48>38 17|35b13 46l8 46t13
+48a20 Point_1{15|155A9} 17|35b20 37r61
+48a29 Point_2{15|155A9} 17|35b29 37r71 38r71
+48a38 Point_3{15|155A9} 17|35b38 38r61
+52V13*to_Degrees{15|128F9} 52>25 17|48b13
+52f25 Radians{15|128F9} 17|48r62
+53V13*to_Radians{15|128F9} 53>25 17|50b13
+53f25 Degrees{15|128F9} 17|50r62
+59A8*Matrix(15|128F9)<integer><integer> 60r25 61r25 107r46 109r63 17|194r47
+. 196r64 198r25
+60A8*Matrix_33<59A8>(15|128F9)<integer><integer> 65r21 69r24 69r42 71r21
+. 75r27 75r45 78r21 80r54 82r55 87r58 89r66 93r43 96r37 99r32 17|56r25 56r43
+. 58r12 61r16 62r19 66r25 76r22 81r16 85r22 86r43 88r21 134r28 134r46 143r22
+. 150r55 152r20 178r56 180r59 212r66 225r44 272r38 275r16 276r19 287r33
+61A8*Matrix_44<59A8>(15|128F9)<integer><integer> 63r31 72r21 73r21 76r27
+. 76r45 17|94r22 102r16 106r22 107r46 109r21 115r22 121r16 125r22 126r46
+. 128r21 138r28 138r46 268r8
+65a3*Id_33{60A8}
+69V13*"*"{60A8} 69>17 69>20 17|56b14 74l9 74t11 174s17 174s22
+69a17 A{60A8} 17|56b18 67r29
+69a20 B{60A8} 17|56b21 67r40
+71V13*"*"{15|155A9} 71>17 71>32 17|76b14 92l9 92t11
+71a17 A{60A8} 17|76b18 86r25
+71a32 x{15|155A9} 17|76b33 86r36
+72V13*"*"{15|155A9} 72>17 72>32 17|94b14 113l9 113t11
+72a17 A{61A8} 17|94b18 107r25
+72a32 x{15|155A9} 17|94b33 97r47 97r54 97r61
+73V13*"*"{43A8} 73>17 73>32 17|115b14 132l9 132t11
+73a17 A{61A8} 17|115b18 126r25
+73a32 x{15|155A9} 17|115b33 117r38 117r45 117r52
+75V12*Transpose{60A8} 75>23 17|134b13
+75a23 A{60A8} 17|134r61 134r71 134r81 135r61 135r71 135r81 136r61 136r71
+. 136r81
+76V12*Transpose{61A8} 76>23 17|138b13
+76a23 A{61A8} 17|138r61 138r71 138r81 138r91 139r61 139r71 139r81 139r91
+. 140r61 140r71 140r81 140r91 141r61 141r71 141r81 141r91
+78V12*Det{15|128F9} 78>17 17|143b13
+78a17 A{60A8} 17|143r53 143r64 143r75 144r55 144r66 144r77 145r55 145r66
+. 145r77 146r55 146r66 146r77 147r55 147r66 147r77 148r55 148r66 148r77
+80V12*XYZ_rotation{60A8} 80>26 80>30 80>34 17|150b13 176l8 176t20 178s70
+80f26 ax{15|128F9} 17|150b27 156r17 157r17
+80f30 ay{15|128F9} 17|150b31 162r17 163r17
+80f34 az{15|128F9} 17|150b35 168r17 169r17
+82V12*XYZ_rotation{60A8} 82>26 17|178b13
+82a26 v{15|155A9} 17|178r84 178r91 178r98
+87V12*Look_at{60A8} 87>21 17|180b13 192l8 192t15
+87a21 direction{15|155A9} 17|180b22 186r25
+89V13*Look_at{60A8} 89>22 89>27 89>35 17|212b13 222l8 222t15
+89a22 eye{15|155A9} 17|212b22 214r73 214r96 214r119
+89a27 center{15|155A9} 17|212b27 214r60 214r83 214r106
+89a35 up{15|155A9} 17|212b35 215r69
+93U13*Re_Orthonormalize 93=32 17|225b14 263l8 263t25
+93a32 M{60A8} 17|225b33 230r15 230r26 230r37 230r48 230r59 230r70 231r15
+. 231r26 231r37 231r48 231r59 231r70 233m7 233r19 233r37 233r55 234m7 234r19
+. 234r37 234r55 235m7 235r19 235r37 235r55 237r27 237r38 238r29 238r40 239r29
+. 239r40 241m7 241r19 242m7 242r19 243m7 243r19 245r15 245r26 245r37 245r48
+. 245r59 245r70 246r15 246r26 246r37 246r48 246r59 246r70 248m7 248r19 248r37
+. 248r55 249m7 249r19 249r37 249r55 250m7 250r19 250r37 250r55 252r27 252r38
+. 253r29 253r40 254r29 254r40 256m7 256r19 257m7 257r19 258m7 258r19 260m7
+. 260r19 260r30 260r41 260r52 261m7 261r19 261r30 261r41 261r52 262m7 262r19
+. 262r30 262r41 262r52
+96U13*Multiply_GL_Matrix 96>33 17|272b14 285l8 285t26 291s7
+96a33 A{60A8} 17|272b34 277r25
+99U13*Set_GL_Matrix 99>28 17|287b14 292l8 292t21
+99a28 A{60A8} 17|287b29 291r27
+102V12*Almost_zero{boolean} 102>25 103r18 17|307b13
+102f25 x{15|128F9} 17|307r61
+104V12*Almost_zero{boolean} 104>25 17|309b13
+104f25 x{15|126F9} 17|309r65
+107V13*Sub_Matrix{59A8} 107>25 108>25 108>36 109>25 109>36 17|194b13 210l8
+. 210t18
+107a25 Self{59A8} 17|194b25 204r42
+108i25 start_Row{positive} 17|195b25 198r48 204r54
+108i36 end_Row{positive} 17|195b36 198r38
+109i25 start_Col{positive} 17|196b25 199r48 205r54
+109i36 end_Col{positive} 17|196b36 199r38
+X 17 gl-math.adb
+37a7 Vector_1{15|155A9} 39r44
+38a7 Vector_2{15|155A9} 39r55
+39f7 Cos_Theta{15|128F9} 42r12 44r39
+58a7 AB{16|60A8} 69m16 73r14
+61i11 i{integer} 67r32 69r20
+62i14 j{integer} 67r46 69r23
+64f16 r{15|128F9} 67m19 67r24 69r29
+66i20 k{integer} 67r35 67r43
+78a7 Ax{15|155A9} 88m13 91r14
+81i11 i{integer} 86r28 88r17
+83f13 r{15|128F9} 86m16 86r21 88r70
+85i17 j{integer} 86r31 86r39
+96A12 Vector_4D_GL_Double(15|128F9)<integer> 97r23 98r23 107r68 109r43
+97a7 x_4D{96A12} 107r36
+98a7 Ax{96A12} 109m13 112r15 112r23 112r31
+102i11 i{integer} 107r28 109r17
+104f13 r{15|128F9} 107m16 107r21 109r73
+106i17 j{integer} 107r31 107r42
+117a7 x_4D{16|43A8} 126r36
+118a7 Ax{16|43A8} 128m13 131r14
+121i11 i{integer} 126r28 128r17
+123f13 r{15|128F9} 126m16 126r21 128r63
+125i17 j{integer} 126r31 126r42
+152a7 Mx{16|60A8} 158m7 174r24
+152a11 My{16|60A8} 164m7 174r19
+152a15 Mz{16|60A8} 170m7 174r14
+152f31 c{15|128F9} 156m7 159r22 160r27 162m7 164r15 166r27 168m7 170r15 171r22
+152f34 s{15|128F9} 157m7 159r27 160r22 163m7 164r27 166r15 169m7 170r22 171r15
+182a7 v1{15|155A9} 188m7 189r16 190r16 191r16
+182a11 v2{15|155A9} 187m7 188r13 189r24 190r24 191r24
+182a15 v3{15|155A9} 186m7 187r26 187r40 188r18 189r32 190r32 191r32
+198a7 the_sub_Matrix{16|59A8} 202r18 203r21 204m13 209r14
+202i11 Row{integer} 204r29 204r48
+203i14 Col{integer} 204r34 205r48
+214a7 forward{15|155A9} 215r59 216r54 221r17 221r31 221r45
+215a7 side{15|155A9} 216r47 219r16 219r31 219r46
+216a7 new_up{15|155A9} 220r16 220r31 220r46
+227f7 dot1{15|128F9} 230m7 233r30 234r30 235r30 245m7 248r30 249r30 250r30
+227f13 dot2{15|128F9} 231m7 233r48 234r48 235r48 246m7 248r48 249r48 250r48
+227f19 vlen{15|128F9} 237m7 241r30 242r30 243r30 252m7 256r30 257r30 258r30
+268a4 M{16|61A8} 270m34 270r34 277m13 313m7 314m7 316m4
+270p4 pM{15|145P12} 284r23
+275i11 i{integer} 277r16 277r28
+276i14 j{integer} 277r19 277r31
+312i8 i{integer} 313r10 314r13
+X 19 i-c.ads
+64F9*C_float<float>
+65F9*double<long_float>
+X 22 s-atacco.ads
+47P9*Object_Pointer(15|128F9)
+

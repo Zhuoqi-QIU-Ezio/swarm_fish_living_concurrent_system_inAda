@@ -1,0 +1,1092 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_LONG_LONG_INTEGERS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U globe_3d%b		globe_3d.adb		322b11cb DE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.generic_array_sort%s
+Z ada.containers.generic_constrained_array_sort%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gl%s			gl.adb			gl.ali
+W gl.errors%s		gl-errors.adb		gl-errors.ali
+W gl.skins%s		gl-skins.adb		gl-skins.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+W globe_3d.options%s	globe_3d-options.adb	globe_3d-options.ali
+W globe_3d.portals%s	globe_3d-portals.adb	globe_3d-portals.ali
+W globe_3d.textures%s	globe_3d-textures.adb	globe_3d-textures.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.concat_7%s	s-conca7.adb		s-conca7.ali
+W system.concat_8%s	s-conca8.adb		s-conca8.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U globe_3d%s		globe_3d.ads		edb6cd46 DE EE OO PF PK IU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.hash_tables%s  a-cohata.ads	a-cohata.ali
+Z ada.containers.hash_tables.generic_keys%s
+Z ada.containers.hash_tables.generic_operations%s
+W ada.containers.hashed_maps%s
+Z ada.containers.prime_numbers%s  a-coprnu.adb	a-coprnu.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.adb		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.hash%s  a-stunha.adb	a-stunha.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.float_io%s
+W ada.unchecked_deallocation%s
+W gl%s			gl.adb			gl.ali
+W gl.frustums%s		gl-frustums.adb		gl-frustums.ali
+W gl.geometry%s		gl-geometry.adb		gl-geometry.ali
+W gl.materials%s	gl-materials.adb	gl-materials.ali
+W gl.skinned_geometry%s	gl-skinned_geometry.adb	gl-skinned_geometry.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W zip%s			zip.adb			zip.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chahan.ads		20150518132148 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cgarso.ads		20150518132148 9129bfa8 ada.containers.generic_array_sort%s
+D a-cgarso.adb		20150518132148 59f5315a ada.containers.generic_array_sort%b
+D a-cgcaso.ads		20150518132148 9f1e835c ada.containers.generic_constrained_array_sort%s
+D a-cgcaso.adb		20150518132148 326e4f26 ada.containers.generic_constrained_array_sort%b
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-chtgke.ads		20150518132148 a7b0f3a2 ada.containers.hash_tables.generic_keys%s
+D a-chtgke.adb		20150518132148 ee7af212 ada.containers.hash_tables.generic_keys%b
+D a-chtgop.ads		20150518132148 654c6672 ada.containers.hash_tables.generic_operations%s
+D a-chtgop.adb		20150518132148 8c01e2ed ada.containers.hash_tables.generic_operations%b
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-cohama.adb		20150518132148 1b92dc1d ada.containers.hashed_maps%b
+D a-coprnu.ads		20150518132148 0cdf1864 ada.containers.prime_numbers%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-numaux.ads		20150518132148 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20150518132148 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strfix.ads		20150518132148 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflau.ads		20150518132148 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20150518132148 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-errors.ads		20130914013700 79dca854 gl.errors%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d.adb		20150820005008 c1250a1d globe_3d%b
+D globe_3d-math.ads	20130913114952 a86860bb globe_3d.math%s
+D globe_3d-options.ads	20130913114112 97c87feb globe_3d.options%s
+D globe_3d-portals.ads	20130913114112 7fd7fc70 globe_3d.portals%s
+D globe_3d-textures.ads	20130913114952 619daf8d globe_3d.textures%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-conca2.ads		20150518132148 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20150518132148 0b705ca5 system.concat_3%s
+D s-conca5.ads		20150518132148 875e432e system.concat_5%s
+D s-conca7.ads		20150518132148 fcc75b1f system.concat_7%s
+D s-conca8.ads		20150518132148 e3074dd7 system.concat_8%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-exnllf.ads		20150518132148 bc7ebbdc system.exn_llf%s
+D s-fatflt.ads		20150518132148 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-imenne.ads		20150518132148 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20150518132150 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20150518132150 c7a851e2 system.img_real%s
+D s-memory.ads		20150518132150 597d6634 system.memory%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stalib.adb		20150518132150 f2fe2716 system.standard_library%b
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20150518132150 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 19e8 52|70r6 71r6 72r6 73r6 74r6 75r6 103r23 104r23 516r10 519r10
+. 537r19 538r6 572r24 573r6 574r24 575r6 598r35 599r26 601r26 602r26 53|9r6
+. 9r45 10r6 10r45 11r6 11r45 11r58 12r6 12r45 15r6 33r12 112r35 922r26 935r27
+. 998r54 1139r32 1201r32 1282r31
+X 3 a-charac.ads
+16K13*Characters 18e19 53|9r10 9r49
+X 4 a-chahan.ads
+36K24*Handling 159e28 53|9w21 9r60
+70V13*To_Lower{string} 53|910s31
+X 6 a-contai.ads
+16K13*Containers 24e19 52|74r10 598r39 53|15r10 1139r36 1201r36
+19M9*Hash_Type
+X 7 a-cgarso.ads
+24u26*Generic_Array_Sort 6|16k13 53|15w21 1139r47 1201r47
+X 8 a-cgarso.adb
+41U14 Sort[9|24] 10|34b26[53|1201]
+X 9 a-cgcaso.ads
+24u26*Generic_Constrained_Array_Sort 6|16k13
+X 16 a-cohama.ads
+41+9 Key_Type 52|599r7
+42+9 Element_Type 52|600r7
+44V18 Hash{6|19M9} 52|601r7
+45V18 Equivalent_Keys{boolean} 52|602r7
+48k24*Hashed_Maps 467e31 52|74w21 598r50
+52R9*Map<20|43R9> 52|604r47[598] 53|997r70[52|598] 1272m23[52|598] 1281r47[52|598]
+61R9*Cursor 53|1277r29[52|598]
+64r4*Empty_Map{52R9[52|598]} 53|1272r54[52|598]
+176U14*Insert 53|1280s23[52|598]
+282V13*Element{52|209P9} 53|996s70[52|598]
+X 19 a-except.ads
+54K13*Exceptions 361e19 53|10w10 10r49
+58P9*Exception_Id<89|85P9>
+90U14*Raise_Exception 53|63s13 75s26 147s16 162s16 169s16 220s13 298s16 341s13
+. 353s16 1012s19
+94V13*Exception_Message{string} 53|76s43
+102V13*Exception_Identity{58P9} 53|75s43
+X 22 a-iteint.ads
+24h9 Forward_Iterator
+X 23 a-numeri.ads
+16K13*Numerics 32e17 52|71r10 103r27
+X 25 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 171e46 52|71w19 103r36
+42V13*Sqrt<59|65F9> 53|323s36[52|103]
+X 29 a-string.ads
+16K13*Strings 35e16 52|72r10 75r10 537r23 538r10 572r28 573r10 574r28 575r10
+. 599r30 601r30 602r30 53|11r10 11r49 11r62 922r30 935r31 998r58 1282r35
+33n30*Right{33E9} 53|51r37 342r42 354r45 954r26 1014r70 1016r79
+X 30 a-strfix.ads
+18K21*Fixed 251e22 53|11w18 11r70
+195V13*Trim{string} 53|51s25 342s30 354s33 954s14 1014s58 1016s38
+X 32 a-strunb.ads
+76K21*Unbounded 489e26 52|72w18 75r18 537r31 538r18 572r36 573r18 574r36
+. 575r18 599r38 601r38 602r38 53|922r38 935r39 998r66 1282r43
+79R9*Unbounded_String<20|43R9> 473e14 52|537r41 572r46 574r46 599r48
+82r4*Null_Unbounded_String{79R9} 52|538r28
+94V13*To_Unbounded_String{79R9} 52|573s28 575s28 53|922s48 935s49 998s76
+. 1282s53
+166V14*"="{boolean} 52|602r49
+174V14*"="{boolean} 52|602r49
+X 33 a-stunha.ads
+18V32*Hash{6|19M9} 52|75w28 601r48
+X 35 a-textio.ads
+49K13*Text_IO 471e16 52|70w10 104r27 53|12w10 12r49 33r16
+299X4*Layout_Error 53|33r24
+X 37 a-tiflio.ads
+46k21*Float_IO 89e25 52|104r35
+79U14*Put 53|29s11[52|104]
+X 40 a-uncdea.ads
+20u15*Unchecked_Deallocation 52|73w10 516r14 519r14 53|112r39
+X 41 gl.ads
+66K9*GL 4501e7 52|60w6 61r6 62r6 63r6 64r6 66r5 102r20 106r25 189r33 218r46
+. 225r45 227r52 283r27 290r47 304r23 311r23 313r23 314r9 383r25 388r73 391r71
+. 489r46 587r30 588r30 589r30 590r30 594r32 53|6r6 7r6 82r30 84r30 86r30
+. 88r30 97r32 119r51 120r7 388r17 423r14 452r33 509r19 509r35 509r50 572r10
+. 577r10 597r7 597r25 598r7 598r25 602r7 604r7 605r7 614r32 615r10 615r22
+. 631r23 631r36 639r10 640r13 649r10 649r22 650r10 650r22 652r10 652r21 656r7
+. 754r16 754r27 755r16 755r38 756r38 757r38 758r38 760r16 760r28 801r66 821r54
+. 835r21 835r38 854r52 857r14 857r42 857r70 865r13 867r13 875r27 893r12 1058r21
+. 1078r27 1101r32 1118r7 1128r17 1142r14 1142r24 1142r37 1151r10 1158r16
+. 1163r16 1168r16 1170r16 1171r16 1172r16 1176r16 1183r10 1186r7 1214r10
+. 1224r44 1227r16 1231r26 1231r36 1232r37 1238r25 1243r25 1246r22 1248r22
+. 1252r22 1254r22 1261r10 1266r7
+97N4*DEPTH_BUFFER_BIT 53|1083r37
+103N4*COLOR_BUFFER_BIT 53|1083r17
+118M9*GL_Boolean<59|47M9>
+121I9*Int<59|35I9> 53|755r41 756r41
+124M9*Uint<59|43M9> 53|509r53 615r25 631r39
+125I9*Sizei<59|35I9> 53|757r41 758r41
+126F9*C_Float<59|64F9> 52|588r33 53|84r33
+128F9*Double<59|65F9> 52|102r23 218r49 290r50 304r26 388r76 587r33 53|82r33
+. 801r69 893r15
+153A9*Light_Float_vector(126F9)<integer> 52|489r49
+154A9*Material_Float_vector(126F9)<integer> 52|283r30 589r33 53|86r33
+155A9*Double_Vector_3D(128F9)<integer> 52|106r28
+157R9*RGB_Color 157e77 52|311r26
+157f30*Red{128F9} 53|474r45
+157f35*Green{128F9} 53|475r45
+157f42*Blue{128F9} 53|476r45
+180m4*GL_False{118M9} 53|1214r25
+181m4*GL_True{118M9} 53|1261r25
+274n7*ONE{271E9} 53|1218r32
+275n7*SRC_ALPHA{271E9} 53|528r41
+312n7*ONE_MINUS_SRC_ALPHA{305E9} 53|529r41 1219r32
+349U14*BlendFunc 53|528s19 1218s10
+349e25 sfactor{271E9} 53|528r30 1218r21
+350e25 dfactor{305E9} 53|529r30 1219r21
+406n7*BACK{403E9} 53|1088r17
+407n7*FRONT_AND_BACK{403E9} 53|100r17 101r17 102r17 103r17 104r17 472r34
+418U14*CullFace 53|1088s7
+554E9*ServerCapabilityEnm 627e7 53|854r55 857r17 857r45
+561n7*CULL_FACE{554E9} 53|1087r17
+562n7*LIGHTING{554E9} 53|602r18 649r25 652r24 1086r17 1216r21
+563n7*COLOR_MATERIAL{554E9} 53|449r28 471r27 480r28
+565n7*DEPTH_TEST{554E9} 53|1084r17
+570n7*BLEND{554E9} 53|527r27 533r28 1217r21
+573n7*SCISSOR_TEST{554E9} 53|754r30 760r31
+598n7*TEXTURE_2D{554E9} 53|508r27 512r28 650r25
+607n7*LIGHT0{554E9} 53|857r73
+704U14*Enable 53|471s19 508s19 527s19 602s10 652s13 754s19 865s16 1084s7
+. 1086s7 1087s7 1216s10 1217s10
+706U14*Disable 53|449s19 480s19 512s19 533s19 649s13 650s13 760s19 867s16
+708V13*IsEnabled{118M9} 53|875s30
+1228n7*OUT_OF_MEMORY{1220E9} 53|640r28
+1242V13*Get_Error{1220E9} 53|640s16
+1326n7*MODELVIEW{1324E9} 53|1090r22
+1338U14*MatrixMode 53|1090s7
+1344n7*COMPILE_AND_EXECUTE{1341E9} 53|615r43
+1386V13*GenLists{124M9} 53|614s35
+1388U14*NewList 53|615s13
+1391U14*EndList 53|639s13
+1393U14*CallList 53|631s26
+1405n7*LINES{1402E9} 53|388r20
+1408n7*TRIANGLES{1402E9} 53|545r33
+1411n7*QUADS{1402E9} 53|546r33
+1432U14*GL_Begin 53|388s7 545s23 546s23
+1434U14*GL_End 53|392s7 557s13
+1636E9*LightIDEnm 1646e7 53|835r24 835r41
+1680n7*AMBIENT{1678E9} 53|840r18
+1681n7*DIFFUSE{1678E9} 53|841r18
+1682n7*SPECULAR{1678E9} 53|842r18
+1683n7*POSITION{1678E9} 53|839r18
+1740U14*Light 53|839s7 840s7 841s7 842s7
+1771n7*SHININESS{1769E9} 53|104r33
+1781n7*AMBIENT{1779E9} 53|100r33
+1782n7*DIFFUSE{1779E9} 53|101r33
+1783n7*SPECULAR{1779E9} 53|102r33
+1784n7*EMISSION{1779E9} 53|103r33
+1827n7*AMBIENT_AND_DIFFUSE{1821E9} 53|472r50
+1839U14*Material 53|104s7
+1847U14*Material 53|100s7 101s7 102s7 103s7
+1863U14*ColorMaterial 53|472s19
+2167n7*TEXTURE_2D{2164E9} 53|509r38
+2629U14*BindTexture 53|509s22
+3197U14*Clear 53|1083s7
+3233U14*Scissor 53|755s19
+3233i23 x{121I9} 53|755r28
+3234i23 y{121I9} 53|756r28
+3235i23 width{125I9} 53|757r28
+3236i23 height{125I9} 53|758r28
+3252U14*Depth_Mask 53|1214s13 1261s13
+3278U14*PushMatrix 53|604s10 1094s7 1151s13 1171s19 1246s25
+3280U14*PopMatrix 53|656s10 1170s19 1183s13 1254s25 1264s7
+3306U14*Translate 53|1092s7
+3308U14*Translate 53|605s10 1172s19 1248s25
+3330U14*Vertex 53|389s7 389s26 390s7 390s26 391s7 391s26 554s16
+3365U14*Normal 53|553s16
+3426U14*Color 53|473s19 572s13 577s13
+3426f21 red{128F9} 53|474r26
+3426f26 green{128F9} 53|475r26
+3426f33 blue{128F9} 53|476r26
+3426f39 alpha{128F9} 53|477r26
+3489U14*TexCoord 53|551s19
+3785n7*ARRAY_BUFFER{3783E9} 53|597r28
+3786n7*ELEMENT_ARRAY_BUFFER{3783E9} 53|598r28
+3798U14*BindBuffer 53|597s10 598s10
+X 43 gl-buffer-general.ads
+14R9 base_Object<42|20R9>
+X 45 gl-errors.ads
+11K12*Errors 33e14 53|6w9 1118r10 1158r19 1163r19 1168r19 1176r19 1186r10
+. 1227r19 1238r28 1243r28 1252r25 1266r10
+21U14*log 53|1118s17 1158s26 1163s26 1168s26 1176s26 1186s17 1227s26 1238s35
+. 1243s35 1252s32 1266s17
+X 46 gl-frustums.ads
+19K12*Frustums 31e16 52|62w9 189r36
+23A9*plane_Array(47|20A9)<21E9> 52|189r45
+X 47 gl-geometry.ads
+15K12*Geometry 142e16 52|61w9 225r48 383r28 391r74 53|821r57 1128r20 1142r27
+. 1231r39
+20A9*Plane(41|128F9)<integer>
+29f10*Min{41|128F9} 53|123r64 126r64 129r64 307m32 308m32 309m32 315m35 315r74
+. 317m35 317r74 319m35 319r74
+29f15*Max{41|128F9} 53|123r34 126r34 129r34 307m74 308m74 309m74 316m35 316r74
+. 318m35 318r74 320m35 320r74
+36r10*X_Extent{27R9} 53|123r25 123r55 307m23 307m65 315m26 315r65 316m26
+. 316r65
+37r10*Y_Extent{27R9} 53|126r25 126r55 308m23 308m65 317m26 317r65 318m26
+. 318r65
+38r10*Z_Extent{27R9} 53|129r25 129r55 309m23 309m65 319m26 319r65 320m26
+. 320r65
+43R9*Bounds_record 47e17 52|225r57 383r37 391r83 53|821r66
+45f10*Sphere_Radius{41|128F9} 53|323m19
+46r10*Box{34R9} 53|123r21 123r51 126r21 126r51 129r21 129r51 307m19 307m61
+. 308m19 308m61 309m19 309m61 315m22 315r61 316m22 316r61 317m22 317r61 318m22
+. 318r61 319m22 319r61 320m22 320r61
+118P9*p_Geometry(113R9)
+120y14*primitive_Id{41|1402E9} 53|1131R16 1131R59 1135R23 1135R64
+135x14*Draw 53|1167R16 1175R16 1251R22
+X 48 gl-materials.ads
+1K12*Materials 265e17 52|64w9 313r26 314r12 590r33 594r35 53|88r33 97r35
+. 423r17 452r36
+25R8*Material_type 31e13 52|313r36 590r43 594r45 53|88r43 97r45
+26a5*ambient{41|154A9} 53|89r22 100r46
+27a5*diffuse{41|154A9} 53|90r22 101r46
+28a5*specular{41|154A9} 53|91r22 102r46
+29a5*emission{41|154A9} 53|103r46
+30f5*shininess{41|126F9} 53|104r46
+35r3*neutral_material{25R8} 52|314r22 53|452r46
+X 49 gl-skinned_geometry.ads
+14K12*Skinned_Geometry 33e24 52|63w9 227r55 53|119r54 120r10 1058r24 1101r35
+. 1142r40 1224r47 1232r40
+16R9*Skinned_Geometry_t 21e17 53|1058r41 1232r57
+18p10*Geometry{47|118P9} 53|1131r41 1131r84 1135r48 1135r89 1167r53 1175r53
+. 1251r41
+19p10*Skin{50|33P9} 53|1132r46 1132r89 1155r47 1156r63 1235r38 1236r54
+20p10*Veneer{50|19P9} 53|1161r47 1162r55 1241r38 1242r46
+23A9*skinned_Geometrys(16R9)<integer> 52|227r72 53|119r71 1101r52 1224r64
+25a4*null_skinned_Geometrys{23A9} 53|120r27
+X 50 gl-skins.ads
+15K12*Skins 148e13 53|7w9 1078r30 1142r17 1231r29
+19P9*p_Veneer(17R9)
+24x14*Enable 53|1162R16 1242R25
+33P9*p_Skin(28R9) 53|1078r36
+42x14*Enable 53|1157R16 1237R25
+X 52 globe_3d.ads
+77K9*GLOBE_3D 457r28 464r43 465r43 465r68 542E9 606l5 606e13 53|1r6 2r6 3r6
+. 4r6 17b14 19r8 21r25 22r25 304r14 667r11 1073r27 1193r31 1202r67 1203r67
+. 1302l5 1302t13
+79A12*Ident{string}<integer> 83r22 199r36 554r22 559r22 53|944r28 1031r24
+. 1044r24
+83a4*empty{79A12} 554r31 559r31 53|947r15 969r49 985r50 1034r47 1047r47
+91U14*Set_local_data_name 91>36 92r56 53|915b14 926l8 926t27
+91a36 s{string} 53|915b35 922r69 923r26 924r41
+92U14*Set_level_data_name=92:56
+92a36 s{string}
+93U14*Set_global_data_name 93>36 53|928b14 939l8 939t28
+93a36 s{string} 53|928b36 935r70 936r26 937r41
+95X4*data_file_not_found 53|924r16 937r16
+99I9*Image_ID<integer> 100r26 316r23 53|345r50 509r59
+100i4*null_image{99I9} 316r35 53|977r44
+102F12*Real{41|128F9} 103r66 104r45 109r40 113r78 146r26 176r33 177r33 179r33
+. 180r33 181r33 183r33 184r33 185r33 237r46 238r46 239r46 464r52 505r24 528r19
+. 53|24r24 33r47 122r46 125r47 128r46 199r18 207r23 225r24 226r24 273r16
+. 305r22 307r39 307r81 308r39 308r81 309r39 309r81 313r42 315r42 316r42 317r42
+. 318r42 319r42 320r42 584r25 677r18
+103K12*REF[25|39] 53|304r23 1071r11
+104K12*RIO[37|46] 53|29r7
+106A12*Vector_3D{41|155A9}<integer> 107r36 111r24 123r57 145r26 163r33 164r33
+. 173r33 509r44 529r19 552r22 53|47r55 56r19 198r18 371r39 375r19 569r14
+. 678r28 888r44
+107P10*p_Vector_3D(106A12)
+109A9*Vector_4D(102F12)<integer>
+111A12*Point_3D{106A12}<integer> 121r66 144r34 202r36 203r36 507r25 533r37
+. 53|36r25 371r25
+113A9*Matrix(102F12)<integer><integer> 114r26 115r26
+114A9*Matrix_33<113A9>(102F12)<integer><integer> 117r21 162r33 204r36
+115A9*Matrix_44<113A9>(102F12)<integer><integer> 187r33
+117a4*Id_33{114A9} 162r46 204r49
+121A9*Point_3D_array(111A12)<integer> 122r36 372r25 516r38
+122P9*p_Point_3D_array(121A9) 516r54
+123A9*Vector_3D_array(106A12)<integer> 373r25
+125A9*Natural_Index_array(natural)<integer> 285r27 287r27
+131R9*Rectangle 133e14 135r29
+132i7*X1{integer} 53|755r56 757r73
+132i11*Y1{integer} 53|756r56 758r73
+132i15*X2{integer} 53|757r58
+132i19*Y2{integer} 53|758r58
+135R12*Clipping_area{131R9} 147r26 532r19 53|670r56 679r60
+143R9*Clipping_data 148e14 158r33 230r44 434r55 53|665r48
+144a7*Eye_Position{111A12} 158m51 53|689r23 1092r42 1092r81 1092r120 1207r74
+145a7*view_direction{106A12} 159m51 53|684r54
+146f7*max_dot_product{102F12} 160m51 53|685r26
+147r7*main_clipping{135R12} 161m51 53|768r33 786r45
+153N4*fairly_Far 183r42
+154N4*default_field_of_view_Angle 176r42
+156R9*Camera 190e17 192r32 243p14 243r65 457r37 53|1069r63
+158r10*Clipper{143R9} 53|1092r34 1092r73 1092r112 1113m68 1113r68 1207r66
+. 1226m49 1226r49
+162a10*World_Rotation{114A9} 53|1091r33 1206r77
+163a10*Speed{106A12}
+164a10*rotation_Speed{106A12}
+165b10*compose_rotations{boolean}
+173a10*rotation{106A12}
+176f10*FOVy{102F12}
+177f10*Aspect{102F12}
+179f10*near_plane_Distance{102F12}
+180f10*near_plane_Width{102F12}
+181f10*near_plane_Height{102F12}
+183f10*far_plane_Distance{102F12}
+184f10*far_plane_Width{102F12}
+185f10*far_plane_Height{102F12}
+187a10*Projection_Matrix{115A9}
+189a10*frustum_Planes{46|23A9}
+192P9*p_Camera(156R9)
+197H9*Visual 207e17 209r32 212p14 212r46 215p14 215r46 217p14 217r46 220p14
+. 220r46 224p13 224r30 225p13 225r30 227p13 227r37 229p14 229r44 232r35 235r27
+. 237r25 238r25 239r25 371r60 53|112r63 119r36 122r25 125r26 128r25 941r35
+. 951r27 1100r32 1223r35
+199a10*ID{79A12} 53|51r33 148r35 163r35 170r35 220r58 299r35 342r38 354r41
+. 947m9 948m9 954r22 1014r66 1282r83 1288r45
+202a10*Centre{111A12} 53|605r23 690r70 1172r69 1207r46 1248r53
+203a10*Centre_Camera_Space{111A12} 53|1197r26 1197r58 1206m41
+204a10*rotation{114A9} 53|606r29 1173r69 1249r53
+206b10*is_Terrain{boolean}
+209P9*p_Visual(197R9) 210r54 213r46 255r58 600r26 53|110r31 112r77 796r16
+. 1057r21 1144r27 1193r40 1202r76 1276r58
+210A9*Visual_array(209P9)<integer> 241r29 243r37 258r26 465r52 53|1069r36
+. 1073r36 1203r76 1292r26
+212x14*Destroy 212=30 53|115R7
+212r30 o{197R9}
+213U14*Free 213=30 53|110b14 117l8 117t12 796s10
+213p30 o{209P9} 53|110b20 115r16 116m19
+215x14*Pre_calculate 215=30
+215r30 o{197R9}
+217x14*set_Alpha 217=30 218>30
+217r30 o{197R9}
+218f30 Alpha{41|128F9}
+220y14*is_Transparent{boolean} 220>30 53|1103R16
+220r30 o{197R9}
+224y13*face_Count{natural} 224>25
+224r25 o{197R9}
+225y13*Bounds{47|43R9} 225>25 53|123R10 123R40 126R10 126R40 129R10 129R40
+225r25 o{197R9}
+227V13*skinned_Geometrys{49|23A9} 227>32 53|119b13 1101R78 1224R90
+227r32 o{197R9}
+229x14*Display 229=23 230>23 53|1113R16 1226R16
+229r23 o{197R9}
+230r23 clip{143R9}
+232U14*Set_name 232=24 232>49 53|941b14 949l8 949t16
+232c24 o<197R9> 53|941b24 947m7 948m7
+232a49 new_name{string} 53|941b49 944r10 948r18 948r38
+235V13*Get_name{string} 235>23 53|951b13 955l8 955t16
+235c23 o<197R9> 53|951b23 954r20
+237V13*Width{102F12} 237>21 53|122b13
+237c21 o<197R9> 53|123r18 123r48
+238V13*Height{102F12} 238>21 53|125b13
+238c21 o<197R9> 53|126r18 126r48
+239V13*Depth{102F12} 239>21 53|128b13
+239c21 o<197R9> 53|129r18 129r48
+241a4*null_Visuals{210A9} 465r77
+243U14*render 243>22 243>51 53|1069b14 1267l8 1267t14
+243a22 the_Visuals{210A9} 53|1069b22 1098r26 1100r78 1113r25
+243r51 the_Camera{156R9} 53|1069b50 1091r22 1092r23 1092r62 1092r101 1113r57
+. 1206r66 1207r55 1226r38
+252R9*Map_of_Visuals<16|52R9[598]> 254r30 255r35 258r47 412r51 604c9 604e67
+. 53|958r51 1269r30 1270r15 1276r35 1292r47 1293r13
+254V13*empty_map{252R9} 53|1269b13 1274l8 1274t17 1293s31
+255U14*Add 255=19 255>51 53|1276b14 1290l8 1290t11 1297s10
+255r19 to_map{252R9} 53|1276b19 1281m52 1281r52
+255p51 what{209P9} 53|1276b51 1282r74 1283r31 1288r36
+256X4*Duplicate_name 53|1288r16
+258V13*Map_of{252R9} 258>21 53|1292b13 1300l8 1300t14
+258a21 va{210A9} 53|1292b21 1296r16 1297r20
+263R9*Object_3D 264r35 371c9 387r53 388r53 389r53 390r53 391r53 393r32 397r47
+. 404r46 411r51 424r51 433r55 448r38 53|45r55 137r32 194r51 401r38 664r48
+. 669r56 773r47 790r45 801r47 809r44 815r40 821r36 957r51 1025r47 1038r45
+264P9*p_Object_3D(371R9) 299r23 347r14 351r57 53|996r41
+270E9*Skin_Type 275e33 277r31 302r23 53|344r46
+270n23*texture_only{270E9} 280r7 53|290r51 479r21 507r21
+271n23*colour_only{270E9} 53|290r18 470r21 511r21
+272n23*coloured_texture{270E9} 280r22 53|290r32 470r35 507r36
+273n23*material_only{270E9} 53|288r18 448r21 468r21 511r35 978r41
+274n23*material_texture{270E9} 280r41 53|288r34 448r37 468r37 507r55
+275n23*invisible{270E9} 53|292r18 431r26 442r44 461r44 481r21 501r44 513r21
+. 523r44
+277A9*Set_of_Skin(boolean)<270E9> 279r27
+279a4*is_textured{277A9} 53|338r13 490r16 550r19 968r13
+283a4*null_colour{41|154A9}
+285A12*Idx_3_array{125A9}<integer>
+287A12*Idx_4_array{125A9}<integer> 288r59 295r23 545r22
+288A9*Idx_4_array_array(287A12)<integer>
+290R9*Map_idx_pair 290e68 291r59
+290f32*U{41|128F9} 53|551r47
+290f35*V{41|128F9} 53|551r68
+291A9*Map_idx_pair_array(290R9)<integer> 292r36
+292A12*Map_idx_pair_4_array{291A9}<integer> 330r7 549r22
+294R9*Face_type 331e14 333r59 53|202r53 415r61 417r36 425r61
+295a7*P{287A12} 53|177r39 179r52 180r48 206r35 210r23 211r19 214r39 250r37
+. 250r47 250r57 253r37 253r47 253r57 254r37 254r47 254r57 255r37 255r47 255r57
+. 331r30 332r30
+299p7*connecting{264P9} 53|708r66 728r30 778r46 996m27 1010m30
+302e7*skin{270E9} 53|287r29 338r37 344r74 431r19 442r37 443r26 443r48 444r27
+. 444r48 447r24 461r37 462r26 462r48 463r27 463r48 467r24 490r32 501r37 502r26
+. 502r48 503r27 503r48 506r24 523r37 550r35 968r37 978m33
+303b7*mirror{boolean}
+304f7*alpha{41|128F9} 53|291r73 465r45 465r68 477r38 805m21
+311r7*colour{41|157R9} 53|464r37 464r61 474m38 474r38 475m38 475r38 476m38
+. 476r38
+313r7*material{48|25R8} 53|289r73 445r36 445r62 450r36
+316i7*texture{99I9} 53|339r54 345r77 491r42 504r36 504r61 509r76 972m27 977m33
+322b7*whole_texture{boolean} 53|224r19
+325i7*repeat_U{positive} 53|225r33
+326i7*repeat_V{positive} 53|226r33
+329a7*texture_edge_map{292A12} 53|236r40
+333A9*Face_array(294R9)<integer> 334r32 374r25 519r38
+334P9*p_Face_array(333A9) 519r50
+336I12*Edge_count{positive} 548r22 53|217r18
+340R9*Face_invariant_type 342r61 544c9 565e14 53|203r53 415r84 418r36 425r84
+342A9*Face_invariant_array(340R9)<integer> 382r25
+344R9*Object_3D_list 345r36 346c9 349e14
+345P9*p_Object_3D_list(344R9) 348r14 375r25 53|792r12
+347p7*objc{264P9} 53|796m33
+348p7*next{345P9} 53|797r23
+351A9*Object_3D_array(264P9)<integer> 352r37
+352P9*p_Object_3D_array(351A9)
+358E9*List_Cases 358e57 379r25
+358n25*No_List{358E9} 53|610r12 620r12 636r12 641r30
+358n34*Generate_List{358E9} 379r39 53|613r12 626r12 638r12
+358n49*Is_List{358E9} 53|610r22 631r12 636r22 643r30
+359I12*List_Ids{positive} 381r25
+371R9*Object_3D<197R9> 227p13 371d20 371d32 385e14 387P25 388P25 389P25 390P25
+. 391P25 393p14 396p14 403p14 424P25 432P25 448p14
+371i20*Max_points{integer} 372r47 373r47 53|146r36
+371i32*Max_faces{integer} 374r42 382r52 53|818r16
+372a7*Point{121A9} 53|60r26 60r42 60r60 60r76 65r52 66r52 67r52 168r38 168r54
+. 271r33 311r21 313r61 315r82 316r82 317r82 318r82 319r82 320r82 348r18 554r26
+. 574r21 575r22 582r27 690r23
+373a7*edge_vector{123A9} 53|312m15 335m18 335r40 360r31 362m18 362r56 553r26
+. 575r52
+374a7*face{333A9} 53|175r22 177r29 179r42 180r38 282r18 285r42 287r20 289r64
+. 291r64 330r18 331r21 332r21 338r28 339r45 344r65 345r68 579r21 621r21 622r58
+. 627r21 628r56 628r70 708r57 727r24 728r21 775r21 778r37 804r18 805m12 966r18
+. 968r28 972m18 977m24 978m24 996m18 1010m21
+375p7*sub_objects{345P9} 53|792r34
+378b7*pre_calculated{boolean} 53|368m9 593r16 718r19
+379e7*List_Status{358E9} 53|609r14 619r14 635r14 641m15 643m15
+381i7*List_Id{359I12} 53|614m12 615r33 631r47
+382a7*Face_Invariant{342A9} 53|285m54 289m18 291m18 293m18 295r54 335r61
+. 581r29 582r36 584r33 585r42 622m70 628m82 684r21 690r32 692r39 729r24 739m21
+. 776r18 777m18 969r14 973r41 985r15 998r99 1016m46 1034m9 1035m9 1047m9
+. 1048m9
+383r7*Bounds{47|43R9} 53|307m12 307m54 308m12 308m54 309m12 309m54 315m15
+. 315r54 316m15 316r54 317m15 317r54 318m15 318r54 319m15 319r54 320m15 320r54
+. 323m12 824r16
+384b7*transparent{boolean} 53|295m15 295r32 812r16
+387U25*Destroy<212p14> 387=41 53|790b25 799l8 799t15
+387r41 o{371R9} 53|790b34 792r32
+388U25*set_Alpha<217p14> 388=41 388>64 53|801b25 807l8 807t17
+388r41 o{371R9} 53|801b36 804r16 805m10
+388f64 Alpha{41|128F9} 53|801b58 805r30
+389V25*is_Transparent{boolean}<220p14> 389>41 53|809b24 813l8 813t22
+389r41 o{371R9} 53|809b40 812r14
+390V25*face_Count{natural}<224p13> 390>41 53|815b24 819l8 819t18
+390r41 o{371R9} 53|815b36 818r14
+391V25*Bounds{47|43R9}<225p13> 391>41 53|821b24 825l8 825t14
+391r41 o{371R9} 53|821b32 824r14
+393U14*Check_object 393>28 53|137b14 188l8 188t20 278s10
+393r28 o{371R9} 53|137b28 146r34 148r33 163r33 168r36 168r52 170r33 175r20
+. 177r27 179r40 180r36
+396U14*Texture_name_hint 397=33 398>33 399>33 53|1025b14 1036l8 1036t25
+397r33 o{371R9} 53|1025b33 1034m7 1035m7
+398i33 face{positive} 53|1026b33 1034r25 1035r25
+399a33 name{string} 53|1027b33 1031r10 1035r50 1035r66
+403U14*Portal_name_hint 404=32 405>32 406>32 53|1038b14 1049l8 1049t24
+404r32 o{371R9} 53|1038b32 1047m7 1048m7
+405i32 face{positive} 53|1039b32 1047r25 1048r25
+406a32 name{string} 53|1040b32 1044r10 1048r50 1048r66
+410U14*Rebuild_links 411=29 412>29 413>29 414>29 53|957b14 1023l8 1023t21
+411c29 o<371R9> 53|957b29 966r16 968r26 969r12 972m16 973r39 977m22 978m22
+. 985r13 996m16 998r97 1010m19 1014r64 1016r44
+412r29 neighbouring{252R9} 53|958b29 997r75
+413b29 tolerant_obj{boolean} 53|959b29 1009r19
+414b29 tolerant_tex{boolean} 53|960b29 976r22
+417X4*Portal_connection_failed 53|1013r36
+419X4*bad_vertex_number 53|147r33
+419X23*duplicated_vertex 53|162r33
+420X4*duplicated_vertex_location 53|169r33
+421X4*point_unmatched 53|353r33
+421X21*too_many_adjacences
+422X4*bad_edge_number 53|220r30
+424U25*Pre_calculate<215p14> 424=40 53|194b25 369l8 369t21 594s10 719R13
+424r40 o{371R9} 53|194b40 220r56 243r31 250r31 253r31 254r31 255r31 271r31
+. 278r24 282r16 285r40 285m52 285r52 287r18 289m16 289r62 291m16 291r62 293m16
+. 295m13 295r30 295r52 299r33 307m10 307m52 308m10 308m52 309m10 309m52 311r19
+. 312m13 313r59 315m13 315r52 315r80 316m13 316r52 316r80 317m13 317r52 317r80
+. 318m13 318r52 318r80 319m13 319r52 319r80 320m13 320r52 320r80 323m10 330r16
+. 331r19 332r19 335m16 335r38 335r59 338r26 339r43 342r36 344r63 345r66 348r16
+. 354r39 360r29 362m16 362r54 368m7
+432U25*Display<229p14> 433=34 434>34 53|664b25 788l8 788t15
+433r34 o{371R9} 53|664b34 786m24 787m26
+434r34 clip{143R9} 53|665b34 684r49 685r21 689r18 768r28 786r40
+448U14*Display_one 448=27 53|401b14 662l8 662t19 764R13
+448r27 o{371R9} 53|401b27 553r24 554r24 574r19 575r20 575r50 579r19 581r27
+. 582r25 582r34 584r31 585r40 593r14 594m25 605r21 606r27 609r12 614m10 615r31
+. 619r12 621r19 622r56 622m68 622r68 627r19 628r54 628r68 628m80 628r80 631r45
+. 635r12 641m13 643m13
+455H9*Window 458e17 460r32 462p14 462r43 463p14 463r43
+457r10*Camera{156R9}
+460P9*p_Window(455R9) 460r73
+462x14*Enable 462=23
+462r23 Self{455R9}
+463x14*Freshen 463=23 464>23 465>23
+463r23 Self{455R9}
+464f23 time_Step{102F12}
+465a23 Extras{210A9}
+470X4*Missing_level_data
+471X4*Missing_global_data
+473X4*Missing_texture
+474X4*Missing_object
+476X4*zero_normal 53|63r30
+477X4*zero_summed_normal 53|261r22 297r18 298r33
+478X4*zero_averaged_normal
+484I12*Light_count{natural} 486r27 486r50
+486I12*Light_ident{484I12} 492r30 495r36 497r44 499r40 53|831r27 833r30 849r16
+. 854r32 860r36 872r40 878r44
+488R9*Light_definition 490e14 492r48 53|833r48
+489a7*position{41|153A9} 53|839r31
+489a17*ambient{41|153A9} 53|840r31
+489a26*diffuse{41|153A9} 53|841r31
+489a35*specular{41|153A9} 53|842r31
+492U14*Define 492>22 492>43 53|833b14 844l8 844t14
+492i22 which{486I12} 53|833b22 835r57 843r22
+492r43 as{488R9} 53|833b43 839r28 840r28 841r28 842r28
+494U14*Switch_lights 494>29 53|846b14 852l8 852t21
+494b29 on{boolean} 53|846b29 850r27
+495U14*Switch_light 495>28 495>49 53|850s10 860b14 870l8 870t20 881s7
+495i28 which{486I12} 53|860b28 863r25 865r35 867r36
+495b49 on{boolean} 53|860b49 864r13
+497U14*Reverse_light_switch 497>36 53|878b14 882l8 882t28
+497i36 which{486I12} 53|878b36 881r21 881r51
+499V13*Is_light_switched{boolean} 499>32 53|872b13 876l8 876t25 881s32
+499i32 which{486I12} 53|872b32 875r52
+505V13*Image{string} 505>20 53|24b13 34l8 34t13 37s13 38s13 39s13
+505f20 r{102F12} 53|24b20 29r19 33r59
+507V13*Coords{string} 507>21 53|36b13 65s42 66s42 67s42 68s42
+507a21 p{111A12} 53|37r20 38r20 39r20
+509U14*Angles_modulo_360 509=33 53|888b14 896l8 896t25
+509a33 v{106A12} 53|888b33 891r16 892m10 893r46
+515U14*Dispose[40|20]
+518U14*Dispose[40|20]
+527f4*info_b_real1{102F12}
+528f4*info_b_real2{102F12}
+529a4*info_b_vect{106A12}
+530b4*info_b_bool1{boolean}
+531b4*info_b_bool2{boolean}
+532r4*info_b_clip{135R12}
+533a4*info_b_pnt(111A12)
+534i4*info_b_ntl1{natural}
+535i4*info_b_ntl2{natural} 53|762m13 762r28 784m7
+536i4*info_b_ntl3{natural} 53|763m13 763r55 785m7
+537r4*info_b_str1{32|79R9}
+542P9 p_String(string)
+545a7*P_compact{287A12} 53|214m19 244r34 245r34 246r34 553r42 554r36 582r55
+. 690r51
+548i7*last_edge{336I12} 53|218m16 241r18 544r21 549r30 581r48 584r52
+549a7*UV_extrema{292A12} 53|228m29 229m29 230m29 231m29 236m19 551r32 551r53
+552a7*normal{106A12} 53|264m19 267m16 335r80 585r61 684r40 692r58
+553b7*blending{boolean} 53|289m37 291m37 293m37 295r73 493m22 524r26 524r62
+. 526r22
+554a7*connect_name{79A12} 53|985r34 998r118 1016r65 1047m31 1048m31
+559a7*texture_name{79A12} 53|969r33 973r60 1034m31 1035m31
+562b7*portal_seen{boolean} 53|729r43 739m40 776r37 777m37
+572r4 level_data_name{32|79R9} 53|922m7
+574r4 global_data_name{32|79R9} 53|935m7
+578r4 zif_level{101|53R8} 53|918r25 919m22 919r22
+578r15 zif_global{101|53R8} 53|931r25 932m22 932r22
+580U14 Load_if_needed 580=30 580>57 53|902b14 913l8 913t22
+580r30 zif{101|53R8} 53|902b30 905r29 907m23 910m26
+580a57 name{string} 53|902b57 907r28 910r41
+587V13 Is_to_blend{boolean} 587>26 53|82b13 291s49
+587f26 m{41|128F9} 53|82r83
+588V13 Is_to_blend{boolean} 588>26 53|84b13 86s75
+588f26 m{41|126F9} 53|84r83
+589V13 Is_to_blend{boolean} 589>26 53|86b13 89s7 90s7 91s7
+589a26 m{41|154A9} 53|86r88
+590V13 Is_to_blend{boolean} 590>26 53|88b13 289s49
+590r26 m{48|25R8} 53|89r20 90r20 91r20
+594U14 Set_Material 594>28 53|97b14 105l8 105t20 450s19 452s19
+594r28 m{48|25R8} 53|97b28 100r44 101r44 102r44 103r44 104r44
+598K12 Visuals_Mapping[16|48] 604r31 53|996r54 997r54 1272r7 1272r38 1277r13
+. 1280r7 1281r31
+X 53 globe_3d.adb
+21K12 G3DT=21:34 491r16
+22K12 G3DM=22:34 48r11 82r65 84r65 139r11 196r11 373r11 567r14 589r11 675r17
+. 1071r16
+26a7 s{string} 29m16 30r14
+45U14 Add_Normal_of_3p 45b14 45>32 46>32 46>37 46>42 47=32 77l8 77t24 243s13
+. 250s13 253s13 254s13 255s13
+45c32 o<52|371R9> 51r31 60r24 60r40 60r58 60r74 65r50 66r50 67r50
+46i32 Pn0{integer} 52r38 59r10 60r49 60r83 65r59
+46i37 Pn1{integer} 53r38 59r28 60r33 66r59
+46i42 Pn2{integer} 54r38 59r46 60r67 67r59
+47a32 N{52|106A12} 71m10 71r15
+50V16 Params{string} 64s30 76s67
+56a7 N_contrib{52|106A12} 60m10 61r58 68r50 71r19
+75r12 e{19|63R9} 75r63 76r62
+112U17 Deallocate[40|20] 116s7
+141U17 Check_faces 141b17 184l11 184t22 187s7
+143U20 Check 143b20 143>27 143>30 144r28 151l14 151t19 177s16
+143i27 f{integer} 148r69
+143i30 v{integer} 146r16 146r30 149r64
+153U20 Check_duplicate 153b20 153>37 153>40 153>45 154r28 172l14 172t29 179s19
+153i37 f{integer} 163r71 170r71
+153i40 Pn1{integer} 157r16 161r16 168r45
+153i45 Pn2{integer} 157r32 161r22 168r61
+175i14 fa{integer} 177r23 177r35 179r36 179r48 180r44
+176i17 edge_num{integer} 177r42 178r34 179r55
+178i20 other_edge{integer} 180r51
+198a7 N{52|106A12} 240m10 247m31 247r31 250m64 250r64 253m64 253r64 254m64
+. 254r64 255m64 255r64 257r28 264r29 267r45
+199f7 length_N{52|102F12} 257m10 258r26 267r33
+201U17 Calculate_face_invariants 201b17 202>44 203<44 269l11 269t36 285s13
+202r44 fa{52|294R9} 206r32 210r20 211r16 214r36 224r16 225r30 226r30 236r37
+. 250r34 250r44 250r54 253r34 253r44 253r54 254r34 254r44 254r54 255r34 255r44
+. 255r54
+203r44 fi{52|340R9} 214m16 218m13 228m26 229m26 230m26 231m26 236m16 241r15
+. 244r31 245r31 246r31 264m16 267m13
+205i10 l{natural} 209m10 212m16 212r21 213r29 214r30 217r13 218r29 223r24
+206a10 quadri_edge(natural) 213m16 227r21 236r58
+207f10 ex_U{52|102F12} 225m16 229r48 230r48
+207f16 ex_V{52|102F12} 226m16 230r54 231r53
+210i14 qe{integer} 211r22 213r35 214r42
+223i14 e{integer} 227r34 228r41 229r41 230r41 231r41 236r31 236r71
+271a7 adjacent_faces(natural) 334m16 334r39 349r13
+272i7 pf{natural} 332m13 333r16 334r32 334r55 335r31 335r53
+273f7 length{52|102F12} 360m13 361r33 362r44
+282i11 i{integer} 285r48 285r70 287r26 289r34 289r70 291r34 291r70 293r34
+. 295r70 299r67
+305f10 max_Norm2{52|102F12} 313m13 313r74 323r42
+311i14 p{integer} 312r28 313r68 315r89 316r89 317r89 318r89 319r89 320r89
+330i11 f{integer} 331r27 332r27 335r77 338r34 339r51 343r61 344r71 345r74
+331i14 p{integer} 332r33
+348i11 p{integer} 349r29 355r62 360r44 362r31 362r69
+371U14 Arrow 371b14 371>21 371>35 393l8 393t13 575s13 585s13
+371a21 P{52|111A12} 389r15 389r34 390r15 390r34 391r15 391r34
+371a35 D{52|106A12} 378r30 381r13 381r21 383r22 383r29 386r19 387r19 389r19
+. 390r19 391r19
+375a7 V{52|106A12} 381m7 382r30 383m10 385m7 385r25 385r31 386r23 387r23
+375a10 V1{52|106A12} 386m7 390r38
+375a14 V2{52|106A12} 387m7 391r38
+414K15 Display_face_optimized 417E10 419l11 419e33 421b20 563l11 563t33 622r13
+. 628r13
+415U20 Display_face 415>34 415>56 415=72 425b20 561l14 561t26 622s36 628s36
+415b34 First_Face{boolean} 425b34 441r16 460r16 500r16 522r16
+415r56 fa{52|294R9} 425b56 431r16 432r43 443r23 444r24 445r33 447r21 450r33
+. 462r23 463r24 464r34 465r42 467r21 474r35 475r35 476r35 477r35 490r29 491r39
+. 502r23 503r24 504r33 506r21 509r73 550r32 559r40
+415r72 fi{52|340R9} 425b72 433r43 493m19 524r23 526r19 544r18 549r27 551r29
+. 551r50 553r39 554r33 560r40
+417r10 Previous_face{52|294R9} 432m16 442r23 443r34 444r34 445r48 461r23
+. 462r34 463r34 464r47 465r54 501r23 502r34 503r34 504r47 523r23 559m13
+418r10 Previous_face_Invariant{52|340R9} 433m16 524r38 560m13
+427b13 blending_hint{boolean} 491m51 492r19
+549i17 i{integer} 551r44 551r65 553r53 554r47
+565U17 Display_normals 565b17 587l11 587t26 651s10
+569a10 C{52|106A12} 580m13 582m16 582r21 584m13 584r66 585r20
+574i14 e{integer} 575r29 575r65
+579i14 f{integer} 581r45 582r52 584r49 585r58
+581i17 i{integer} 582r66
+621i14 f{integer} 622r64 622r86
+627i14 f{integer} 628r50 628r76 628r98
+669U17 Display_clipped 669b17 669=34 670>34 671>34 707s22 771l11 771t26 786s7
+669c34 o<52|371R9> 684r19 690r21 690r30 690r68 692r37 696r38 708r39 708r55
+. 718r17 719m28 727r22 728r19 729r22 739m19 764m26
+670r34 clip_area{52|135R12} 698r33 702r52 709r39 755r46 756r46 757r48 757r63
+. 758r48 758r63 768r48 786r27
+671i34 portal_depth{natural} 710r39 710r55 725r12 748r13 748r38 753r16 763r41
+. 766r35 786r60
+673U20 Try_portal 673b20 673>32 715l14 715t24 740s19
+673i32 f{positive} 684r37 690r48 692r55 696r41 708r63
+677f13 dp{52|102F12} 684m13 685r16 692m16 694r19
+678a13 plane_to_eye{52|106A12} 688m16 692r22
+679r13 bounding_of_face{52|135R12} 696m44 698r44
+679r31 intersection_clip_and_face{52|135R12} 699m33 702m22 709r55
+680b13 success{boolean} 696m62 697r22
+680b22 non_empty_intersection{boolean} 699m61 703m22 705r22
+727i17 f{integer} 728r27 729r40 739r37 740r31
+773U17 Reset_portal_seen 773b17 773=36 778s16 781l11 781t28 787s7
+773c36 o<52|371R9> 775r19 776r16 777m16 778r35
+775i14 f{integer} 776r34 777r34 778r43
+792p7 ol{52|345P9} 795r13 796r26 797m10 797r16
+804i11 f{integer} 805r18
+831a4 light_defined(boolean) 843m7 863r10
+835e7 id{41|1636E9} 839r14 840r14 841r14 842r14
+849i11 l{52|486I12} 850r24
+854V13 Server_id{41|554E9} 854b13 854>24 858l8 858t17 865s24 867s25 875s41
+854i24 which{52|486I12} 857r83
+884N4 prec_a360 893r64
+885N4 r_prec_a360 886r38 893r32
+886N4 i_r_prec_a360 894r14
+891i11 i{integer} 892r13 893r49
+963b7 found{boolean} 986m13 1001m16 1008r20
+966i11 f{integer} 968r34 969r30 972r24 973r57 977r30 978r30 985r31 996r24
+. 998r115 1010r27 1016r62
+1055R9 Visual_Geometry 1059e17 1060r26 1062r59 1125r31 1140r67
+1057p10*Visual{52|209P9} 1109m51 1166r38 1172r58 1173r58 1178r56
+1058r10*Geometry{49|16R9} 1110m51 1131r32 1131r75 1132r37 1132r80 1135r39
+. 1135r80 1155r38 1156r54 1161r38 1162r46 1167r44 1175r44
+1062A9 Visual_Geometries(1055R9)<integer> 1063r26 1065r21 1141r67
+1065a4 All_Geometries{1062A9} 1065r78 1109m19 1110m19 1148m19 1148r19 1155r16
+. 1156r32 1161r16 1162r24 1166r16 1167r22 1172r36 1173r36 1175r22 1178r34
+1073a7 all_Transparents{52|210A9} 1105m16 1206r13 1207r18 1211m19 1211r19
+. 1223r81
+1074i7 transparent_Count{natural} 1104m16 1104r56 1105r34 1205r27 1210r13
+. 1211r42 1221r40
+1076i7 geometry_Count{natural} 1108m19 1108r62 1109r35 1110r35 1147r13 1148r40
+. 1153r27
+1078p7 current_Skin{50|33P9} 1155r55 1156m16 1157r24 1235r46 1236m25 1237r33
+1098i11 Each_Visual{integer} 1100r91 1113r38
+1100c13 the_Visual<52|197R9> 1101r97 1103r32 1105r56 1109r63
+1101a13 visual_Geometrys{49|23A9} 1107r37 1110r63
+1107i20 Each_Geometry{integer} 1110r81
+1125V20 "<"{boolean} 7|21i19 53|1125b20 1125>24 1125>27 1137l15 1137t17
+1125r24 L{1055R9} 1131r30 1132r35 1135r37
+1125r27 R{1055R9} 1131r73 1132r78 1135r78
+1139U20 sort[7|24] 8|32b26 53|1148s13
+1144p10 current_Visual{52|209P9} 1166r47 1178m16
+1153i14 Each{integer} 1155r32 1156r48 1161r32 1162r40 1166r32 1167r38 1172r52
+. 1173r52 1175r38 1178r50
+1193V20 "<"{boolean} 7|21i19 53|1193b20 1193>24 1193>27 1198l15 1198t17
+1193p24 L{52|209P9} 1197r20
+1193p27 R{52|209P9} 1197r52
+1201U20 sort[7|24] 8|32b26 53|1211s13
+1205i14 Each{integer} 1206r31 1207r36
+1221i14 Each_Transparency{integer} 1223r99
+1223c16 the_Visual<52|197R9> 1224r109 1226r25 1248r42 1249r42
+1224a16 visual_Geometrys{49|23A9} 1229r37 1232r84
+1229i20 Each_Geometry{integer} 1232r102
+1232r22 the_Geometry=1232:84{49|16R9} 1235r25 1236r41 1241r25 1242r33 1251r28
+1270r7 thing{52|252R9} 1272m28 1272r28 1273r14
+1277r7 pos{16|61R9[52|598]} 1284m31
+1278b7 success{boolean} 1285m31 1287r14
+1293r7 res{52|252R9} 1297m15 1297r15 1299r14
+1296i11 i{integer} 1297r24
+X 54 globe_3d-math.ads
+1K18*Math 53|3w15 22r34 54|92e18
+7V13*"*"{52|106A12} 53|267s43 362s52 385s29 386s17 387s17 575s48 584s64 585s38
+13V13*"+"{52|106A12} 53|71s17 335s57 386s21 389s17 390s17 390s36 391s17 391s36
+. 582s23 690s66
+19V13*"-"{52|106A12} 53|60s38 60s72 168s50 387s21 689s36 1207s53
+22V13*"*"{52|102F12} 53|684s47 692s35
+25V13*"*"{52|106A12} 53|60s55
+28V12*Norm{52|102F12} 53|257s22 360s23 385s19
+31V12*Norm2{52|102F12} 53|61s51 168s29 313s52 378s23 382s23
+52V13*"*"{52|106A12} 53|1207s15
+77U13*Multiply_GL_Matrix 53|606s7 1173s16 1249s22
+80U13*Set_GL_Matrix 53|1091s7
+83V12*Almost_zero{boolean} 53|61s38 82s70 168s16 258s13 361s20 378s10 382s10
+85V12*Almost_zero{boolean} 53|84s70
+X 55 globe_3d-options.ads
+1K18*Options 53|1w15 19r17 55|18e21
+5b3*show_normals{boolean} 53|647r10
+6b3*show_portals{boolean} 53|766r13
+7b3*filter_portal_depth{boolean} 53|724r18 747r18
+11b3*full_check_objects{boolean} 53|276r10
+12b3*strict_geometry{boolean} 53|61r13 259r16 350r16
+16N3*arrow_inflator 53|575r33 585r23
+X 56 globe_3d-portals.ads
+1K18*Portals 53|4w15 667r20 56|16e21
+5U13*Intersect 53|698s22
+7U13*Find_bounding_box 53|696s19
+14U13*Draw_boundary 53|768s13
+X 57 globe_3d-textures.ads
+1K18*Textures 53|2w15 21r34 339r16 341r30 973r18 975r21 57|100e22
+71V12*Texture_ID{52|99I9} 53|973s27
+72X3*Texture_name_not_found 53|975r30
+80U13*Check_2D_texture 53|491s21
+86V12*Valid_texture_ID{boolean} 53|339s25
+93X3*Undefined_texture_ID 53|341r39
+X 59 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+47M9*unsigned_char
+64F9*C_float<float>
+65F9*double<long_float>
+X 62 system.ads
+37K9*System 53|14r6 1128r30 62|199e11
+67M9*Address
+X 83 s-memory.ads
+53V13*Alloc{62|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{62|67M9} 105i<c,__gnat_realloc>22
+X 89 s-stalib.ads
+85P9*Exception_Data_Ptr(84R9)
+X 90 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 91 s-stoele.ads
+42K16*Storage_Elements 53|14w13 1128r37 91|117e28
+105M9*Integer_Address
+112V13*To_Integer{105M9} 53|1132s23 1132s66
+X 101 zip.ads
+45K9*Zip 52|68w6 578r28 580r43 53|902r43 905r14 907r13 909r18 910r16 918r10
+. 919r10 923r14 931r10 932r10 936r14 101|318e8
+53R8*Zip_info 52|578r32 580r47 53|902r47 101|316e13
+62U14*Load 53|907s17 910s20
+73X3*Zip_file_open_Error 53|909r22
+82V12*Is_loaded{boolean} 53|905s18 918s14 931s14
+92U13*Delete 53|919s14 932s14
+250V12*Exists{boolean} 53|923s18 936s18
+

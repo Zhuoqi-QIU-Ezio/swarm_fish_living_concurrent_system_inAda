@@ -1,0 +1,210 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gl.buffer.texture_coords%b  gl-buffer-texture_coords.ads  e6b92a39 DE NE OO PK IU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.buffer%s		gl-buffer.adb		gl-buffer.ali
+W gl.buffer.general%s	gl-buffer-general.adb	gl-buffer-general.ali  EA
+Z gl.errors%s		gl-errors.adb		gl-errors.ali
+W gl.geometry%s		gl-geometry.adb		gl-geometry.ali
+W gl.textures%s		gl-textures.adb		gl-textures.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c%s	i-c.adb			i-c.ali
+Z interfaces.c.pointers%s
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+U gl.buffer.texture_coords%s  gl-buffer-texture_coords.ads  ee91d95f DE EB EE OO PK IU
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W gl%s			gl.adb			gl.ali
+W gl.buffer%s		gl-buffer.adb		gl-buffer.ali
+W gl.buffer.general%s	gl-buffer-general.adb	gl-buffer-general.ali  EA
+W gl.geometry%s		gl-geometry.adb		gl-geometry.ali
+W gl.textures%s		gl-textures.adb		gl-textures.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c%s	i-c.adb			i-c.ali
+Z interfaces.c.pointers%s
+Z interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-general.adb	20130915152632 633ef1ce gl.buffer.general%b
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%b
+D gl-errors.ads		20130914013700 79dca854 gl.errors%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20150518132148 d5172521 interfaces.c.pointers%b
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20150518132150 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 8 gl.ads
+66K9*GL 4501e7 13|2r6 3r6 4r6 6r9 6r41 6r77 7r77 8r77 9r77
+124M9*Uint<18|43M9>
+X 9 gl-buffer.ads
+14K12*Buffer 8|66k9 9|66e14 13|2r9 6r12 6r44 6r80
+30R9*array_Object<20R9> 57e60 13|6r87
+X 10 gl-buffer-general.ads
+14R9 base_Object<9|20R9> 13|6r60
+16M9 Index 13|7r60
+17+9 Element 13|8r60
+18A9 Element_Array(17+9)<16M9> 13|9r60
+20k19*general 95e22 13|2w16 2r57 6r51
+X 13 gl-buffer-texture_coords.ads
+6K19*texture_coords[10|20] 9|14k12
+X 15 gl-geometry.ads
+15K12*Geometry 13|3w9 7r80 15|142e16
+65M11*vertex_Id<8|124M9>
+79M12*Positive_Vertex_Id{65M11} 13|7r89
+X 16 gl-textures.ads
+15K12*Textures 13|4w9 8r80 9r80 16|166e16
+38R9*Coordinate_2D 13|8r89 16|41e17
+43A11*Coordinate_2D_array(38R9)<15|65M11> 13|9r89
+X 18 i-c.ads
+43M9*unsigned
+

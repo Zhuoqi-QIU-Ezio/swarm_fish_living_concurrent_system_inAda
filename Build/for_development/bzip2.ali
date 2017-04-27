@@ -1,0 +1,325 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U bzip2%b		bzip2.adb		a1b853cc DE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+U bzip2%s		bzip2.ads		af9b02f0 BN DE EE NE OO PK GE
+W interfaces%s		interfac.ads		interfac.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D bzip2.ads		20130913163408 cfa8a0cf bzip2%s
+D bzip2.adb		20130915151340 9f4aadd2 bzip2%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D system.ads		20150518132150 f4ce8c3a system%s
+X 1 ada.ads
+16K9*Ada 19e8 4|14r6 37r32
+X 2 a-uncdea.ads
+20u15*Unchecked_Deallocation 4|14w10 37r36
+X 3 bzip2.ads
+69i3 input_buffer_size{integer} 4|68r29
+70i3 output_buffer_size{integer} 4|609r26
+72A8 Buffer(5|62M9)<integer> 78r35 79r35 4|68r16 609r13
+74b3 check_CRC{boolean} 4|574r16 629r22
+78U18 Read 78<25 4|75s13
+78*25 buf{72A8}
+79U18 Write 79>25 4|756s10
+79*25 buf{72A8}
+81k9*BZip2 69z3 70z3 72z8 74z3 78z18 79z18 91l5 91e10 4|16b14 762l5 762t10
+83X3*bad_header_magic 4|133r19
+84X3*bad_block_magic 4|604r19
+85X3*data_error 4|225r25 260r28 382r25 430r25
+86X3*block_crc_check_failed 4|633r34
+87X3*randomized_not_yet_implemented 4|691r22
+89U13*Decompress 4|18b14 760l8 760t18
+X 4 bzip2.adb
+20N7 max_groups 58r27 61r34 63r36 234r28
+21N7 max_alpha_size 55r43 56r43
+22N7 max_code_len 101r24 109r24
+23N7 group_size 24r51 327r29
+24N7 max_selectors 53r44
+26N7 sub_block_size 138r55 381r28 429r23
+28A12 Length_array(natural)<integer> 63r17
+30b7 block_randomized{boolean} 582m13 690r16
+31i7 block_size{natural} 137m10 138r42 381r45 429r40
+35A12 Tcardinal_array(5|68M9)<integer> 36r38 37r60 138r20
+36P12 Pcardinal_array(35A12) 37r77 38r12
+37U17 Dispose[2|20] 759s7
+38p7 tt{36P12} 138m10 385r19 427r16 450r15 453r30 456r13 456r27 653r54 663r60
+. 678r35 742r54 759m16 759r16 759r42
+39i7 tt_count{natural} 435m10 451r19 599r33
+41i7 rle_run_left{natural} 688r24 698m19 732m13 757r41
+42m7 rle_run_data{5|62M9} 689r21 697m19 731m13
+43i7 decode_available{natural} 599m13 654m16 654r36 655r19 684r23 705r22
+. 737r13
+44i7 block_origin{natural} 583m13 663r68 742r62
+45m7 read_data{5|62M9} 147r45 148m13 151r45 152m13 152r38
+46i7 bits_available{natural} 145r17 147r94 148r48 149m13 149r31 154m10 154r28
+47i7 inuse_count{natural} 200m10 206r36 207m22 207r37 369r38 586r34
+48a7 seq_to_unseq(natural) 206m22 379r21 426r23 426r51 427r43
+49i7 global_alpha_size{natural} 257r27 281r27 290r54 586m13
+50i7 group_count{natural} 218m10 237r24 255r24 278r24
+52i7 selector_count{natural} 219m10 220r24 240r24
+53a7 selector(5|62M9) 248m13 328r33
+53a17 selector_mtf(5|62M9) 228m13 241r27
+55A12 Alpha_U32_array(5|68M9)<integer> 61r49 83r69
+56A12 Alpha_Nat_array(natural)<integer> 58r42 84r69
+58a7 len(56A12) 269m16 282r19 283r29 285r19 286r29 289r90
+59a7 global_limit(55A12) 289m38 289r38 334r26
+60a7 global_base(55A12) 289m56 289r56 338r56
+61a7 global_perm(55A12) 289m73 289r73 338r20
+63a7 minlens{28A12} 291m13 329r27
+64a7 cftab(natural) 365m10 380m16 380r29 426m16 426r44 439r19 440m13 454r18
+. 455m13 455r29
+66b7 end_reached{boolean} 666m22 669r22 705r51 745m16 757r20
+68*7 in_buf{3|72A8} 69r27 74r22 75m19 76r23 78r17
+69i7 in_idx{natural} 74r13 76m13 78r25 79m10 79r20
+71V16 Read_byte{5|62M9} 71b16 81l11 81t20 129s18 136s15 146s21
+72m10 res{5|62M9} 78m10 80r17
+83U17 hb_create_decode_tables 83b17 83=42 83=49 83=55 84>42 85>42 85>51 86>42
+. 121l11 121t34 289s13
+83a42 limit{55A12} 103m13 115m13 119r26
+83a49 base{55A12} 102m13 107m13 107r27 110m13 110r25 110r36 114r26 114r41
+. 119m13 119r51
+83a55 perm{55A12} 96m19
+84a42 length{56A12} 95r19 106r20
+85i42 min_len{natural} 93r19 113r19 118r19
+85i51 max_len{natural} 93r30 113r30 118r34
+86i42 alpha_size{integer} 94r27 105r24
+88i10 pp{integer} 92m10 96r25 97m19 97r25
+88i14 idx{integer} 106m13 107r19 107r33
+89m10 vec{5|68M9} 112m10 114m13 114r20 115r26 116m13 116r20
+93i14 i{integer} 95r32
+94i17 j{integer} 95r27 96r45
+101i14 i{integer} 102r19 103r20
+105i14 i{integer} 106r28
+109i14 i{integer} 110r19 110r31 110r42
+113i14 i{integer} 114r32 114r47 115r20
+118i14 i{integer} 119r19 119r33 119r57
+123U17 Init 123b17 139l11 139t15 753s7
+124a10 magic{string} 128r19 130m13 132r13
+125m10 b{5|62M9} 129m13 130r41 136m10 137r33
+128i14 i{integer} 130r20
+141V16 get_bits{5|62M9} 141b16 141>26 156l11 156t19 160s30 165s30 170s17
+. 218s34 256s30
+141i26 n{natural} 145r13 147r60 147r90 148r44 151r60 152r49 154r45
+142m10 Result_get_bits{5|62M9} 147m13 151m13 155r17
+143m10 data{5|62M9} 146m13 147r79 148r38
+158V16 get_bits_32{5|68M9} 158b16 158>29 161l11 161t22 175s29 175s65 175s88
+. 180s29 181s24 182s24 183s12 219s49 219s72 333s21 336s48
+158i29 n{natural} 160r40
+163V16 get_boolean{boolean} 163b16 166l11 166t22 196s28 204s22 222s19 262s33
+. 263s22 582s33
+168V16 get_byte{5|62M9} 168b16 171l11 171t19 571s41
+173V16 get_cardinal24{5|68M9} 173b16 176l11 176t25 583s38
+178V16 get_cardinal{5|68M9} 178b16 184l11 184t23 581s32
+189U17 receive_mapping_table 189b17 212l11 212t32 585s13
+190a10 inuse16(boolean) 193m10 196m13 202r16
+195i14 i{integer} 196r22
+201i14 i{integer} 202r25 206r57
+203i20 j{integer} 206r61
+215U17 receive_selectors 215b17 230l11 230t28 588s13
+216m10 j{5|62M9} 221m13 223m16 223r21 224r19 228r33
+220i14 i{integer} 228r27
+233U17 undo_mtf_values 233b17 250l11 250t26 590s13
+234a10 pos(natural) 238m13 242r20 244m16 244r27 247m13
+235i10 v{natural} 241m13 242r25 243r19 244r21 244r32 245m16 245r21
+235i13 tmp{natural} 242m13 247r24 248r41
+237i14 w{integer} 238r18 238r24
+240i14 i{integer} 241r41 248r23
+252U17 receive_coding_tables 252b17 272l11 272t32 592s13
+253i10 curr{natural} 256m13 259r22 264m22 264r30 266m22 266r30 269r31
+255i14 t{integer} 269r21
+257i17 i{integer} 269r25
+275U17 make_hufftab 275b17 293l11 293t23 594s13
+276i10 minlen{natural} 279m13 285r33 286m19 290r38 291r28
+276i18 maxlen{natural} 280m13 282r33 283m19 290r46
+278i14 t{integer} 282r24 283r34 285r24 286r34 289r52 289r69 289r86 289r95
+. 291r22
+281i17 i{integer} 282r28 283r38 285r28 286r38
+299U17 receive_mtf_values 299b17 443l11 443t29 596s13
+301N10 mtfa_size 304r29 307r28 344r18
+302N10 mtfl_size 303r38 309r43 310r38 311r35 345r43 391r24 404r35 405r35
+. 416r68
+303a10 mtfbase(natural) 314m16 346r21 349m16 379r41 393r24 406r24 413r24
+. 416r28 416r50 418m22 418r37 421r25 422r22
+304a10 mtfa(natural) 311m19 347m16 347r42 379r35 395r24 397m22 397r34 401m19
+. 408r24 410m22 410r34 416m22 416r44 421m19
+306U20 init_mtf 306b20 316l14 316t22 366s10
+307i13 k{natural} 311r25 312m19 312r24 314r31
+309i17 i{integer} 311r31 314r25
+310i20 j{integer} 311r47
+318i10 group_pos{integer} 325r16 327m16 331m13 331r26 363m10
+318i21 group_no{integer} 326m16 326r28 328r43 362m10
+319i10 gminlen{natural} 329m16 332r19
+319i19 gsel{natural} 328m16 329r36 334r40 338r33 338r69
+321V19 get_mtf_value{5|68M9} 321b19 339l14 339t27 367s22 376s31 432s28
+322i13 zn{natural} 332m13 333r34 334r47 335m16 335r22 338r76
+323m13 zvec{5|68M9} 333m13 334r19 336m16 336r36 338r49
+341U20 move_mtf_block 341b20 351l14 351t28 423s22
+342i13 j{natural} 346m16 347r48 347r53
+342i16 k{natural} 344m13 347r22 347r32 348m16 348r21 349r31
+345i17 i{integer} 346r30 349r25
+353N10 run_b 370r28 377r40
+354i10 t{natural} 364m10 381r19 385r27 387m19 387r24 427r24 428m16 428r21
+. 429r19 435r22 437m10 440r26 441m13 441r18
+355m10 next_sym{5|68M9} 367m10 369r25 370r16 374r51 376m19 377r29 390r31
+. 432m16
+356i10 es{natural} 371m16 374m19 374r25 380r41 381r23 384r22 386m19 386r25
+357i10 n{natural} 372m16 374r65 375m19 375r24 379m16 380r23 380r36 385r46
+. 395m19 401r31 408m19 421r41 426r37 426r65 427r57
+357i13 nn{natural} 390m16 391r19 394r28 404r26 405r26 439m13 441r22
+358i10 p{natural} 393m19 394r24 399r36 406m19 407r24 409r30
+358i13 q{natural} 394m19 395r30 397r28 397r40 398m22 398r27 399r32 401r25
+. 407m19 408r30 409r25 410r28 410r40 411m22 411r27
+359i10 u{natural} 413m19 414r24 419r36
+359i13 v{natural} 414m19 416r37 416r59 417m22 417r27 418r31 418r46 419r32
+. 421r34 422r31
+360i10 lno{natural} 404m19 406r33 414r28
+360i15 off{natural} 405m19 407r28
+438i14 i{integer} 439r26 440r20
+445U17 detransform 445b17 460l11 460t22 598s13
+446m10 a{5|68M9} 449m10 456r41 457m13 457r18
+447i10 p{natural} 450m10 451r15 452r16 453r38 458m13 458r18
+447i13 q{natural} 451m10 452r21
+447i16 r{natural} 454m13 456r21 456r35
+447i19 i255{natural} 453m13 454r25 455r20 455r36
+464K15 CRC 471l11 471e14 473b20 561l11 561t14 578r19 630r22 632r28 636r25
+466U20 Init 466<26 551b20 554l14 554t18 578s23 636s29
+466m26 CRC_Value{5|68M9} 551b26 553m13
+467V20 Final{5|68M9} 467>27 556b19 559l14 559t19 632s32
+467m27 CRC_Value{5|68M9} 556b26 558r24
+468U20 Update 468=28 468>60 469r25 543b20 549l14 549t20 630s26
+468m28 CRC_Value{5|68M9} 543b28 545m13 546r53 548r29
+468m60 val{5|62M9} 543b60 546r85
+475a10 CRC32_Table(5|68M9) 546r15
+563b7 compare_final_CRC{boolean} 575r19 631r46 635m25 656m19
+564m7 stored_blockcrc{5|68M9} 581m13 657r42
+564m24 mem_stored_blockcrc{5|68M9} 632r56 657m19
+564m45 computed_crc{5|68M9} 578m29 630m34 630r34 632r39 636m35
+567V16 decode_block{boolean} 567b16 606l11 606t23 662s22 741s16
+568a10 magic{string} 571m13 573r13 601r16
+570i14 i{integer} 571r20
+608i7 next_rle_idx{integer} 653m16 653r62 663m22 665m22 678r43 742m16 744m16
+609*7 buf{3|72A8} 618r30 619r32 625m19 736r18 756r17
+610i7 last{natural} 736m10 749m10 749r18 756r27
+612U17 Read 612b17 750l11 750t15 755s10
+613i10 shorten{natural} 696m19 730m13 749r25
+615U20 rle_read 615b20 733l14 733t22 748s10
+616i13 rle_len{natural} 628m19 628r30 631r25 639r29 688m13 693r16 698r35
+. 708m19 712m22 712r33 715m25 715r36 719m28 719r39 732r29
+617m13 data{5|62M9} 625r32 630r48 684r53 689m13 697r35 709m19 731r29
+618i13 idx{integer} 625r24 626m19 626r26
+619i13 count{integer} 627m19 627r28 639r49 695r19 725r29 730r24
+621U23 rle_write 621b23 622r31 641l17 641t26 694s16 724s19 728s36
+644X13 input_dried 670r28 728r21
+650U23 consume_rle 650b23 651r31 673l17 673t28 710s19 713s22 716s25 718s28
+. 720s28
+675V22 rle_byte{5|62M9} 675b22 676r31 679l17 679t25 684s60 709s27 719s58
+681V22 rle_possible{boolean} 681b22 682r31 685l17 685t29 711s22 714s25 717s28
+X 5 interfac.ads
+38K9*Interfaces 3|65w6 72r46 4|33r11 5|178e15
+62M9*Unsigned_8 3|72r57 4|42r22 45r19 53r62 71r33 72r16 125r14 141r46 142r29
+. 143r17 168r32 216r14 248r29 468r66 543r66 617r20 675r38 678r23
+68M9*Unsigned_32 4|35r59 55r62 89r16 96r32 158r49 160r17 173r38 178r36 321r40
+. 323r20 355r21 385r33 427r30 446r14 466r42 467r39 467r59 468r47 476r26 476r53
+. 543r47 546r72 551r42 556r38 556r58 564r60
+75V13*Shift_Left{62M9} 4|148s26 152s26
+79V13*Shift_Right{62M9} 4|147s32 147s66 151s32
+115V13*Shift_Left{68M9} 4|175s17 175s53 180s17 181s12 182s12 219s37 336s24
+. 374s39 548s17
+119V13*Shift_Right{68M9} 4|546s40 653s41 663s47 742s41
+

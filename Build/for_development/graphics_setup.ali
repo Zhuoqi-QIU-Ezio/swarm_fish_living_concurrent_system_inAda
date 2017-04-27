@@ -1,0 +1,334 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U graphics_setup%b	graphics_setup.adb	6f4768c5 DE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W glu%s			glu.adb			glu.ali
+W glut%s		glut.adb		glut.ali
+W glut.devices%s	glut-devices.adb	glut-devices.ali
+W graphics_configuration%s  graphics_configuration.ads  graphics_configuration.ali
+W graphics_data%s	graphics_data.ads	graphics_data.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W vectors_2d_n%s	vectors_2d_n.ads	vectors_2d_n.ali
+
+U graphics_setup%s	graphics_setup.ads	ae3cfa3a DE EE NE OO PK
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20150518132148 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20150518132148 a5838d5a ada.real_time%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D glu.ads		20130915152632 d0f1aa67 glu%s
+D glut.ads		20130915152142 dcd0b122 glut%s
+D glut-devices.ads	20130917070814 e69207c9 glut.devices%s
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D graphics_configuration.ads  20130915031142 fc788553 graphics_configuration%s
+D graphics_data.ads	20130915031208 38c3c67d graphics_data%s
+D graphics_framerates.ads  20130922091222 2cebd15a graphics_framerates%s
+D graphics_setup.ads	20110720061426 ae3cfa3a graphics_setup%s
+D graphics_setup.adb	20150820005426 135b5732 graphics_setup%b
+D graphics_structures.ads  20130922091012 168856d0 graphics_structures%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D models.ads		20130912102734 2c8da29a models%s
+D quaternions.ads	20130922091012 9d9d58c2 quaternions%s
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D rotations.ads		20130922091012 3eeded66 rotations%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatflt.ads		20150518132148 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-multip.ads		20150518132150 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150518132150 2e5b26a9 system.os_interface%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stausa.ads		20150518132150 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20150518132150 601f6b72 system.task_info%s
+D s-taspri.ads		20150518132150 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20150518132150 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150518132150 339749f0 system.tasking%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D s-win32.ads		20150518132150 b7f96285 system.win32%s
+D vectors_2d_n.ads	20130915032044 27f53fc0 vectors_2d_n%s
+D vectors_3d.ads	20130922091012 121733f3 vectors_3d%s
+D vectors_xd.ads	20130912094030 4c943a4c vectors_xd%s
+D vectors_xd_i.ads	20130913065932 32b570f3 vectors_xd_i%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 19e8 46|5r6 5r45 6r6 6r45
+X 7 a-cohama.ads
+52R9*Map<9|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+X 12 a-numeri.ads
+16K13*Numerics 32e17 46|5w10 5r49 6r10 6r49
+21N4*Pi 46|24r28
+X 13 a-nuelfu.ads
+18K22*Elementary_Functions[14|39] 46|6w19 6r58
+X 14 a-ngelfu.ads
+81V13*Sin{float} 46|41s53[13|18]
+97V13*Tan{float} 46|39s63[13|18]
+119V13*Arctan{float} 46|39s32[13|18]
+X 27 gl.ads
+66K9*GL 4501e7 46|11w6 32r11 34r37 34r50 34r80 44r7 44r26 44r54 45r7 45r22
+. 46r7 53r7 53r22 54r7 54r22 55r7 56r7 104r7 104r19 105r7 105r19 106r7 106r19
+. 107r7 107r19 108r7 108r19 113r7 113r18
+125I9*Sizei<49|35I9> 46|44r29 44r57
+128F9*Double<49|65F9> 46|34r40 34r53 34r83
+155A9*Double_Vector_3D(128F9)<integer>
+562n7*LIGHTING{554E9} 46|105r22 113r21
+565n7*DEPTH_TEST{554E9} 46|108r22
+567n7*NORMALIZE{554E9} 46|107r22
+570n7*BLEND{554E9} 46|104r22
+578n7*AUTO_NORMAL{554E9} 46|106r22
+704U14*Enable 46|113s10
+706U14*Disable 46|104s10 105s10 106s10 107s10 108s10
+1326n7*MODELVIEW{1324E9} 46|53r25
+1327n7*PROJECTION{1324E9} 46|45r25
+1338U14*MatrixMode 46|45s10 53s10
+1624n7*SMOOTH{1621E9} 46|54r25
+1633U14*ShadeModel 46|54s10
+3192U14*ClearColor 46|55s10
+3201U14*ClearAccum 46|56s10
+3272U14*Viewport 46|44s10
+3282U14*LoadIdentity 46|46s10
+X 29 gl-buffer-general.ads
+14R9 base_Object<28|20R9>
+X 37 globe_3d.ads
+77K9*GLOBE_3D 606e13 46|13w6 41r38 115r10 116r10 121r35
+102F12*Real{27|128F9} 46|41r47
+106A12*Vector_3D{27|155A9}<integer>
+111A12*Point_3D{106A12}<integer>
+113A9*Matrix(102F12)<integer><integer>
+114A9*Matrix_33<113A9>(102F12)<integer><integer>
+117a4*Id_33{114A9} 46|121r44
+144a7*Eye_Position{111A12} 46|120m19
+146f7*max_dot_product{102F12} 46|41m19
+147r7*main_clipping{135R12} 46|42m19
+158r10*Clipper{143R9} 46|41m11 42m11 120m11
+162a10*World_Rotation{114A9} 46|121m11
+176f10*FOVy{102F12} 46|35r54 39r79 48r38 85m11 122m11
+492U14*Define 46|115s19
+495U14*Switch_light 46|116s19
+X 38 glu.ads
+48K9*GLU 738e8 46|16w6 48r7
+600U14*Perspective 46|48s11
+600f27 fovy{27|128F9} 46|48r24
+601f27 aspect{27|128F9} 46|49r24
+602f27 zNear{27|128F9} 46|50r24
+603f27 zFar{27|128F9} 46|51r24
+X 39 glut.ads
+21K9*GLUT 867e9 46|17w6 17r45 18r6 78r43 78r58 78r70 89r7 90r7 91r7 92r7
+. 93r16 96r7 97r7 98r7 100r7
+23M12*Unsigned{49|43M9} 46|78r31
+25V14*"or"=25:74{49|43M9} 46|78r55 78r67
+29N4*RGB 46|78r63
+33N4*DOUBLE 46|78r48
+36N4*DEPTH 46|78r75
+286U14*Init 46|89s12
+305U14*InitDisplayMode 46|90s12
+313U14*InitWindowPosition 46|92s12
+316U14*InitWindowSize 46|91s12
+335V13*CreateWindow{integer} 46|93s21
+524U14*DisplayFunc 46|97s12
+530U14*ReshapeFunc 46|96s12
+583U14*IdleFunc 46|98s12
+X 40 glut-devices.ads
+11K14*Devices 60e17 46|18w11 100r12
+13U14*Initialize 46|100s20
+X 42 graphics_configuration.ads
+14K9*Graphics_Configuration 57e27 46|8w6 8r45
+35f4*Camera_Field_of_View{37|102F12} 46|85r19 122r35
+36f4*Camera_Close_Clipping_Plane{37|102F12} 46|50r34
+37f4*Camera_Far_Clipping_Plane{37|102F12} 46|51r34
+38a4*Camera_Initial_Position{37|111A12} 46|120r35
+40a4*Viewer_Title{string} 46|93r35
+44a4*Initial_Lights{47|53A9} 46|114r21 115r35
+X 43 graphics_data.ads
+12K9*Graphics_Data 36e18 46|9w6 9r45
+23r4*Eye{37|156R9} 46|35r50 39r75 41m7 42m7 48r34 85m7 120m7 121m7 122m7
+25a4*Viewer_Size{47|46A12} 46|34r61 34r91 42r43 42r64 44r36 44r64 66m7 91r28
+. 91r45
+X 45 graphics_setup.ads
+5K9*Graphics_Setup 10l5 10e19 46|22b14 130l5 130t19
+7U14*Initialize_Graphics 7^35 46|76b14 126l8 126t27
+7p35 Operations 46|76b35 97r25 98r22
+8U14*Window_Resize 8>29 8>37 46|63b14 68l8 68t21 96r25
+8i29 Size_x{integer} 46|63b29 66r29
+8i37 Size_y{integer} 46|63b37 66r42
+X 46 graphics_setup.adb
+24N4 Deg_2_Rad 35r62
+30U14 Reset_for_3D 30b14 57l8 57t20 67s7 110s7
+34f7 Aspect_Ratio{27|128F9} 38r10 39r47 49r34
+35f7 Half_Field_of_View{float} 39m10 41r58
+78m7 GLUT_Options{39|23M12} 90r29
+79i7 Error{integer} 79r45 93m7
+114i11 Source{integer} 115r27 115r51 116r33
+X 47 graphics_structures.ads
+46A12*Size_2D{92|13A12}<92|9E9>
+53A9*Lights_T(37|488R9)<integer>
+X 49 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+65F9*double<long_float>
+X 76 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 92 vectors_2d_n.ads
+7K9*Vectors_2D_N 46|20w6 20r45 92|34e17
+9n28*x{9E9} 46|34r74 42r56 44r49 66r24 91r41
+9n31*y{9E9} 46|34r104 42r77 44r77 66r37 91r58
+13A12*Vector_2D_N{95|10A9[11]}<9E9>
+X 95 vectors_xd_i.ads
+10A9*Vector_xD_I(integer)<92|9E9>
+

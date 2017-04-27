@@ -1,0 +1,276 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_LOOPS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U models%b		models.adb		9cceee23 DE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+W gl.materials%s	gl-materials.adb	gl-materials.ali
+W real_type%s		real_type.ads		real_type.ali
+W spaceship_p%s		spaceship_p.adb		spaceship_p.ali  EA
+W sphere_p%s		sphere_p.adb		sphere_p.ali  EA
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W vectors_4d%s		vectors_4d.ads		vectors_4d.ali
+
+U models%s		models.ads		670c4a41 DE EB EE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D models.ads		20130912102734 2c8da29a models%s
+D models.adb		20130922091012 08a4df87 models%b
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D spaceship_p.ads	20130915030754 95136705 spaceship_p%s
+D sphere_p.ads		20130913114114 e9b4e9ab sphere_p%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D vectors_4d.ads	20130922091012 6c604cff vectors_4d%s
+D vectors_xd.ads	20130912094030 4c943a4c vectors_xd%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 7 a-cohama.ads
+52R9*Map<9|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+X 25 gl.ads
+66K9*GL 4501e7 41|12w6 13r6 13r25 29r31 37r42 38r12 39r12 40r12 41r12 52r20
+126F9*C_Float<37|64F9> 41|38r15 39r15 40r15 41r15 52r23
+128F9*Double<37|65F9>
+154A9*Material_Float_vector(126F9)<integer> 41|29r34 37r45
+155A9*Double_Vector_3D(128F9)<integer>
+X 27 gl-buffer-general.ads
+14R9 base_Object<26|20R9>
+X 31 gl-materials.ads
+1K12*Materials 265e17 41|13w9 13r28
+25R8*Material_type 31e13 41|19r72 47r54 47r93
+26a5*ambient{25|154A9} 41|48m7 48r60 48r114
+27a5*diffuse{25|154A9} 41|49m7 49r60 49r114
+28a5*specular{25|154A9} 41|50m7 50r60 50r114
+29a5*emission{25|154A9} 41|51m7 51r60 51r114
+30f5*shininess{25|126F9} 41|52m7 52r57 52r103
+227r3*Pearl{25R8} 41|67r173 83r107 84r107
+233r3*Ruby{25R8} 41|69r165 83r96
+239r3*Turquoise{25R8} 41|84r96
+X 35 globe_3d.ads
+77K9*GLOBE_3D 606e13 40|5w6 23r85 24r85 41|19r39
+102F12*Real{25|128F9}
+106A12*Vector_3D{25|155A9}<integer>
+111A12*Point_3D{106A12}<integer>
+264P9*p_Object_3D(371R9) 40|23r94 24r94 41|19r48
+313r7*material{31|25R8} 41|23m33
+333A9*Face_array(294R9)<integer>
+374a7*face{333A9} 41|22r30 23m20
+X 37 i-c.ads
+64F9*C_float<float>
+65F9*double<long_float>
+X 40 models.ads
+7K9*Models 30l5 30e11 41|15b14 94l5 94t11
+11E9*Model_Name 11e42 23r34 41|61r20
+11n24*Spaceship{11E9} 41|67r18
+11n35*Sphere{11E9} 41|69r18
+21E9*Gradient_Materials 21e52 24r34 28r41
+21n32*G_Turquoise{21E9} 41|84r21
+21n45*G_Ruby{21E9} 41|83r21
+23A9*Models_Field(35|264P9)<11E9> 26r16
+24A9*Gradient_Field(35|264P9)<21E9><integer> 28r25
+26a4*Model_Set{23A9} 41|67m66 67r66 67r154 69m58 69r58 69r146
+28a4*Spaceship_Gradient{24A9} 41|73r16 74r19 75m43 75r43 78r37 79r27 79r57
+. 83r53 84r53
+X 41 models.adb
+19U14 Assign_Material 19b14 19>31 19>61 25l8 25t23 67s137 69s129 83s36 84s36
+19p31 Model{35|264P9} 22r20 23r10
+19r61 Material{31|25R8} 23r45
+22i11 Faces{integer} 23r26
+29V13 To_Vector_4D{70|14A12} 29>27 48s35 48s89 49s35 49s89 50s35 50s89 51s35
+. 51s89
+29a27 V{25|154A9} 30r18 31r18 32r18 33r18
+37V13 To_GL{25|154A9} 37>20 48s20 49s20 50s20 51s20
+37a20 V{70|14A12} 38r24 39r24 40r24 41r24
+45F12 Ratio_T{42|5F12} 47r77 77r33 80r20
+47V13 Blend_Material{31|25R8} 47>29 47>41 47>69 83s80 84s80
+47r29 Material_1{31|25R8} 48r49 49r49 50r49 51r49 52r46
+47r41 Material_2{31|25R8} 48r103 49r103 50r103 51r103 52r92
+47f69 Ratio{45F12} 48r27 48r79 49r27 49r79 50r27 50r79 51r27 51r79 52r32
+. 52r77
+58U14 Initialize 58b14 90l8 90t18 93s4
+61e11 Model{40|11E9} 62r15 67r77 67r165 69r69 69r157
+73e11 M{40|21E9} 75r63 82r21 83r73 84r73
+74i14 i{integer} 75r66 78r26 83r76 84r76
+77f16 Ratio{45F12} 83r114 84r114
+X 42 real_type.ads
+3K9*Real_Type 41|9w6 9r24 42|10e14
+5F12*Real{long_float} 41|30r12 31r12 32r12 33r12 45r23 52r40 52r86 78r20
+. 78r31 79r21
+X 43 spaceship_p.ads
+7K9*Spaceship_P 41|6w6 6r41 67r36 75r13 43|13e16
+9U14*Create 41|67s48 75s25
+9p22 Object{35|264P9} 41|67r56 75r33
+10f22 Object_Scale{35|102F12} 41|67r85 75r70
+11a22 Centre{35|111A12} 41|67r109 75r94
+X 44 sphere_p.ads
+7K9*Sphere_P 41|7w6 7r41 69r31 44|14e13
+9U13*Create 41|69s40
+9p21 object{35|264P9} 41|69r48
+10f21 Object_Scale{35|102F12} 41|69r77
+11a21 centre{35|111A12} 41|69r101
+X 70 vectors_4d.ads
+8K9*Vectors_4D 41|10w6 10r25 70|35e15
+10n28*x{10E9} 41|30r7 38r27
+10n31*y{10E9} 41|31r7 39r27
+10n34*z{10E9} 41|32r7 40r27
+10n37*t{10E9} 41|33r7 41r27
+14A12*Vector_4D{71|10A9[12]}<10E9> 41|29r64 37r24
+22V14*"*"=22:85{71|10A9[12]} 41|48s33 48s86 49s33 49s86 50s33 50s86 51s33
+. 51s86
+30V14*"+"=30:84{71|10A9[12]} 41|48s70 49s70 50s70 51s70
+X 71 vectors_xd.ads
+10A9*Vector_xD(long_float)<70|10E9>
+

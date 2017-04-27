@@ -1,0 +1,156 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U gl.extended%s		gl-extended.ads		ddd0a1d4 DE NE OO PK IU
+W gl%s			gl.adb			gl.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-extended.ads	20130915152632 ddd0a1d4 gl.extended%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 3 gl.ads
+66K9*GL 4501e7 4|9w6 11r9 13r36 14r36 16r39 17r39 19r35 20r35 22r35 23r35
+. 24r35 25r35 27r38 28r38 29r38 30r38 32r35 33r35 33r60 35r35 35r57 37r43
+. 38r43 39r43 52r5
+118M9*GL_Boolean<6|47M9> 4|35r60
+121I9*Int<6|35I9>
+122M9*Ubyte<6|47M9>
+124M9*Uint<6|43M9> 4|20r38
+125I9*Sizei<6|35I9> 4|13r39 16r42
+139P9*intPointer(121I9) 4|39r46
+142P9*uintPtr(124M9) 4|14r39 17r42
+147I12*sizeiPtr{6|56I9} 4|23r38 29r41
+148I12*intPtr{6|56I9} 4|28r41
+150P9*pointer(122M9) 4|24r38 30r41 33r63
+3783E9*VBO_Target 3789e7 4|19r38 22r38 27r41 32r38 35r38 37r46
+3801E9*VBO_Usage 3812e7 4|25r38
+3836E9*Access_Policy 3841e7 4|33r38
+3854E9*Buffer_Parameter 3860e7 4|38r46
+X 4 gl-extended.ads
+11K12*Extended 3|66k9 4|52l8 52e16
+13U13*GenBuffers 13>25 14>25 43b27
+13i25 n{3|125I9}
+14p25 buffers{3|142P9}
+16U13*DeleteBuffers 16>28 17>28 44b27
+16i28 n{3|125I9}
+17p28 buffers{3|142P9}
+19U13*BindBuffer 19>25 20>25 45b27
+19e25 target{3|3783E9}
+20m25 buffer{3|124M9}
+22U13*BufferData 22>25 23>25 24>25 25>25 46b27
+22e25 target{3|3783E9}
+23i25 size{3|147I12}
+24p25 data{3|150P9}
+25e25 usage{3|3801E9}
+27U13*BufferSubData 27>28 28>28 29>28 30>28 47b27
+27e28 target{3|3783E9}
+28i28 offset{3|148I12}
+29i28 size{3|147I12}
+30p28 data{3|150P9}
+32V12*MapBuffer{3|150P9} 32>25 33>25 48b27
+32e25 target{3|3783E9}
+33e25 Policy{3|3836E9}
+35V12*UnmapBuffer{3|118M9} 35>25 49b27
+35e25 target{3|3783E9}
+37U13*GetBufferParameter 37>33 38>33 39>33 50b27
+37e33 target{3|3783E9}
+38e33 value{3|3854E9}
+39p33 data{3|139P9}
+X 6 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+47M9*unsigned_char
+56I9*ptrdiff_t<integer>
+

@@ -1,0 +1,231 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U game_control%b	game_control.adb	d317e11b DE NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+U game_control%s	game_control.ads	5097ee25 DE EE OO PK
+W gl%s			gl.adb			gl.ali
+W glut%s		glut.adb		glut.ali
+W glut.devices%s	glut-devices.adb	glut-devices.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D game_control.ads	20130915152006 9ee05dde game_control%s
+D game_control.adb	20150820005008 4df7bcc5 game_control%b
+D gl.ads		20130917070654 28e5b432 gl%s
+D glut.ads		20130915152142 dcd0b122 glut%s
+D glut-devices.ads	20130917070814 e69207c9 glut.devices%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 3 game_control.ads
+12K9*Game_Control 64r51 69l5 69e17 4|8b14 121l5 121t17
+14E9*Command 43e21 44r20 46r30 4|51r47 51r65
+15n21*go_forward{14E9} 4|60r10 72r13
+16n21*go_backwards{14E9} 4|62r10
+17n21*go_graduated{14E9}
+18n21*slide_left{14E9} 4|40r13 112r13
+19n21*slide_right{14E9} 4|41r13 113r13
+20n21*slide_lateral_graduated{14E9} 4|87r33
+21n21*turn_left{14E9} 4|115r13
+22n21*turn_right{14E9} 4|116r13
+23n21*turn_lateral_graduated{14E9} 4|88r33
+24n21*slide_up{14E9} 4|35r13 42r13
+25n21*slide_down{14E9} 4|36r13 43r13
+26n21*slide_vertical_graduated{14E9} 4|94r33
+27n21*turn_up{14E9} 4|38r13
+28n21*turn_down{14E9} 4|39r13
+29n21*turn_vertical_graduated{14E9} 4|95r33
+30n21*run_mode{14E9} 4|64r10
+31n21*ctrl_mode{14E9} 4|65r10
+32n21*slide_mode{14E9} 4|32r10 34r13 75r13 86r21 93r21 111r13
+33n21*swing_plus{14E9} 4|45r10
+34n21*swing_minus{14E9} 4|46r10
+35n21*jump{14E9} 4|49r10
+36n21*special_plus{14E9} 4|47r10
+37n21*special_minus{14E9} 4|48r10
+38n21*photo{14E9} 4|55r10
+38n28*video{14E9} 4|56r10
+39n21*toggle_10{14E9} 4|57r10
+40n21*interrupt_game{14E9} 4|59r10
+41n21*n0{14E9} 4|50r16 51r78
+41n25*n1{14E9}
+41n29*n2{14E9}
+41n33*n3{14E9}
+41n37*n4{14E9}
+41n41*n5{14E9}
+41n45*n6{14E9}
+41n49*n7{14E9}
+41n53*n8{14E9}
+41n57*n9{14E9} 4|50r22
+42n21*bogus_command{14E9}
+46A8*Command_set(boolean)<14E9> 49r25 64r64 4|15r51
+49a3*no_command{46A8}
+61U13*Append_Commands 61>30 62>30 63>30 64=30 65<30 65<34 66^30 67^30 4|12b14
+. 119l8 119t23
+61i30 size_x{integer} 4|12b31 85r56 101r30 101r44 103r28
+62i30 size_y{integer} 4|13b31 92r57 101r83 101r97 104r28
+63b30 warp_mouse{boolean} 4|14b31 100r10
+64a30 c{46A8} 4|15b31 32m7 34r10 35m10 36m10 38m10 39m10 40m10 41m10 42m10
+. 43m10 45m7 46m7 47m7 48m7 49m7 51m10 55m7 56m7 57m7 59m7 60m7 62m7 64m7
+. 65m7 72m10 75m10 86r18 87m30 88m30 93r18 94m30 95m30 111r10 112m10 113m10
+. 115m10 116m10
+65f30 gx{5|128F9} 4|16b31 80m7 85m13
+65f34 gy{5|128F9} 4|16b35 81m7 92m13
+66p30 Keyboard(7|25R9) 4|17b31 32r29 35r32 36r32 38r32 39r32 40r32 41r32
+. 42r32 43r32 45r29 46r29 47r29 48r29 49r47 52r32 55r56 56r56 57r56 59r29
+. 60r29 61r29 62r29 63r29 64r29 65r29 112r32 113r32 115r32 116r32
+67p30 Mouse(7|50R9) 4|18b31 71r10 74r10 78r13 78r28 79r13 79r28 101r15 101r68
+. 103r10 104r10 105r28 105r44 107r10 107r28 108r10 108r28
+X 4 game_control.adb
+22N7 sensib 85r19 92r20
+23i7 dx{integer} 78m7 82r14 84r13 85r39
+23i11 dy{integer} 79m7 82r37 91r13 92r40
+50e11 i{3|14E9} 51r13 51r60
+X 5 gl.ads
+66K9*GL 3|10w6 65r51 4|10r8 16r51 85r28 85r45 92r29 92r46 5|4501e7
+128F9*Double<9|65F9> 3|65r54 4|16r54 85r31 85r48 92r32 92r49
+X 6 glut.ads
+21K9*GLUT 3|10r10 66r51 66r76 67r51 67r76 4|17r51 17r76 18r51 18r76 20r11
+. 32r53 35r58 36r58 38r58 39r58 55r42 56r42 57r42 60r55 62r55 64r53 65r53
+. 71r34 74r34 105r10 112r58 113r58 115r58 116r58 6|867e9
+44N4*LEFT_BUTTON 4|71r39
+46N4*RIGHT_BUTTON 4|74r39
+64N4*KEY_F10 4|57r47
+65N4*KEY_F11 4|56r47
+66N4*KEY_F12 4|55r47
+70N4*KEY_LEFT 4|112r63 115r63
+71N4*KEY_UP 4|60r60
+72N4*KEY_RIGHT 4|113r63 116r63
+73N4*KEY_DOWN 4|62r60
+74N4*KEY_PAGE_UP 4|35r63 38r63
+75N4*KEY_PAGE_DOWN 4|36r63 39r63
+235N4*Active_Shift 4|64r58
+236N4*Active_Control 4|65r58
+237N4*Active_Alt 4|32r58
+407U14*WarpPointer 4|105s15
+X 7 glut-devices.ads
+11K14*Devices 3|10w15 66r56 66r81 67r56 67r81 4|17r56 17r81 18r56 18r81 20r16
+. 7|60e17
+20A9*Key_set(boolean)<character>
+21A9*Modifier_set(boolean)<integer>
+22A9*Special_set(boolean)<integer>
+25R9*Keyboard 3|66r64 4|17r64 7|33e17
+27a10*normal_set{20A9} 4|40r45 41r45 42r45 43r45 45r42 46r42 47r42 48r42
+. 59r42 61r42 63r42
+30a10*modif_set{21A9} 4|32r42 64r42 65r42
+31a10*special_set{22A9} 4|35r45 36r45 38r45 39r45 60r42 62r42 112r45 113r45
+. 115r45 116r45
+37r4*default_Keyboard{25R9} 3|66m89 66r89 4|17m89 17r89
+39V13*Strike_once{boolean} 4|49s29 51s19
+42V13*Strike_once{boolean} 4|55s29 56s29 57s29
+48A9*mouse_button_Set(boolean)<integer>
+50R9*Mouse 3|67r64 4|18r64 7|54e17
+52i10*oldx{integer} 4|78r38 103m20 105r38 107m20
+52i16*oldy{integer} 4|79r38 104m20 105r54 108m20
+52i22*mx{integer} 4|78r23 101r25 107r38
+52i26*my{integer} 4|79r23 101r78 108r38
+53a10*button_state{48A9} 4|71r20 74r20
+58r4*default_Mouse{50R9} 3|67m89 67r89 4|18m89 18r89
+X 9 i-c.ads
+65F9*double<long_float>
+

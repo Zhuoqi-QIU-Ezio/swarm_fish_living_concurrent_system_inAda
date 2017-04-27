@@ -1,0 +1,190 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vectors_2d_n%s	vectors_2d_n.ads	15404f33 DE EE OO PK
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+Z ada.numerics.generic_elementary_functions%s
+Z ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W vectors_xd_i%s	vectors_xd_i.adb	vectors_xd_i.ali  EA
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-numaux.ads		20150518132148 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20150518132148 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strbou.ads		20150518132148 53ab54ae ada.strings.bounded%s
+D a-strbou.adb		20150518132148 adb4aa70 ada.strings.bounded%b
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20150518132148 a27dcb33 ada.strings.superbounded%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-assert.ads		20150518132148 cd8d2c94 system.assertions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-exnllf.ads		20150518132148 bc7ebbdc system.exn_llf%s
+D s-fatflt.ads		20150518132148 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-imgint.ads		20150518132150 02dbe0c2 system.img_int%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D vectors_2d_n.ads	20130915032044 27f53fc0 vectors_2d_n%s
+D vectors_xd_i.ads	20130913065932 32b570f3 vectors_xd_i%s
+D vectors_xd_i.adb	20130917213022 9ae94c11 vectors_xd_i%b
+X 28 vectors_2d_n.ads
+7K9*Vectors_2D_N 34l5 34e17
+9E9*xy_Coordinates 9e33 11r54
+9n28*x{9E9}
+9n31*y{9E9}
+11K12*Vectors_2Di[29|6] 13r27 15r47 17r59 19r63 21r78 22r78 23r78 25r70 27r80
+. 29r76 30r76 32r58
+13A12*Vector_2D_N{29|10A9[11]}<9E9> 15r32 17r24 19r23 19r43 21r38 21r58 22r22
+. 22r58 23r22 23r58 25r36 27r46 29r36 29r56 30r36 30r56 32r24
+15a4*Zero_Vector_2D_N{13A12}
+17V13*Image=17:71{string}
+17a20 V{13A12}
+19V13*Norm=19:75{29|10A9[11]}
+19a19 V{13A12}
+21V14*"*"=21:90{29|10A9[11]}
+21f18 Scalar{float}
+21a34 V{13A12}
+22V14*"*"=22:90{29|10A9[11]}
+22a18 V{13A12}
+22f35 Scalar{float}
+23V14*"/"=23:90{29|10A9[11]}
+23a18 V{13A12}
+23f35 Scalar{float}
+25V14*"*"=25:82{float}
+25a18 V_Left{13A12}
+25a26 V_Right{13A12}
+27V13*Angle_Between=27:92{float}
+27a28 V_Left{13A12}
+27a36 V_Right{13A12}
+29V14*"+"=29:88{29|10A9[11]}
+29a18 V_Left{13A12}
+29a26 V_Right{13A12}
+30V14*"-"=30:88{29|10A9[11]}
+30a18 V_Left{13A12}
+30a26 V_Right{13A12}
+32V14*"abs"=32:70{float}
+32a20 V{13A12}
+X 29 vectors_xd_i.ads
+6k9*Vectors_xD_I 28|5w6 5r42 11r31 29|31e17
+10A9*Vector_xD_I(integer)<28|9E9> 28|13r39[11]
+12a4*Zero_Vector_xD{10A9[28|11]} 28|15r59[11]
+14V13*Image{string} 28|17r71[11]
+16V13*Norm{10A9[28|11]} 28|19r75[11]
+18V14*"*"{10A9[28|11]} 28|21r91[11]
+19V14*"*"{10A9[28|11]} 28|22r91[11]
+20V14*"/"{10A9[28|11]} 28|23r91[11]
+22V14*"*"{float} 28|25r83[11]
+24V13*Angle_Between{float} 28|27r92[11]
+26V14*"+"{10A9[28|11]} 28|29r89[11]
+27V14*"-"{10A9[28|11]} 28|30r89[11]
+29V14*"abs"{float} 28|32r71[11]
+

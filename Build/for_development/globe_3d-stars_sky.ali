@@ -1,0 +1,238 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U globe_3d.stars_sky%b	globe_3d-stars_sky.adb	f63484a3 DE NE OO PK GE IU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali  EA
+
+U globe_3d.stars_sky%s	globe_3d-stars_sky.ads	60803aec BN DE EB NE OO PK GE IU
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-nuflra.ads		20150518132148 49c50e0b ada.numerics.float_random%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d-math.ads	20130913114952 a86860bb globe_3d.math%s
+D globe_3d-stars_sky.ads  20130913104348 2b01d237 globe_3d.stars_sky%s
+D globe_3d-stars_sky.adb  20130915151342 3c983824 globe_3d.stars_sky%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-rannum.ads		20150518132150 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 19e8 39|4r6 4r45
+X 7 a-cohama.ads
+52R9*Map<9|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+X 12 a-numeri.ads
+16K13*Numerics 32e17 39|4r10 4r49
+X 13 a-nuflra.ads
+41K22*Float_Random 72e30 39|4w19 4r58
+45R9*Generator<56|63R9> 39|30r14
+47F12*Uniformly_Distributed{float}
+49V13*Random{47F12}<56|71p13> 39|41s21 54s23 55s50 56s50 57s50
+51U14*Reset<56|100p14> 39|49s7
+X 14 a-ngelfu.ads
+71V13*Exp<41|65F9> 39|44s15[36|103]
+X 26 gl.ads
+66K9*GL 4501e7 39|8r49 21r20
+128F9*Double<41|65F9>
+155A9*Double_Vector_3D(128F9)<integer>
+157R9*RGB_Color 157e77 39|8r52
+598n7*TEXTURE_2D{554E9} 39|18r16
+706U14*Disable 39|18s7
+1404n7*POINTS{1402E9} 39|21r23
+1432U14*GL_Begin 39|21s10
+1434U14*GL_End 39|23s10
+3278U14*PushMatrix 39|16s7
+3280U14*PopMatrix 39|25s7
+3330U14*Vertex 39|22s10
+3449U14*Color 39|20s10
+X 28 gl-buffer-general.ads
+14R9 base_Object<27|20R9>
+X 36 globe_3d.ads
+77K9*GLOBE_3D 606e13 38|4r17 6r9 12r5 39|1r6 6r14 13r11 34r16 63r5
+102F12*Real{26|128F9} 38|4r26 39|32r14 36r28 38r14 41r15 54r17 55r44 56r44
+. 57r44
+103K12*REF[14|39] 39|34r11
+106A12*Vector_3D{26|155A9}<integer> 39|31r14
+111A12*Point_3D{106A12}<integer> 39|9r49
+113A9*Matrix(102F12)<integer><integer>
+114A9*Matrix_33<113A9>(102F12)<integer><integer> 38|10r34 39|11r34
+X 37 globe_3d-math.ads
+1K18*Math 92e18 39|1w15 2r32 13r20 34r25
+52V13*"*"{36|106A12} 39|52s47
+61V12*XYZ_rotation{36|114A9} 39|52s15
+80U13*Set_GL_Matrix 39|17s7
+X 38 globe_3d-stars_sky.ads
+3i3 No_of_Stars{natural} 39|8r33 9r33 19r21 51r21
+4f3 far_side{36|102F12} 39|50r13
+6k18*Stars_sky 36|77k9 38|3z3 4z3 12l14 12e23 39|6b23 63l14 63t23
+10U14*Display 10>23 39|11b14 26l8 26t15
+10a23 Rotation{36|114A9} 39|11b23 17r22
+X 39 globe_3d-stars_sky.adb
+8a4 Star_Colours(26|157R9) 20r17 55m10
+9a4 Star_Positions(36|111A12) 22r18 53m10
+19i11 i{integer} 20r31 22r34
+28U14 Reset 28b14 59l8 59t13 62s4
+30r7 seed{13|45R9} 41r29 49r14 54r31 55r58 56r58 57r58
+31a7 v{36|106A12} 50m7 52m10 52r49 53r32
+32f7 int{36|102F12} 54m10 55r31 56r31 57r31
+36V16 Amas{36|102F12} 36b16 46l11 46t15 52s29 52s35 52s41
+38f10 r{36|102F12} 41m10 42m10 42r15 43m10 43r15 44m10 44r20 45r17
+51i11 i{integer} 53r26 55r24
+X 41 i-c.ads
+65F9*double<long_float>
+

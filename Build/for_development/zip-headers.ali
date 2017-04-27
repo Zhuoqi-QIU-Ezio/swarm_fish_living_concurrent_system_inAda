@@ -1,0 +1,321 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U zip.headers%b		zip-headers.adb		ebb133b2 DE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W zip%s			zip.adb			zip.ali
+
+U zip.headers%s		zip-headers.ads		2d699ce1 DE EE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W zip%s			zip.adb			zip.ali
+W zip_streams%s		zip_streams.adb		zip_streams.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip-headers.ads	20130915010610 2b9b6988 zip.headers%s
+D zip-headers.adb	20150820005008 d1b1d589 zip.headers%b
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 19e8 40|1r6 1r23 226r23 228r11 239r27 245r41
+X 8 a-stream.ads
+36K13*Streams 87e16 40|1w10 1r27 226r27 228r15 239r31 245r45
+44I9*Stream_Element_Offset<long_long_integer>
+X 9 a-ststio.ads
+39K21*Stream_IO 223e26 40|226r35 228r23 239r39 245r53
+57I9*Count<8|44I9> 40|226r45 239r49 245r63
+X 16 interfac.ads
+38K9*Interfaces 178e15 39|19w6 24r7
+62M9*Unsigned_8 40|43r19 56r53 59r61
+65M9*Unsigned_16 39|60r31 62r31 66r31 86r28 88r28 89r28 90r28 120r27 121r27
+. 122r27 123r27 126r27 40|26r47 49r47
+68M9*Unsigned_32 39|32r27 34r27 91r28 92r28 124r27 125r27 135r27 40|27r47
+. 50r47 86r77 148r66 262r15
+X 38 zip.ads
+45K9*Zip 318e8 39|22r9 158r5 40|2r14 346r5
+128M12*Time{41|33M9} 39|63r31
+218M11*Byte{16|62M9} 40|249r16
+219A8*Byte_Buffer(218M11)<integer> 39|41r49 142r43 40|13r35 15r35 34r50 36r50
+. 38r11 56r33 59r41 72r13 104r13 135r13 161r13 183r44 206r12 225r23 287r12
+. 307r50 324r13 334r13
+238U14*BlockRead 40|75s7 138s7 209s7 327s7
+244U14*BlockWrite 40|125s7 176s7 300s7 343s7
+X 39 zip-headers.ads
+22K13*Headers 38|45k9 39|158l9 158e16 40|2b18 346l9 346t16
+30R8*Data_descriptor 35e13 42r49 45r50 50r36 64r31 40|308r50 322r50 332r37
+32m5*crc_32{16|68M9} 40|88m24 114r56 150m13 170r45 315m21 339r47
+33m5*compressed_size{16|68M9} 40|89m24 115r56 151m13 171r45 316m21 340r48
+34m5*uncompressed_size{16|68M9} 40|90m24 116r56 152m13 172r45 317m21 341r49
+37N3*data_descriptor_length
+41U13*Copy_and_check 41>29 42<29 40|307b14 319l8 319t22 328s7
+41a29 buffer{38|219A8} 40|307b30 311r28 315r53 316r53 317r53
+42r29 the_data_desc{30R8} 40|308b30 315m7 316m7 317m7
+44U14*Read_and_check 44>30 45<30 40|321b14 329l8 329t22
+44p30 stream{41|43P9} 40|321b30 327r18
+45r30 the_data_desc{30R8} 40|322b30 328m28
+47X3*bad_data_descriptor 40|312r16
+49U13*Write 49>20 50>20 40|331b14 344l8 344t13
+49p20 stream{41|43P9} 40|331b21 343r19
+50r20 the_data_desc{30R8} 40|332b21 339r33 340r34 341r35
+56N3*Language_Encoding_Flag_Bit
+58R8*Local_File_Header 67e13 72r42 77r29 87r28 40|133r43 159r30
+60m5*needed_extract_version{16|65M9} 40|83m21 110r53 145m10 166r42
+61m5*bit_flag{16|65M9} 40|84m21 111r53 146m10 167r42
+62m5*zip_type{16|65M9} 40|85m21 112r53 147m10 168r42
+63m5*file_timedate{38|128M12} 40|86m21 113r83 148m10 169r72
+64r5*dd{30R8} 40|87m21 114r53 115r53 116r53 149m10 170r42 171r42 172r42
+65m5*filename_length{16|65M9} 40|91m21 117r53 153m10 173r42
+66m5*extra_field_length{16|65M9} 40|92m21 118r53 154m10 174r42
+69N3*local_header_length
+71U13*Read_and_check 71>29 72<29 40|132b14 156l8 156t22
+71p29 stream{41|43P9} 40|132b30 138r18
+72r29 header{58R8} 40|133b30 144m7
+74X3*bad_local_header 40|141r16
+76U13*Write 76>20 77>20 40|158b14 177l8 177t13
+76p20 stream{41|43P9} 40|158b21 176r19
+77r20 header{58R8} 40|159b21 166r35 167r35 168r35 169r65 170r35 171r35 172r35
+. 173r35 174r35
+84R8*Central_File_Header 93e13 107r42 112r29 40|70r44 102r31
+86m5*made_by_version{16|65M9} 40|81m18 109r42
+87r5*short_info{58R8} 40|82m18 110r42 111r42 112r42 113r72 114r42 115r42
+. 116r42 117r42 118r42
+88m5*comment_length{16|65M9} 40|93m18 119r42
+89m5*disk_number_start{16|65M9} 40|94m18 120r42
+90m5*internal_attributes{16|65M9} 40|95m18 121r42
+91m5*external_attributes{16|68M9} 40|96m18 122r42
+92m5*local_header_offset{16|68M9} 40|97m18 123r42
+104N3*central_header_length
+106U13*Read_and_check 106>29 107<29 40|69b14 99l8 99t22
+106p29 stream{41|43P9} 40|69b30 75r18
+107r29 header{84R8} 40|70b30 81m7
+109X3*bad_central_header 40|78r16
+111U13*Write 111>20 112>20 40|101b14 126l8 126t13
+111p20 stream{41|43P9} 40|101b21 125r19
+112r20 header{84R8} 40|102b21 109r35 110r35 111r35 112r35 113r65 114r35 115r35
+. 116r35 117r35 118r35 119r35 120r35 121r35 122r35 123r35
+118R8*End_of_Central_Dir 136e13 143r43 146r43 153r33 156r31 40|184r44 204r44
+. 223r34 285r31
+120m5*disknum{16|65M9} 40|192m10 292r40
+121m5*disknum_with_start{16|65M9} 40|193m10 293r40
+122m5*disk_total_entries{16|65M9} 40|194m10 294r41
+123m5*total_entries{16|65M9} 40|195m10 295r42
+124m5*central_dir_size{16|68M9} 40|196m10 270r28 296r42
+125m5*central_dir_offset{16|68M9} 40|197m10 269r26 297r42
+126m5*main_comment_length{16|65M9} 40|198m10 298r42
+135m5*offset_shifting{16|68M9} 40|199m10 260m21
+138N3*end_of_central_dir_length
+142U13*Copy_and_check 142>29 143<29 40|183b14 201l8 201t22 210s7 257s13
+142a29 buffer{38|219A8} 40|183b30 187r28 192r43 193r43 194r43 195r43 196r43
+. 197r43 198r43
+143r29 the_end{118R8} 40|184b30 191m7
+145U13*Read_and_check 145>29 146<29 40|203b14 211l8 211t22
+145p29 stream{41|43P9} 40|203b30 209r18
+146r29 the_end{118R8} 40|204b30 210m27
+148X3*bad_end 40|188r16 254r25 274r18
+152U13*Load 152>19 153<19 40|222b14 282l8 282t12
+152p19 stream{41|43P9} 40|222b20 236r16 239r62 245r76 246r33 249r27 262r47
+153r19 the_end{118R8} 40|223b20 257m41 260m13 269r18 270r20
+155U13*Write 155>20 156>20 40|284b14 301l8 301t13
+155p20 stream{41|43P9} 40|284b21 300r19
+156r20 the_end{118R8} 40|285b21 292r32 293r32 294r33 295r34 296r34 297r34
+. 298r34
+X 40 zip-headers.adb
+12M12 Number 13r55 15r55 17r11 21r25
+13v13 Intel_x86_number 13>31 15b13 24l8 24t24 26r29 27r29
+13a31 b{38|219A8} 15b31 20r24 21r33
+17*7 n{12M12} 21m10 21r15 23r14
+20i11 i{integer} 21r36
+26V13 Intel_nb[13]{16|65M9} 15b13 81s41 83s47 84s47 85s47 91s47 92s47 93s41
+. 94s41 95s41 145s36 146s36 147s36 153s34 154s36 192s33 193s33 194s33 195s33
+. 198s33
+27V13 Intel_nb[13]{16|68M9} 15b13 86s90 88s45 89s45 90s45 96s41 97s41 148s79
+. 150s34 151s34 152s34 196s33 197s33 315s43 316s43 317s43
+32M12 Number 34r35 36r35 39r11
+33i7 size{positive} 38r29
+34v13 Intel_x86_buffer 34>31 36b13 47l8 47t24 49r29 50r29
+34*31 n{32M12} 36b31 39r21
+38a7 b{38|219A8} 42r16 43m10 46r14
+39*7 m{32M12} 43r31 44m10 44r15
+42i11 i{integer} 43r13
+49V13 Intel_bf[34]{38|219A8} 36b13 109s25 110s25 111s25 112s25 117s25 118s25
+. 119s25 120s25 121s25 166s25 167s25 168s25 173s25 174s25 292s22 293s22 294s23
+. 295s24 298s24
+50V13 Intel_bf[34]{38|219A8} 36b13 113s25 114s25 115s25 116s25 122s25 123s25
+. 169s25 170s25 171s25 172s25 296s24 297s24 339s23 340s24 341s25
+56V13 PK_signature{boolean} 56>27 56>46 77s14 140s14 187s14 311s14
+56a27 buf{38|219A8} 57r7
+56m46 code{16|62M9} 57r39 57r45
+59U14 PK_signature 59b14 59=28 59>54 63l8 63t20 107s7 164s7 290s7 337s7
+59a28 buf{38|219A8} 62m7
+59m54 code{16|62M9} 62r40 62r46
+72a7 chb{38|219A8} 75m26 77r28 81r51 83r57 84r57 85r57 86r100 88r55 89r55
+. 90r55 91r57 92r57 93r51 94r51 95r51 96r51 97r51
+104a7 chb{38|219A8} 107m21 107r21 109m7 110m7 111m7 112m7 113m7 114m7 115m7
+. 116m7 117m7 118m7 119m7 120m7 121m7 122m7 123m7 125r31
+135a7 lhb{38|219A8} 138m26 140r28 145r46 146r46 147r46 148r89 150r44 151r44
+. 152r44 153r44 154r46
+161a7 lhb{38|219A8} 164m21 164r21 166m7 167m7 168m7 169m7 170m7 171m7 172m7
+. 173m7 174m7 176r31
+206a7 eb{38|219A8} 209m26 210r23
+225a7 end_buffer{38|219A8} 248r22 249m35 249r35 251r23 252r18 257r29
+226i7 min_end_start{9|57I9} 237m10 239m10 245r24 275r23
+230N7 max_comment 236r27 239r73
+245i11 i<8|44I9> 246r51 275r19
+248i17 j{integer} 249r47 251r19 252r30
+287a7 eb{38|219A8} 290m21 290r21 292m7 293m7 294m7 295m7 296m7 297m7 298m7
+. 300r31
+324a7 ddb{38|219A8} 327m26 328r23
+334a7 ddb{38|219A8} 337m21 337r21 339m7 340m7 341m7 343r31
+X 41 zip_streams.ads
+31K9*Zip_Streams 39|20w6 20r24 40|86r47 113r35 148r36 169r35 246r10 262r28
+. 41|240e16
+33M9*Time<16|68M9>
+43P9*Zipstream_Class(42R9) 39|44r50 49r36 71r42 76r29 106r42 111r29 145r43
+. 152r33 155r31 40|69r44 101r31 132r43 158r30 203r44 222r34 284r31 321r50
+. 331r37
+46x14*Set_Index 40|246R22
+50y13*Index{integer} 40|262R40
+53y13*Size{integer} 40|236R10 239R56 245R70
+144K12*Calendar 40|86r59 113r47 148r48 169r47 41|166e16
+150V16*Convert{33M9} 40|86s68 148s57
+151V16*Convert{149M15} 40|113s56 169s56
+

@@ -1,0 +1,204 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U glut_2d%b		glut_2d.adb		c809585d DE NE OO PK IU
+W glut%s		glut.adb		glut.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+U glut_2d%s		glut_2d.ads		7eff0cd3 DE EE NE OO PK IU
+W gl%s			gl.adb			gl.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D glut.ads		20130915152142 dcd0b122 glut%s
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D glut_2d.adb		20130915152414 b60ddda4 glut_2d%b
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 3 gl.ads
+66K9*GL 4501e7 5|3w6 28r21 30r20 37r13 48r21 50r20 52r20 6|24r58 26r11 30r7
+. 30r22 30r42 31r7 31r22 32r7 33r7 34r7 35r22 35r47 36r17 37r7 37r22 38r7
+. 39r7 44r7 44r22 45r7 46r7 46r22 47r7 48r7 52r43 54r42 61r7 67r35 73r7 74r7
+. 75r7 77r7 82r41 84r40 86r40 93r7 93r21 93r36 95r7 95r23 95r38 96r7 96r20
+. 97r7 98r7 99r7 100r7 101r7 102r7 103r7 104r7 105r7
+100N4*VIEWPORT_BIT 6|30r45
+101N4*TRANSFORM_BIT 6|30r25
+121I9*Int<8|35I9> 5|28r24 48r24 50r23 6|52r46 82r44 84r43
+124M9*Uint<8|43M9> 6|95r41
+125I9*Sizei<8|35I9> 5|30r23 52r23 6|24r61 54r45 86r43
+128F9*Double<8|65F9> 6|35r25 35r50 36r20 93r24 93r39
+155A9*Double_Vector_3D(128F9)<integer> 5|37r16 6|67r38
+1326n7*MODELVIEW{1324E9} 6|37r25 44r25
+1327n7*PROJECTION{1324E9} 6|31r25 46r25
+1338U14*MatrixMode 6|31s10 37s10 44s10 46s10
+1411n7*QUADS{1402E9} 6|96r23
+1432U14*GL_Begin 6|96s10
+1434U14*GL_End 6|105s10
+2167n7*TEXTURE_2D{2164E9} 6|95r26
+2629U14*BindTexture 6|95s10
+3239U14*PushAttrib 6|30s10
+3241U14*PopAttrib 6|48s10
+3258U14*Ortho 6|34s10
+3278U14*PushMatrix 6|32s10 38s10 73s10
+3280U14*PopMatrix 6|45s10 47s10 77s10
+3282U14*LoadIdentity 6|33s10 39s10
+3306U14*Translate 6|93s10
+3308U14*Translate 6|74s10
+3315U14*Vertex 6|98s10 100s10 102s10 104s10
+3489U14*TexCoord 6|97s10 99s10 101s10 103s10
+3576U14*RasterPos 6|61s10 75s10
+X 4 glut.ads
+21K9*GLUT 867e9 6|1w6 7r25 8r25 9r25 10r25 11r25 12r25 13r25 20r10
+140m4*BITMAP_9_BY_15{10|67M9} 6|7r30
+142m4*BITMAP_8_BY_13{10|67M9} 6|8r30
+144m4*BITMAP_TIMES_ROMAN_10{10|67M9} 6|9r30
+146m4*BITMAP_TIMES_ROMAN_24{10|67M9} 6|10r30
+148m4*BITMAP_HELVETICA_10{10|67M9} 6|11r30
+150m4*BITMAP_HELVETICA_12{10|67M9} 6|12r30
+152m4*BITMAP_HELVETICA_18{10|67M9} 6|13r30
+702U14*BitmapCharacter 6|20s15
+X 5 glut_2d.ads
+5K9*GLUT_2D 55l5 55e12 6|3b14 109l5 109t12
+11E8*Font_type 19e2 23r13 32r20 39r13 6|5r32 16r47 56r42 69r35
+12n5*Screen_9_by_15{11E8} 6|7r7
+13n5*Screen_8_by_13{11E8} 6|8r7
+14n5*Times_Roman_10{11E8} 6|9r7
+15n5*Times_Roman_24{11E8} 6|10r7
+16n5*Helvetica_10{11E8} 6|11r7
+17n5*Helvetica_12{11E8} 6|12r7
+18n5*Helvetica_18{11E8} 6|13r7
+21U13*Text_Output 22>5 23>5 6|16b14 22l8 22t19 62s7 76s7
+22a5 s{string} 6|16b27 19r16 20r65
+23e5 font{11E8} 6|16b39 20r43
+27U13*Text_output 28>5 28>8 29>5 30>5 31>5 32>5 6|51b14 64l8 64t19
+28i5 x{3|121I9} 6|52b27 61r21
+28i8 y{3|121I9} 6|52b30 61r24
+29i5 main_size_x{3|125I9} 6|53b27 60r23
+30i5 main_size_y{3|125I9} 6|54b27 60r36
+31a5 s{string} 6|55b27 62r20
+32e5 font{11E8} 6|56b27 62r23
+36U13*Text_output 37>5 38>5 39>5 6|66b14 78l8 78t19
+37a5 p{3|155A9} 6|67b27 74r21
+38a5 s{string} 6|68b27 76r20
+39e5 font{11E8} 6|69b27 76r23
+46U13*Put_Image 47>5 48>5 48>8 49>5 50>5 51>5 52>5 6|80b14 107l8 107t17
+47i5 Image_ID{integer} 6|81b25 95r47
+48i5 x{3|121I9} 6|82b25 93r32
+48i8 y{3|121I9} 6|82b28 93r47
+49i5 size_x{3|121I9} 6|83b25 100r18 102r18
+50i5 size_y{3|121I9} 6|84b25 98r21 100r26
+51i5 main_size_x{3|125I9} 6|85b25 92r23
+52i5 main_size_y{3|125I9} 6|86b25 92r36
+X 6 glut_2d.adb
+5a4 GLUT_char(10|67M9) 20r32
+19i11 i{integer} 20r68
+24U14 Push_3D_set_2D 24b14 24>30 24>43 40l8 40t22 60s7 92s7
+24i30 main_size_x{3|125I9} 35r33
+24i43 main_size_y{3|125I9} 35r58
+42U14 Pop_3D 42b14 49l8 49t14 63s7 106s7
+X 8 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+65F9*double<long_float>
+X 10 system.ads
+37K9*System 6|1w12 5r46 10|199e11
+67M9*Address 6|5r53
+

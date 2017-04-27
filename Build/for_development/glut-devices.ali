@@ -1,0 +1,300 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_IMPLICIT_LOOPS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U glut.devices%b	glut-devices.adb	45ecb0e8 DE NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W glut%s		glut.adb		glut.ali
+W glut.windows%s	glut-windows.adb	glut-windows.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+U glut.devices%s	glut-devices.ads	3a42b6eb DE EE OO PK IU
+W glut%s		glut.adb		glut.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chahan.ads		20150518132148 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20150518132148 61e5e089 ada.containers%s
+D a-cohata.ads		20150518132148 04abccc5 ada.containers.hash_tables%s
+D a-cohama.ads		20150518132148 fb1af438 ada.containers.hashed_maps%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20150518132148 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20150518132148 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20150518132148 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150518132148 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150518132148 f15a5ed1 ada.unchecked_deallocation%s
+D game_control.ads	20130915152006 9ee05dde game_control%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D glut.ads		20130915152142 dcd0b122 glut%s
+D glut-devices.ads	20130917070814 e69207c9 glut.devices%s
+D glut-devices.adb	20130917070800 3081804b glut.devices%b
+D glut-windows.ads	20130915152342 e8e83366 glut.windows%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-fatgen.ads		20150518132148 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20150518132148 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-string.ads		20150518132150 8fe54fb7 system.strings%s
+D s-ststop.ads		20150518132150 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 19e8 40|7r6 7r37 9r6 19r33
+X 3 a-charac.ads
+16K13*Characters 18e19 40|7r10 7r41
+X 4 a-chahan.ads
+36K24*Handling 159e28 40|7w21 7r52
+67V13*To_Upper{character} 40|65s40 73s40
+X 8 a-cohama.ads
+52R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 24 a-unccon.ads
+20v14*Unchecked_Conversion 40|9w10 19r37
+X 29 gl-buffer-general.ads
+14R9 base_Object<28|20R9>
+X 38 glut.ads
+21K9*GLUT 867e9 39|11r9 21r35 21r56 48r36 48r56 60r5 40|6r6 6r37 11r14 22r25
+. 35r31 45r39 45r70 46r39 46r70 47r39 47r70 53r25 61r31 69r33 103r31 114r61
+. 140r11 173r5
+44N4*LEFT_BUTTON 39|48r41
+46N4*RIGHT_BUTTON 39|48r61
+50N4*DOWN 40|114r66
+235N4*Active_Shift 39|21r40 40|45r44 45r75
+236N4*Active_Control 40|46r44 46r75
+237N4*Active_Alt 39|21r61 40|47r44 47r75
+361V13*GetWindowData{47|67M9} 40|22s30
+417U14*SpecialUpFunc 40|147s7
+532M12*Key_type{43|47M9} 40|61r36 69r38
+539U14*KeyboardFunc 40|144s7
+548U14*KeyboardUpFunc 40|145s7
+555U14*MouseFunc 40|148s7
+561U14*MotionFunc 40|149s7
+567U14*PassiveMotionFunc 40|150s7
+603U14*SpecialFunc 40|146s7
+694V13*GetModifiers{integer} 40|53s30
+844U14*IgnoreKeyRepeat 40|143s7
+X 39 glut-devices.ads
+11K14*Devices 38|21k9 39|30r29 31r29 32r29 60l10 60e17 40|11b19 173l10 173t17
+13U14*Initialize 40|138b14 151l8 151t18
+20A9*Key_set(boolean)<character> 27r28 28r28
+21A9*Modifier_set(boolean)<integer> 30r37
+22A9*Special_set(boolean)<integer> 31r37
+23A9*Special_key_set(boolean)<integer> 32r37 40|169r25
+25R9*Keyboard 33e17 35r34 37r32 40r38 43r43 40|157r38 165r43
+27a10*normal_set{20A9} 40|65m28 73m28 160r43 161r21
+28a10*normal_set_mem{20A9} 40|160m14 161r56
+30a10*modif_set{21A9} 40|45m28 46m28 47m28
+31a10*special_set{22A9} 40|81m28 89m28 168r50 170r25
+32a10*special_set_mem{23A9} 40|168m14 170r67
+35P9*p_Keyboard(25R9) 40|28r37
+37r4*default_Keyboard{25R9} 40m50 40r50 43m55 43r55 40|34m31 34r31 157m50
+. 157r50 165m55 165r55
+39V13*Strike_once{boolean} 39>26 40^26 40|156b13 162l8 162t19
+39e26 c{character} 40|156b26 160r30 160r55 161r33 161r72
+40p26 kb(25R9) 40|157b26 160r7 160r36 161r14 161r49
+42V13*Strike_once{boolean} 42>26 43^26 40|164b13 171l8 171t19
+42i26 special{integer} 40|164b26 168r31 168r63 169r14 170r38 170r84
+43p26 kb(25R9) 40|165b26 168r7 168r43 170r18 170r60
+48A9*mouse_button_Set(boolean)<integer> 53r32
+50R9*Mouse 54e17 56r31 58r29
+52i10*oldx{integer}
+52i16*oldy{integer}
+52i22*mx{integer} 40|111m25 123m25 131m25
+52i26*my{integer} 40|112m25 124m25 132m25
+53a10*button_state{48A9} 40|113r38 114m28
+56P9*p_Mouse(50R9) 40|96r34
+58r4*default_Mouse{50R9} 40|102m31 102r31
+X 40 glut-devices.adb
+17V13 current_Window{41|26P9} 17b13 23l8 23t22 30s61 98s61
+19V16 to_Window[24|20]{41|26P9} 22s14
+28V13 current_Keyboard{39|35P9} 28b13 37l8 37t24 45s7 46s7 47s7 65s7 73s7
+. 81s7 89s7
+30p7 the_current_Window{41|26P9} 33r12 35r54
+39U14 Affect_modif_key 39b14 39>32 48l8 48t24 53s7
+39i32 modif_code{integer} 42r48
+42m7 m{42|68M9} 45r64 46r64 47r64
+50U14 Update_modifier_keys 50b14 57l8 57t28 66s7 74s7 82s7 90s7 116s7
+61U14 Key_Pressed 61b14 61>27 61>46 61>49 67l8 67t19 144r21
+61m27 k{38|532M12} 65r65
+61i46 x{integer} 64r28
+61i49 y{integer} 64r31
+69U14 Key_Unpressed 69b14 69>29 69>48 69>51 75l8 75t21 145r23
+69m29 k{38|532M12} 73r65
+69i48 x{integer} 72r28
+69i51 y{integer} 72r31
+77U14 Special_Key_Pressed 77b14 77>35 77>48 77>51 83l8 83t27 146r20
+77i35 k{integer} 81r41
+77i48 x{integer} 80r28
+77i51 y{integer} 80r31
+85U14 Special_Key_Unpressed 85b14 85>37 85>50 85>53 91l8 91t29 147r22
+85i37 k{integer} 89r41
+85i50 x{integer} 88r28
+85i53 y{integer} 88r31
+96V13 current_Mouse{39|56P9} 96b13 105l8 105t21 111s7 112s7 113s20 114s10
+. 123s7 124s7 131s7 132s7
+98p7 the_current_Window{41|26P9} 101r12 103r51
+107U14 Mouse_Event 107b14 107>27 107>35 107>42 107>45 117l8 117t19 148r18
+107i27 button{integer} 113r10 114r42
+107i35 state{integer} 114r53
+107i42 x{integer} 111r31
+107i45 y{integer} 112r31
+119U14 Motion 119b14 119>22 119>25 125l8 125t14 149r19
+119i22 x{integer} 123r31
+119i25 y{integer} 124r31
+127U14 Passive_Motion 127b14 127>30 127>33 133l8 133t22 150r26
+127i30 x{integer} 131r31
+127i33 y{integer} 132r31
+X 41 glut-windows.ads
+21K14*Windows 40|6w11 6r42 17r35 19r75 30r38 35r36 98r38 103r36 41|125e17
+26P9*Window_view(25R9) 40|17r43 19r83 30r46 98r46
+75V13*Keyboard{39|35P9} 40|35s44
+76V13*Mouse{39|56P9} 40|103s44
+X 42 interfac.ads
+38K9*Interfaces 40|5w6 41r11 42|178e15
+68M9*Unsigned_32 40|42r20 42r35
+X 43 i-c.ads
+47M9*unsigned_char
+X 47 system.ads
+37K9*System 40|8w6 19r59 47|199e11
+67M9*Address 40|19r66
+

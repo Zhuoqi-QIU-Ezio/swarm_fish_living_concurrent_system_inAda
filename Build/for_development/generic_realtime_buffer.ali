@@ -1,0 +1,116 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U generic_realtime_buffer%b  generic_realtime_buffer.adb  98ccd1c1 DE NE OO PK GE
+
+U generic_realtime_buffer%s  generic_realtime_buffer.ads  a4c755fe BN DE EB NE OO PK GE
+
+D generic_realtime_buffer.ads  20130912081846 a4c755fe generic_realtime_buffer%s
+D generic_realtime_buffer.adb  20110827011602 3c0b843f generic_realtime_buffer%b
+D system.ads		20150518132150 f4ce8c3a system%s
+X 1 generic_realtime_buffer.ads
+7+9 Element 16r58 17r58 27r49 2|7r54 23r58
+8M9 Buffer_Index 25r59 27r32 31r28 31r46
+10k9*Generic_Realtime_Buffer 7z9 8z9 25E9 36l5 36e28 2|1b14 45l5 45t28
+14R9*Realtime_Buffer 16r30 17r30 19r36 29c9 34e14 2|7r30 23r30 39r36
+16U14*Put 16=19 16>47 2|7b14 17l8 17t11
+16r19 B{14R9} 2|7b19 10r10 11m10 11r25 13m10 13r34 15m7 15r17 16m7 16r21
+16*47 Item{7+9} 2|7b47 15r32
+17U14*Get 17=19 17<47 2|23b14 33l8 33t11
+17r19 B{14R9} 2|23b19 26r10 27r34 27r44 28m10 28r34 29m10 29r34
+17*47 Item{7+9} 2|23b47 27m10
+19V13*Element_Available{boolean} 19>32 2|39b13 43l8 43t25
+19r32 B{14R9} 2|39b32 42r14
+21X4*Calling_Get_On_Empty_Buffer 2|31r16
+25I9 No_Of_Elements<integer> 32r28 2|10r33
+27A9 Buffer_Array(7+9)<8M9> 33r28
+30*7 Write_To{8M9} 2|15r19 16m9 16r23
+31*7 Read_From{8M9} 2|11m12 11r27 27r46 28m12 28r36
+32i7 Elements_In_Buffer{25I9} 2|10r12 13m12 13r36 26r12 29m12 29r36 42r16
+33a7 Buffer{27A9} 2|15m9 27r36
+

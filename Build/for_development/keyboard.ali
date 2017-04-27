@@ -1,0 +1,162 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U keyboard%b		keyboard.adb		ecc4ed1f DE NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+
+U keyboard%s		keyboard.ads		e8d894be DE EE OO PK
+W glut%s		glut.adb		glut.ali
+W glut.devices%s	glut-devices.adb	glut-devices.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D glut.ads		20130915152142 dcd0b122 glut%s
+D glut-devices.ads	20130917070814 e69207c9 glut.devices%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D keyboard.ads		20130913102934 0e4a9377 keyboard%s
+D keyboard.adb		20130915140404 e28e7e68 keyboard%b
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 4 glut.ads
+21K9*GLUT 867e9 9|5r6 42r51 42r76 10|11r51 11r76 14r43 22r74
+235N4*Active_Shift 10|22r79
+237N4*Active_Alt 10|14r48
+X 5 glut-devices.ads
+11K14*Devices 60e17 9|5w11 42r56 42r81 10|11r56 11r81
+20A9*Key_set(boolean)<character>
+21A9*Modifier_set(boolean)<integer>
+25R9*Keyboard 33e17 9|42r64 10|11r64
+27a10*normal_set{20A9} 10|15r63 16r63 17r63 18r63 19r63 20r63 23r63 25r63
+. 26r63 27r63 28r63 29r63 30r63 32r63 33r63 34r63 35r63 36r63 37r63 39r63
+. 40r63
+30a10*modif_set{21A9} 10|14r32 22r63
+37r4*default_Keyboard{25R9} 9|42m89 42r89 10|11m89 11r89
+X 9 keyboard.ads
+7K9*Keyboard 44l5 44e13 10|5b14 44l5 44t13
+9E9*Complete_Command_Set 35e22 37r34
+11n7*Move_Accelerator{9E9} 10|22r20
+12n7*Full_Screen{9E9} 10|15r20
+13n7*Reset_Camera{9E9} 10|16r20
+14n7*Screen_Shot{9E9} 10|20r20
+15n7*Toggle_Axis{9E9} 10|18r20
+16n7*Toggle_Lines{9E9} 10|19r20
+17n7*Text_Overlay{9E9} 10|17r20
+18n7*Space{9E9} 10|23r20
+20n7*Rotate_Up{9E9} 10|25r20
+21n7*Rotate_Down{9E9} 10|26r20
+22n7*Rotate_Left{9E9} 10|27r20
+23n7*Rotate_Right{9E9} 10|28r20
+24n7*Rotate_CW{9E9} 10|29r20
+25n7*Rotate_AntiCW{9E9} 10|30r20
+27n7*Strafe_Up{9E9} 10|32r20
+28n7*Strafe_Down{9E9} 10|33r20
+29n7*Strafe_Left{9E9} 10|34r20
+30n7*Strafe_Right{9E9} 10|35r20
+31n7*Strafe_Forward{9E9} 10|36r20
+32n7*Strafe_Backward{9E9} 10|37r20
+34n7*Add_Vehicle{9E9} 10|39r20
+35n7*Remove_Vehicle{9E9} 10|40r20
+37A9*Commands_Array(boolean)<9E9> 39r33 41r51 10|10r42
+39a4*Command_Set_Reset{37A9}
+41U14*Get_Keys 41=24 42^24 10|10b14 42l8 42t16
+41a24 Commands{37A9} 10|10b24 15m10 16m10 17m10 18m10 19m10 20m10 22m10 23m10
+. 25m10 26m10 27m10 28m10 29m10 30m10 32m10 33m10 34m10 35m10 36m10 37m10
+. 39m10 40m10
+42p24 Selected_Keyboard(5|25R9) 10|11b24 14r10 15r41 16r41 17r41 18r41 19r41
+. 20r41 22r41 23r41 25r41 26r41 27r41 28r41 29r41 30r41 32r41 33r41 34r41
+. 35r41 36r41 37r41 39r41 40r41
+

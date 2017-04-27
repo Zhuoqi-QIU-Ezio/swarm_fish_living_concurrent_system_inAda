@@ -1,0 +1,167 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U zip.crc%b		zip-crc.adb		397e9c9f DE NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W zip%s			zip.adb			zip.ali
+
+U zip.crc%s		zip-crc.ads		06c4d47b BN DE EE NE OO PK
+W zip%s			zip.adb			zip.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-calend.ads		20150518132148 d986d312 ada.calendar%s
+D a-charac.ads		20150518132148 2d3ec45b ada.characters%s
+D a-chlat1.ads		20150518132148 66457d31 ada.characters.latin_1%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-finali.ads		20150518132148 69f99942 ada.finalization%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-ststio.ads		20150518132148 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20150518132148 90ac6797 ada.strings%s
+D a-strmap.ads		20150518132148 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20150518132148 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atocou.ads		20150518132148 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-finmas.ads		20150518132148 814daec4 system.finalization_masters%s
+D s-finroo.ads		20150518132148 4ff27390 system.finalization_root%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20150518132150 542f33d0 system.pool_global%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20150518132150 b16154c2 system.storage_pools%s
+D s-stposu.ads		20150518132150 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip-crc.ads		20130914145250 688e9f93 zip.crc%s
+D zip-crc.adb		20130914145304 51f0030c zip.crc%b
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 16 interfac.ads
+38K9*Interfaces 178e15 39|5r7
+62M9*Unsigned_8
+68M9*Unsigned_32 39|7r37 9r34 9r54 11r42 40|3r25 3r52 9r11 25r43 27r19 32r53
+. 39r38 49r34 49r54
+119V13*Shift_Right{68M9} 40|16s21 18s21 32s83
+X 38 zip.ads
+45K9*Zip 318e8 39|3r9 11r63 14r5 40|1r14 25r64 51r5
+218M11*Byte{16|62M9}
+219A8*Byte_Buffer(218M11)<integer> 39|11r67 40|25r68
+X 39 zip-crc.ads
+3K13*CRC 38|45k9 39|14l9 14e12 40|1b18 51l9 51t12
+7U13*Init 7<19 40|39b14 47l8 47t12
+7m19 Current_CRC{16|68M9} 40|39b20 46m7
+9V13*Final{16|68M9} 9>20 40|49b13
+9m20 Current_CRC{16|68M9} 40|49r74
+11U13*Update 11=21 11>55 12r18 40|25b14 35l8 35t14
+11m21 Current_CRC{16|68M9} 40|25b22 27r34 34m7
+11a55 InBuf{38|219A8} 40|25b56 30r16 32r66
+X 40 zip-crc.adb
+3a4 CRC32_Table(16|68M9) 12r16 21m10 31r23
+5U14 Prepare_table 5b14 23l8 23t21 43s10
+8N7 Seed 18r44
+9m7 l{16|68M9} 13m10 15r17 16m16 16r34 18m16 18r34 21r29
+12m11 i{16|68M9} 13r15 21r23
+14i14 bit{integer}
+27m7 local_CRC{16|68M9} 31m10 32r39 32r96 34r22
+30i11 i{integer} 32r73
+37b4 table_empty{boolean} 42r10 44m10
+

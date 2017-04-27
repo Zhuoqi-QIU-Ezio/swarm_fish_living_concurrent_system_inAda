@@ -1,0 +1,296 @@
+V "GNAT Lib v2015"
+A -fstack-check=specific
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -gnato
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U gl.buffer.general%b	gl-buffer-general.adb	9004b2de DE NE OO PK GE IU
+W gl%s			gl.adb			gl.ali
+W gl.buffer%s		gl-buffer.adb		gl-buffer.ali
+W gl.errors%s		gl-errors.adb		gl-errors.ali
+
+U gl.buffer.general%s	gl-buffer-general.ads	b07eab0a BN DE EB NE OO PK GE IU
+Z ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s
+W gl.buffer%s		gl-buffer.adb		gl-buffer.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+Z interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-general.adb	20130915152632 633ef1ce gl.buffer.general%b
+D gl-errors.ads		20130914013700 79dca854 gl.errors%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cpoint.ads		20150518132148 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20150518132148 d5172521 interfaces.c.pointers%b
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20150518132150 aedef97e system.stream_attributes%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 19e8 9|22r39 23r39
+X 5 a-unccon.ads
+20v14*Unchecked_Conversion 9|22r43 23r43
+X 6 gl.ads
+66K9*GL 4501e7 8|14r28 20r9 85r24 95r5 9|11r6 18r14 22r91 23r65 30r16 39r7
+. 49r16 56r7 56r63 59r7 65r11 142r86 144r16 170r85 172r16 208r85 210r16 241r5
+118M9*GL_Boolean<12|47M9> 9|80r26
+122M9*Ubyte<12|47M9>
+147I12*sizeiPtr{12|56I9} 9|30r19 49r19
+148I12*intPtr{12|56I9} 9|56r66
+150P9*pointer(122M9) 9|22r94 23r68
+181m4*GL_True{118M9} 9|83r20
+3783E9*VBO_Target 3789e7 8|85r27
+3801E9*VBO_Usage 3812e7 8|26r63 9|28r65
+3826U14*Buffer_Data 9|39s10
+3831U14*BufferSubData 9|56s10
+3832i29 offset{148I12} 9|56r53
+3833i29 size{147I12} 9|57r25
+3834p29 data{150P9} 9|58r25
+3838n7*READ_ONLY{3836E9} 9|142r89
+3839n7*WRITE_ONLY{3836E9} 9|170r88
+3840n7*READ_WRITE{3836E9} 9|208r88
+3849V13*MapBuffer{150P9} 9|142s43 170s43 208s43
+3852V13*UnmapBuffer{118M9} 9|80s40
+X 7 gl-buffer.ads
+14K12*Buffer 6|66k9 7|66e14 8|14r31 20r12 95r8 9|18r17 65r14 144r19 172r19
+. 210r19 241r8
+20H9*Object 52e17 8|14r38
+22U14*Enable 9|38s7 55s7 140s7 168s7 206s7
+25y13*Extract_VBO_Target{6|3783E9} 9|39s23 56s25 142s54 148s29 170s54 176s29
+. 208s54 214s29
+42X4*no_platform_Support 9|144r26 172r26 210r26
+51i10*Length{positive} 9|36m18 68r84 147r45 175r45 213r45
+64U14 Verify_Name 9|35s7
+X 8 gl-buffer-general.ads
+14R9 base_Object<7|20R9> 7|25p13 8|24r31 75r31
+16M9 Index 18r33 53r56 54r56 60r57 61r57 67r57 68r57 70r57 71r57 80r59 88r18
+. 9|68r62 88r52 99r33 111r41 122r34 147r29 153r55 156r33 175r29 182r41 190r34
+. 213r29 219r56 222r34 226r41 234r34
+17+9 Element 18r60 53r70 60r76 61r76 67r71 70r76 71r76 77r25 80r66 9|88r66
+. 112r41 123r34 125r28 153r69 183r41 191r34 219r70 227r41 235r34
+18A9 Element_Array(17+9)<16M9> 26r39 30r41 31r56 54r88 68r89 80r75 9|28r39
+. 47r42 51r38 62r55 68r31 100r50 157r50 223r51
+20k19*general 7|14k12 8|14z9 16z9 17z9 18z9 75E9 95l15 95e22 9|18b24 241l15
+. 241t22
+24R9*General_Object<14R9> 7|25p13 8|26p14 26r81 28p14 28r41 31p14 31r33 51p14
+. 51r34 58p14 58r33 65p14 65r34 75c9 75e59 9|28r83 32r21 45r42 62r32 133r32
+. 161r32 199r33
+26V14*To_Buffer{24R9} 26^25 26>54 9|28b13 43l8 43t17
+26p25 From(18A9) 9|28b24 36r28 39r57 40r38 40r48
+26e54 Usage{6|3801E9} 9|28b56 41r23
+28U14*Set 28=19 29>19 30>19 9|45b14 60l8 60t11
+28r19 Self{24R9} 9|45b19 55r15 56r45
+29i19 Set_Position{positive} 9|46b19 56r75
+30*19 To{18A9} 9|47b19 51r55 52r66 52r70
+31V14*Get{18A9} 31^19 9|62b13 73l8 73t11
+31p19 Self(24R9) 9|62b18 67r55 68r75
+36H9*memory_Map 38p14 38r30 49r31 56r31 63r31 83c9 89e17 91r31 92r31 93r31
+. 9|78r30 88r25 98r33 110r41 121r34 153r86 157r73 186r12 194r12 219r87 223r74
+. 230r12 238r12
+38U14*Release 38>23 9|71R7 78b14 86l8 86t15
+38r23 Self{36R9} 9|78b23 80r53
+47X4*Corrupt_Buffer 9|84r16
+49R9*read_only_Map<36R9> 38p14 51r57 53p14 53r26 54p14 54r26 91c9 91e58 9|67r22
+. 133r55 137r18 153r25 155r33
+51V14*Map<49R9> 51^19 9|67s50 133b13 151l8 151t11
+51p19 Self(24R9) 9|133b18 140r15 142r74 147r36 148r49
+53V14*Get{17+9} 53>19 53>41 9|153b13
+53r19 Self{49R9} 9|153r98
+53*41 Get_Position{16M9} 9|153r105
+54V14*Get{18A9} 54>19 54>41 54>63 9|68R48 155b13
+54r19 Self{49R9} 9|157r85
+54*41 Get_Position{16M9} 9|157r92
+54i63 Count{positive} 9|157r106
+56R9*write_only_Map<36R9> 38p14 58r56 60p14 60r26 61p14 61r26 92c9 92e58
+. 9|161r55 165r18 181r41 189r34
+58V14*Map<56R9> 58^19 9|161b13 179l8 179t11
+58p19 Self(24R9) 9|161b18 168r15 170r74 175r36 176r49
+60U14*Set 60>19 60>42 60^64 9|181b14 187l8 187t11
+60r19 Self{56R9} 9|181b19 186r24
+60*42 Set_Position{16M9} 9|182b19 186r31
+60p64 To(17+9) 9|183b19 186r45
+61U14*Set 61>19 61>42 61>64 9|189b14 195l8 195t11
+61r19 Self{56R9} 9|189b19 194r24
+61*42 Set_Position{16M9} 9|190b19 194r31
+61*64 To{17+9} 9|191b19 194r45
+63R9*read_write_Map<36R9> 38p14 65r57 67p14 67r26 68p14 68r26 70p14 70r26
+. 71p14 71r26 93c9 93e58 9|199r56 203r18 219r25 221r34 225r41 233r34
+65V14*Map<63R9> 65^19 9|199b13 217l8 217t11
+65p19 Self(24R9) 9|199b18 206r15 208r74 213r36 214r49
+67V14*Get{17+9} 67>19 67>42 9|219b13
+67r19 Self{63R9} 9|219r99
+67*42 Get_Position{16M9} 9|219r106
+68V14*Get{18A9} 68>19 68>42 68>64 9|221b13
+68r19 Self{63R9} 9|223r86
+68*42 Get_Position{16M9} 9|223r93
+68i64 Count{positive} 9|223r107
+70U14*Set 70>19 70>42 70^64 9|225b14 231l8 231t11
+70r19 Self{63R9} 9|225b19 230r24
+70*42 Set_Position{16M9} 9|226b19 230r31
+70p64 To(17+9) 9|227b19 230r45
+71U14*Set 71>19 71>42 71>64 9|233b14 239l8 239t11
+71r19 Self{63R9} 9|233b19 238r24
+71*42 Set_Position{16M9} 9|234b19 238r31
+71*64 To{17+9} 9|235b19 238r45
+77*4 default_Terminator{17+9} 80r90
+80K12 Element_Pointers[13|44] 87r18 9|20r8 22r65 23r91 92r24 104r25 118r19
+85e10 vbo_Target{6|3783E9} 9|80r58 148m15 176m15 214m15
+87p10 Data{13|47P9[80]} 9|92r57 104r58 118r56 142m15 143r18 170m15 171r18
+. 208m15 209r18
+88*10 Last{16M9} 9|147m15 175m15 213m15
+X 9 gl-buffer-general.adb
+22V13 to_gl_Pointer[5|20]{6|150P9} 40s23 58s35
+23V13 to_element_Pointer[5|20]{13|47P9[8|80]} 142s23 170s23 208s23
+32r7 new_Buffer{8|24R9} 35m20 35r20 36m7 38r15 39r43 42r14
+51*7 new_Vertices{8|18A9} 57r35 58m50 58r50 58r64
+52i7 Vertex_Size_in_bits{natural} 56r95
+67c7 the_Map<8|49R9> 68r53 71r16
+68*7 the_Vertices{8|18A9} 72r14
+80m7 Status{6|118M9} 83r10
+88V13 Get{8|17+9} 88b13 88>18 88>37 96l8 96t11 153s81 219s82
+88r18 Self{8|36R9} 92r52
+88*37 Get_Position{8|16M9} 92r75
+92p7 Start{13|47P9[8|80]} 95r21
+98V13 Get{8|18A9} 98b13 98>18 99>18 100>18 108l8 108t11 157s68 223s69
+98r18 Self{8|36R9} 104r53
+99*18 Get_Position{8|16M9} 104r76
+100i18 Count{positive} 107r39
+104p7 Start{13|47P9[8|80]} 107r21
+110U14 Set 110b14 110>19 111>19 112^19 119l8 119t11 128s7 186s7 230s7
+110r19 Self{8|36R9} 118r51
+111*19 Set_Position{8|16M9} 118r74
+112p19 To(8|17+9) 118r45 128r32
+121U14 Set 121b14 121>19 122>19 123>19 129l8 129t11 194s7 238s7
+121r19 Self{8|36R9} 128r12
+122*19 Set_Position{8|16M9} 128r18
+123*19 To{8|17+9} 125r39
+125*7 the_Vertex{8|17+9} 128m38 128r38
+137r7 the_Map{8|49R9} 142m7 143r10 147m7 148m7 150r14
+165r7 the_Map{8|56R9} 170m7 171r10 175m7 176m7 178r14
+203r7 the_Map{8|63R9} 208m7 209r10 213m7 214m7 216r14
+X 10 gl-errors.ads
+11K12*Errors 9|11w9 59r10 10|33e14
+21U14*log 9|59s17
+X 11 interfac.ads
+38K9*Interfaces 8|11r6 80r36 9|90r11 102r11 115r11 11|178e15
+X 12 i-c.ads
+18K20*C 8|11r17 80r47 9|90r22 102r22 115r22 12|230e17
+47M9*unsigned_char
+56I9*ptrdiff_t<integer> 9|92r64 104r65 107r28 118r63
+X 13 i-cpoint.ads
+44k22*Pointers 8|11w19 80r49 13|102e26
+47P9 Pointer(8|17+9) 8|87r35[80] 9|22r82[8|80] 23r108[8|80] 92r41[8|80] 104r42[8|80]
+. 118r36[8|80]
+58V13 Value{8|18A9} 9|95s14[8|80] 107s14[8|80]
+68V14 "+"{47P9[8|80]} 9|92s62[8|80] 104s63[8|80] 118s61[8|80]
+91U14 Copy_Array 9|118s7[8|80]
+
